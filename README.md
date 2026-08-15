@@ -35,7 +35,11 @@ python -m http.server 4321 --directory luxsea-miami
    whole number back", which is also the strongest thing it has against the
    brokers. If fixed starting prices get published later, put them on the boat
    rows in `fleet.html` and in the first FAQ answer.
-4. **Email.** There isn't one on the site — Instagram and WhatsApp are the real
+4. **The domain.** `<link rel="canonical">` tags and `sitemap.xml` were removed
+   on purpose — pointing them at `luxseamiami.com` before that domain exists
+   tells Google to index a page that 404s. Add both back once the real domain is
+   connected in Vercel.
+5. **Email.** There isn't one on the site — Instagram and WhatsApp are the real
    channels. Add one to the `.rail` in `contact.html` if that changes.
 
 ## Biggest remaining growth item
