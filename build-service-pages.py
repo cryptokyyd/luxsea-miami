@@ -171,6 +171,25 @@ def footer(es, root):
 <script src="{root}main.js"></script>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>'''
 
+def media(f, alt, root, hero=False):
+    """A media slot takes a still or a clip; the filename decides which.
+
+    Video carries the poster twice on purpose: once for the browser, once as the
+    <img> fallback, so a page with autoplay blocked still shows the frame rather
+    than a black box. aria-label does the work alt would, since <video> has no
+    alt attribute."""
+    if not f.endswith(".mp4"):
+        eager = ' fetchpriority="high"' if hero else ' loading="lazy"'
+        return f'<img src="{root}assets/media/{f}" alt="{alt}"{eager}>'
+    stem = f[:-4]
+    return (f'<video autoplay muted loop playsinline preload="metadata"\n'
+            f'             poster="{root}assets/media/{stem}-poster.jpg"\n'
+            f'             aria-label="{alt}">\n'
+            f'        <source src="{root}assets/media/{f}" type="video/mp4">\n'
+            f'        <img src="{root}assets/media/{stem}-poster.jpg" alt="{alt}">\n'
+            f'      </video>')
+
+
 # ------------------------------------------------------------------ page ----
 def build(p, es):
     root = "../" if es else ""
@@ -198,18 +217,18 @@ def build(p, es):
 
     secs = []
     for h2, paras, img in k("sections"):
-        media = ""
+        slot = ""
         if img:
             f, alt = img
-            media = f'''
+            slot = f'''
       <div class="split__media rise">
-        <img src="{root}assets/media/{f}" alt="{alt}" loading="lazy">
+        {media(f, alt, root)}
       </div>'''
         body = "\n        ".join(f"<p>{x}</p>" for x in paras)
         cls = "split split--flip" if len(secs) % 2 else "split"
-        if media:
+        if slot:
             secs.append(f'''  <section class="band{' band--surface' if len(secs)%2 else ''}">
-    <div class="wrap {cls}">{media}
+    <div class="wrap {cls}">{slot}
       <div class="stack-4 rise prose">
         <h2>{h2}</h2>
         {body}
@@ -263,7 +282,7 @@ def build(p, es):
 
   <section class="hero">
     <div class="hero__media">
-      <img src="{root}assets/media/{hero_img}" alt="{hero_alt}" fetchpriority="high">
+      {media(hero_img, hero_alt, root, hero=True)}
     </div>
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="hero__glow" aria-hidden="true"></div>

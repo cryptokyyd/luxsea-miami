@@ -453,9 +453,9 @@ def spanish_home():
   <section class="hero">
     <div class="hero__media">
       <video autoplay muted loop playsinline preload="metadata" poster="../assets/media/hero-poster.jpg"
-             aria-label="Vista aérea del Chris Craft de LuxSea fondeado en agua verde frente a Miami">
+             aria-label="Vista aérea de tres botes de LuxSea amarrados juntos en el banco de arena de Miami, con piscinas flotantes al lado en agua verde">
         <source src="../assets/media/hero.mp4" type="video/mp4">
-        <img src="../assets/media/hero-poster.jpg" alt="Vista aérea del Chris Craft de LuxSea fondeado en agua verde frente a Miami">
+        <img src="../assets/media/hero-poster.jpg" alt="Vista aérea de tres botes de LuxSea amarrados juntos en el banco de arena de Miami, con piscinas flotantes al lado en agua verde">
       </video>
     </div>
     <div class="hero__scrim" aria-hidden="true"></div>
