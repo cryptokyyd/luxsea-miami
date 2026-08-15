@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Luxsea Miami mark: a coral sun setting into the water">
+  <title>Luxsea Miami</title>
+  <defs>
+    <clipPath id="lx-horizon"><rect x="0" y="0" width="64" height="37"/></clipPath>
+  </defs>
+  <!-- sun, cut by the horizon -->
+  <circle cx="32" cy="27" r="16" fill="#c25a33" clip-path="url(#lx-horizon)"/>
+  <!-- horizon -->
+  <rect x="4" y="39" width="56" height="4" rx="2" fill="#12333d"/>
+  <!-- two ripples -->
+  <rect x="13" y="48" width="38" height="4" rx="2" fill="#12333d" opacity="0.62"/>
+  <rect x="23" y="57" width="18" height="4" rx="2" fill="#12333d" opacity="0.32"/>
+</svg>

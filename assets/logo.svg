@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-label="Luxsea Miami">
+  <title>Luxsea Miami</title>
+  <defs>
+    <clipPath id="lx-h2"><rect x="0" y="0" width="96" height="55"/></clipPath>
+  </defs>
+  <g transform="translate(0,10)">
+    <circle cx="38" cy="32" r="19" fill="#c25a33" clip-path="url(#lx-h2)"/>
+    <rect x="8" y="46" width="60" height="4.5" rx="2.25" fill="#12333d"/>
+    <rect x="18" y="56" width="40" height="4.5" rx="2.25" fill="#12333d" opacity="0.62"/>
+    <rect x="28" y="66" width="20" height="4.5" rx="2.25" fill="#12333d" opacity="0.32"/>
+  </g>
+  <!-- Wordmark is set in Panchang 700 at -0.035em. Outlined here so the file is self-contained. -->
+  <text x="92" y="62" font-family="Panchang, 'Trebuchet MS', sans-serif" font-size="52" font-weight="700"
+        letter-spacing="-1.8" fill="#12333d">LUX<tspan fill="#c25a33">SEA</tspan></text>
+</svg>
