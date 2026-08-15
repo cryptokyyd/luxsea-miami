@@ -18,9 +18,9 @@ OUT = pathlib.Path(__file__).parent
 
 # ---------------------------------------------------------------- chrome ----
 NAV_EN = [("index.html","Home"),("fleet.html","The three boats"),
-          ("experiences.html","Celebrations"),("about.html","About"),("contact.html","Book")]
+          ("experiences.html","Occasions at Sea"),("about.html","About"),("contact.html","Book")]
 NAV_ES = [("../index.html","Inicio"),("../fleet.html","Los tres botes"),
-          ("../experiences.html","Celebraciones"),("../about.html","Nosotros"),("../contact.html","Reservar")]
+          ("../experiences.html","Ocasiones en el mar"),("../about.html","Nosotros"),("../contact.html","Reservar")]
 
 MARK = '''<svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
         <clipPath id="hm"><rect x="0" y="0" width="64" height="37"/></clipPath>
@@ -73,10 +73,10 @@ def header(es, root, alt_href, alt_label):
 def footer(es, root):
     t = {
       True: dict(blurb="Botes privados con capitán en Miami Beach y Key Biscayne. Tres botes, dos idiomas, un capitán.",
-                 boats="Los botes", cel="Celebraciones", contact="Contacto", book="Reservar",
+                 boats="Los botes", cel="Ocasiones en el mar", contact="Contacto", book="Reservar",
                  note="Todos los paseos van con capitán y chalecos salvavidas para cada persona a bordo."),
       False: dict(blurb="Captained private boat charters around Miami Beach and Key Biscayne. Three boats, two languages, one captain.",
-                 boats="The boats", cel="Celebrations", contact="Contact", book="Book a day",
+                 boats="The boats", cel="Occasions at Sea", contact="Contact", book="Book a day",
                  note="Every charter is captained and carries a life jacket for every guest on board."),
     }[es]
     # Spanish pages already live inside /es/, so link to the bare filename —

@@ -428,6 +428,16 @@ a.rail__value:hover { color: var(--ember); }
   .tiles--six .tile { grid-column: span 2; }
   .tiles--six .tile--wide { grid-column: span 4; grid-row: span 2; }
 }
+
+/* Scattering ashes is not a tile in a grid of parties. It gets its own quiet
+   line under the grid so the change of register is visible. */
+.tiles__aside {
+  display: flex; flex-wrap: wrap; gap: 0.15rem 0.6rem; align-items: baseline;
+  margin-top: var(--sp-4); padding-top: var(--sp-3);
+  border-top: 1px solid var(--line);
+  color: var(--muted); font-size: var(--step--1);
+}
+.tiles__aside a { color: var(--ember); text-underline-offset: 0.22em; }
 .tile {
   position: relative; isolation: isolate; overflow: hidden;
   border-radius: var(--radius-lg); min-height: 14rem;

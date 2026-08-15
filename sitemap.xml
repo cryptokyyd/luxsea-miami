@@ -54,6 +54,30 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/miami-skyline-photo-boat-charter"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote"/>
   </url>
+  <url><loc>https://luxsea-miami.vercel.app/corporate-boat-charter-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/bote-para-eventos-corporativos-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/corporate-boat-charter-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/bote-para-eventos-corporativos-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/corporate-boat-charter-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/bote-para-eventos-corporativos-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/romantic-boat-ride-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-romantico-en-bote-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/romantic-boat-ride-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/paseo-romantico-en-bote-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/romantic-boat-ride-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-romantico-en-bote-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/ash-scattering-at-sea-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/esparcir-cenizas-en-el-mar-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/ash-scattering-at-sea-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/esparcir-cenizas-en-el-mar-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/ash-scattering-at-sea-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/esparcir-cenizas-en-el-mar-miami"/>
+  </url>
   <url><loc>https://luxsea-miami.vercel.app/chris-craft-45-miami</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/chris-craft-45-miami"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/chris-craft-45-miami"/>

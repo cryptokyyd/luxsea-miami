@@ -69,8 +69,8 @@
           "If the group is bigger than thirteen, we can tie a second boat alongside at the sandbar so it stays one party rather than two. Ask when you book, not on the day."
         ],
         [
-          "playa.jpg",
-          "Guests under the bimini with drinks, the water and the mangroves behind them"
+          "despedida-3.jpg",
+          "A bachelorette group filling the teak bow, mangroves and other boats behind them"
         ]
       ]
     ],
@@ -105,8 +105,8 @@
           "Si el grupo pasa de trece, podemos amarrar un segundo bote al lado en el banco de arena para que siga siendo una sola fiesta y no dos. Pídelo al reservar, no el mismo día."
         ],
         [
-          "playa.jpg",
-          "Invitados bajo el bimini con las bebidas, el agua y los manglares detrás"
+          "despedida-3.jpg",
+          "Un grupo de despedida llenando la proa de teca, con manglares y otros botes detrás"
         ]
       ]
     ],
@@ -876,6 +876,416 @@
       [
         "¿Sirve para una propuesta de matrimonio?",
         "Es la más común que hacemos después de los cumpleaños. Dilo bajito al reservar y apagamos el motor en el momento que quieras, nos quitamos del cuadro, y tomamos las fotos después si las quieres."
+      ]
+    ]
+  },
+  {
+    "slug_en": "corporate-boat-charter-miami.html",
+    "slug_es": "es/bote-para-eventos-corporativos-miami.html",
+    "nav_en": "Corporate days at sea",
+    "nav_es": "Eventos corporativos en el mar",
+    "blurb_en": "Up to 13, booked with the captain, invoiced properly, no event agency in the middle.",
+    "blurb_es": "Hasta 13, reservado con el capitán, con factura, y sin agencia de eventos en el medio.",
+    "service_type_en": "Corporate boat charter",
+    "service_type_es": "Bote para eventos corporativos",
+    "hero_en": [
+      "equipo.jpg",
+      "A group around the cockpit table on the teak deck, anchored off a palm-lined shore"
+    ],
+    "hero_es": [
+      "equipo.jpg",
+      "Un grupo alrededor de la mesa de la bañera en la cubierta de teca, fondeados frente a una costa de palmeras"
+    ],
+    "title_en": "Corporate Boat Charter Miami | Small Teams up to 13 | LuxSea",
+    "title_es": "Bote para Eventos Corporativos en Miami | Hasta 13 | LuxSea",
+    "desc_en": "Private corporate boat charter in Miami for teams of up to 13. Captain and fuel in one figure, a proper invoice and a firm return time. Client entertainment, team afternoons and closing dinners on Biscayne Bay.",
+    "desc_es": "Bote privado para eventos corporativos en Miami, hasta 13 personas. Capitán y gasolina en una sola cifra, factura formal y hora de regreso firme. Para clientes, para el equipo y para cerrar un trato en la bahía.",
+    "said_en": "Corporate days",
+    "said_es": "Días de empresa",
+    "h1_en": "Small teams, one boat, no event agency",
+    "h1_es": "Equipos chicos, un bote, sin agencia de eventos",
+    "lede_en": "Client entertainment, a team afternoon, or the dinner after the quarter closes. Booked directly with the captain, capped at thirteen so nobody is standing, and invoiced the way your finance team needs it.",
+    "lede_es": "Para atender a un cliente, para sacar al equipo una tarde, o para cerrar el trimestre. Se reserva directo con el capitán, con tope de trece para que nadie vaya de pie, y con la factura como la necesita tu contabilidad.",
+    "wa_en": "Hi LuxSea, I am organising a company boat day and want to check a date.",
+    "wa_es": "Hola LuxSea, estoy organizando un día de bote para mi empresa y quiero consultar una fecha.",
+    "cta1_en": "Check a date",
+    "cta1_es": "Consultar una fecha",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Corporate charter questions",
+    "faq_h_es": "Preguntas sobre eventos de empresa",
+    "cta_h_en": "Send the date and the headcount",
+    "cta_h_es": "Mándanos la fecha y cuántos son",
+    "cta_p_en": "One number back covering boat, captain and fuel, plus an invoice carrying whatever details your company needs. If thirteen seats is not enough, we will say so before you book anything.",
+    "cta_p_es": "Te devolvemos un solo número con bote, capitán y gasolina, más una factura con los datos que pida tu empresa. Si trece asientos no alcanzan, te lo decimos antes de que reserves nada.",
+    "sections_en": [
+      [
+        "The number that decides the whole thing",
+        [
+          "Thirteen guests is the Coast Guard limit on the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a>, and it counts everyone who steps aboard. For a leadership offsite, a client afternoon or a team of ten, that is comfortable. For a company of forty it is not, and we would rather tell you in the first message than sell you three boats you never budgeted for.",
+          "If your group is larger, the honest answer is usually a venue with a terrace rather than a boat. We will say so."
+        ],
+        null
+      ],
+      [
+        "The organiser's problem is never the boat",
+        [
+          "It is the person who cannot swim, the one who gets seasick, the vegetarian, and the executive with a call at four. So you deal with one person here, not a booking desk. The captain knows the plan before the day starts and holds the return time.",
+          "Tell us the constraint when you book. A guest who would rather stay dry, a hard stop at five, someone who needs shade all afternoon: each of those changes which boat we put you on, and it costs nothing to say early."
+        ],
+        null
+      ],
+      [
+        "Client entertainment and a team day are not the same booking",
+        [
+          "For clients the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> is the one: a saloon to sit in, a proper head with a shower, and enough deck that the conversation is not one huddle. For a team afternoon in July the covered <a href=\"fleet.html#sundancer\">Sundancer 40</a> is usually the better call, because shade decides whether anyone enjoys hour five.",
+          "Bring your own food and drink. We are not a catering company and will not pretend otherwise. There is a fridge, a cooler on ice and a table in the cockpit, and most organisers order a platter and carry it aboard."
+        ],
+        [
+          "muelle.jpg",
+          "The Chris Craft alongside the dock with the cockpit table set up"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "El número que decide todo",
+        [
+          "Trece personas es el límite de la Guardia Costera en el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a>, y cuenta a todos los que suben. Para una reunión de directivos, una tarde con un cliente o un equipo de diez, va cómodo. Para una empresa de cuarenta no, y preferimos decírtelo en el primer mensaje antes que venderte tres botes que nunca presupuestaste.",
+          "Si el grupo es más grande, la respuesta honesta casi siempre es un lugar con terraza y no un bote. Te lo vamos a decir."
+        ],
+        null
+      ],
+      [
+        "El problema del que organiza nunca es el bote",
+        [
+          "Es la persona que no nada, la que se marea, la vegetariana, y el directivo con una llamada a las cuatro. Por eso aquí hablas con una persona y no con un centro de reservas. El capitán sabe el plan antes de empezar y respeta la hora de regreso.",
+          "Dinos la restricción al reservar. Alguien que prefiere no mojarse, una hora tope a las cinco, alguien que necesita sombra toda la tarde: cada cosa cambia en qué bote te ponemos, y no cuesta nada decirlo temprano."
+        ],
+        null
+      ],
+      [
+        "Atender a un cliente y sacar al equipo no son la misma reserva",
+        [
+          "Para clientes el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> es el indicado: salón para sentarse, baño de verdad con ducha, y cubierta suficiente para que la conversación no sea un solo grupo. Para una tarde de equipo en julio, el <a href=\"../fleet.html#sundancer\">Sundancer 40</a> cubierto suele ser mejor, porque la sombra decide si alguien disfruta la quinta hora.",
+          "Trae tu comida y tus bebidas. No somos empresa de catering y no vamos a fingir que sí. Hay nevera, hielera con hielo y mesa en la bañera, y la mayoría pide una bandeja y la sube a bordo."
+        ],
+        [
+          "muelle.jpg",
+          "El Chris Craft junto al muelle con la mesa de la bañera puesta"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "Can you invoice the company?",
+        "Yes. Send the company name, address and any PO or reference number your finance team needs and it goes on the invoice. Payment is arranged directly with us, not through a booking platform taking a cut."
+      ],
+      [
+        "How many people can come?",
+        "Up to 13 on the Chris Craft 45, counting everyone who steps aboard. It is a Coast Guard limit rather than a preference, so it cannot be stretched on the day."
+      ],
+      [
+        "Can we bring catering?",
+        "Bring whatever you like. There is a fridge, a cooler on ice and a table in the cockpit. We do not supply food, and we would rather say so plainly than hand you a menu we cannot deliver."
+      ],
+      [
+        "What happens if the weather turns?",
+        "We move the booking. Nobody wants a client sitting through a squall, and a captain who runs the day anyway is protecting his own calendar rather than your event."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Pueden facturar a la empresa?",
+        "Sí. Mándanos el nombre de la empresa, la dirección y cualquier número de orden o referencia que pida tu contabilidad y va en la factura. El pago se arregla directo con nosotros, no con una plataforma que se queda una comisión."
+      ],
+      [
+        "¿Cuántas personas pueden ir?",
+        "Hasta 13 en el Chris Craft 45, contando a todos los que suben. Es un límite de la Guardia Costera, no una preferencia, así que no se estira el día del paseo."
+      ],
+      [
+        "¿Podemos llevar catering?",
+        "Trae lo que quieras. Hay nevera, hielera con hielo y mesa en la bañera. Nosotros no ponemos la comida, y preferimos decirlo claro antes que darte un menú que no podemos cumplir."
+      ],
+      [
+        "¿Y si cambia el clima?",
+        "Movemos la reserva. Nadie quiere a un cliente aguantando un chubasco, y un capitán que sale igual está cuidando su calendario y no tu evento."
+      ]
+    ]
+  },
+  {
+    "slug_en": "romantic-boat-ride-miami.html",
+    "slug_es": "es/paseo-romantico-en-bote-miami.html",
+    "nav_en": "Romantic evenings at sea",
+    "nav_es": "Noches románticas en el mar",
+    "blurb_en": "The whole boat for two, the cockpit table, and a captain who stays out of the photographs.",
+    "blurb_es": "El bote entero para dos, la mesa de la bañera, y un capitán que no sale en las fotos.",
+    "service_type_en": "Romantic boat charter",
+    "service_type_es": "Paseo romántico en bote",
+    "hero_en": [
+      "atardecer-proa.jpg",
+      "The sun going down over the bay, seen from the bow of the boat"
+    ],
+    "hero_es": [
+      "atardecer-proa.jpg",
+      "El sol bajando sobre la bahía, visto desde la proa del bote"
+    ],
+    "title_en": "Romantic Boat Ride Miami | Private Sunset Charter for Two | LuxSea",
+    "title_es": "Paseo Romántico en Bote en Miami | Atardecer Privado | LuxSea",
+    "desc_en": "Private romantic boat ride in Miami for two. Sunset on Biscayne Bay, the cockpit table, a fridge for the wine and a captain included. Anniversaries, dates and proposals, in English or Spanish.",
+    "desc_es": "Paseo romántico en bote privado en Miami para dos. Atardecer en la bahía, la mesa de la bañera, nevera para el vino y capitán incluido. Aniversarios, citas y pedidas de mano, en español o en inglés.",
+    "said_en": "Just the two of us",
+    "said_es": "Solo los dos",
+    "h1_en": "The whole boat, for two people",
+    "h1_es": "El bote entero, para dos personas",
+    "lede_en": "Sunset on the bay, the cockpit table, a fridge that keeps the wine cold, and a captain who stays at the helm and out of your photographs. It is a private boat, so the only people aboard are the ones you brought.",
+    "lede_es": "El atardecer en la bahía, la mesa de la bañera, una nevera que mantiene el vino frío, y un capitán que se queda en el timón y fuera de tus fotos. Es un bote privado: a bordo va solo quien tú traigas.",
+    "wa_en": "Hi LuxSea, I want to plan a romantic boat ride and check a date.",
+    "wa_es": "Hola LuxSea, quiero organizar un paseo romántico en bote y consultar una fecha.",
+    "cta1_en": "Check a date",
+    "cta1_es": "Consultar una fecha",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Romantic charter questions",
+    "faq_h_es": "Preguntas sobre el paseo romántico",
+    "cta_h_en": "Tell us the date and what it is for",
+    "cta_h_es": "Dinos la fecha y de qué se trata",
+    "cta_p_en": "Anniversary, first date, or the question you have been carrying around for a month. Tell us which, and we will tell you the hour to leave so the light lands where you want it.",
+    "cta_p_es": "Aniversario, primera cita, o la pregunta que llevas un mes cargando. Dinos cuál y te decimos a qué hora salir para que la luz caiga donde la quieres.",
+    "sections_en": [
+      [
+        "A boat built for thirteen, carrying two",
+        [
+          "Most romantic packages in Miami put you on a big boat with other couples and call it private. This is not that. You book the whole boat, and if there are two of you, there are two of you.",
+          "That means the bow is yours to lie on, the cockpit table is yours to eat at, and nobody is waiting for you to finish so they can use the space."
+        ],
+        [
+          "luces.jpg",
+          "The city lights across the water at night, seen from the boat"
+        ]
+      ],
+      [
+        "Bring the dinner, the table is already there",
+        [
+          "We do not cater, and we are not going to sell you a set menu we would only be buying from somewhere else. There is a fridge, a cooler on ice, a table in the cockpit and a speaker.",
+          "Most couples bring something from a place they already like. If you want the wine cold when you step on, tell us and it goes in the fridge before you arrive."
+        ],
+        null
+      ],
+      [
+        "If you are going to propose, say so when you book",
+        [
+          "It changes the run. The captain will have the boat facing the right way when the light goes, keep the engine off, and stay out of the frame. If you would rather he took the photograph, he will, and if you would rather he saw nothing at all, that is easier still.",
+          "We are not photographers and will not charge you as though we were. If the moment matters that much, bring a friend with a camera and we will find them somewhere to hide."
+        ],
+        [
+          "fuegos.jpg",
+          "Boats gathered on the bay at night with the city lit up behind them"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "Un bote para trece, llevando a dos",
+        [
+          "Casi todos los paquetes románticos de Miami te suben a un bote grande con otras parejas y lo llaman privado. Esto no es eso. Reservas el bote completo, y si son dos, son dos.",
+          "Eso quiere decir que la proa es tuya para tirarte, que la mesa de la bañera es tuya para comer, y que nadie está esperando a que termines para usar el espacio."
+        ],
+        [
+          "luces.jpg",
+          "Las luces de la ciudad sobre el agua de noche, vistas desde el bote"
+        ]
+      ],
+      [
+        "Trae la cena, la mesa ya está puesta",
+        [
+          "No hacemos catering, y no vamos a venderte un menú fijo que igual íbamos a comprar en otro lado. Hay nevera, hielera con hielo, mesa en la bañera y bocina.",
+          "La mayoría de las parejas trae algo de un lugar que ya les gusta. Si quieres el vino frío al subir, dinos y va a la nevera antes de que llegues."
+        ],
+        null
+      ],
+      [
+        "Si vas a pedir matrimonio, dilo al reservar",
+        [
+          "Cambia la salida. El capitán deja el bote apuntando hacia donde tiene que estar cuando cae la luz, mantiene el motor apagado y se queda fuera del cuadro. Si prefieres que tome él la foto, la toma, y si prefieres que no vea nada, más fácil todavía.",
+          "No somos fotógrafos y no te vamos a cobrar como si lo fuéramos. Si el momento importa tanto, trae a un amigo con una cámara y le buscamos dónde esconderse."
+        ],
+        [
+          "fuegos.jpg",
+          "Botes reunidos en la bahía de noche con la ciudad encendida detrás"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "Is the boat really private?",
+        "Yes. You book the boat, not a seat on it. Nobody else is aboard except the captain, and he stays at the helm."
+      ],
+      [
+        "Can you provide dinner or decorations?",
+        "No, and we would rather say so than mark up somebody else's work. Bring the food, the flowers and the playlist. There is a fridge, a cooler on ice and a table in the cockpit, and we will have it all set up before you step on."
+      ],
+      [
+        "What time should we go out for the sunset?",
+        "Tell us the date and we will tell you the hour, because it moves through the year. Four hours is the shortest booking, which is comfortably enough to be out there when the light goes and still see the city lit up on the way back."
+      ],
+      [
+        "Can you help with a proposal?",
+        "We can point the boat the right way, keep the engine off and stay out of the photographs, and that is genuinely most of it. Say so when you book so the captain plans the run around it."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿El bote es realmente privado?",
+        "Sí. Reservas el bote, no un asiento. A bordo no va nadie más que el capitán, y él se queda en el timón."
+      ],
+      [
+        "¿Ponen la cena o la decoración?",
+        "No, y preferimos decirlo antes que revenderte el trabajo de otro. Trae la comida, las flores y la música. Hay nevera, hielera con hielo y mesa en la bañera, y lo dejamos todo montado antes de que subas."
+      ],
+      [
+        "¿A qué hora hay que salir para el atardecer?",
+        "Dinos la fecha y te decimos la hora, porque cambia a lo largo del año. Cuatro horas es la reserva más corta, y alcanza de sobra para estar afuera cuando cae la luz y ver la ciudad encendida de regreso."
+      ],
+      [
+        "¿Ayudan con una pedida de mano?",
+        "Podemos apuntar el bote hacia donde toca, dejar el motor apagado y quedarnos fuera de las fotos, y sinceramente eso es casi todo. Dilo al reservar para que el capitán arme la salida alrededor de eso."
+      ]
+    ]
+  },
+  {
+    "slug_en": "ash-scattering-at-sea-miami.html",
+    "slug_es": "es/esparcir-cenizas-en-el-mar-miami.html",
+    "nav_en": "Ash scattering at sea",
+    "nav_es": "Esparcir cenizas en el mar",
+    "blurb_en": "A private boat past the three-mile line, and as long as you need once the engine is off.",
+    "blurb_es": "Un bote privado más allá de las tres millas, y todo el tiempo que necesites con el motor apagado.",
+    "service_type_en": "Ash scattering at sea",
+    "service_type_es": "Esparcimiento de cenizas en el mar",
+    "hero_en": [
+      "calma.jpg",
+      "Open water at sunset seen from the bow, the light going down behind the trees"
+    ],
+    "hero_es": [
+      "calma.jpg",
+      "Mar abierto al atardecer visto desde la proa, con la luz cayendo detrás de los árboles"
+    ],
+    "title_en": "Ash Scattering at Sea Miami | Private Boat, No Schedule | LuxSea",
+    "title_es": "Esparcir Cenizas en el Mar en Miami | Bote Privado | LuxSea",
+    "desc_en": "Private boat for scattering ashes at sea off Miami. We run past the three nautical mile line the federal rule requires, stop the engine, and give you the time. Up to 13 people. The captain files the EPA notice.",
+    "desc_es": "Bote privado para esparcir cenizas en el mar frente a Miami. Salimos más allá de las tres millas náuticas que exige la ley federal, apagamos el motor y te damos el tiempo. Hasta 13 personas. El capitán presenta el aviso a la EPA.",
+    "said_en": "Ashes at sea",
+    "said_es": "Cenizas en el mar",
+    "h1_en": "Scattering ashes off Miami, without a schedule",
+    "h1_es": "Esparcir cenizas frente a Miami, sin horario",
+    "lede_en": "A private boat, a slow run past the three-mile line, and as long as you need once the engine is off. No package, no script, and nobody standing over you with a clipboard.",
+    "lede_es": "Un bote privado, una salida tranquila más allá de las tres millas, y todo el tiempo que necesites con el motor apagado. Sin paquete, sin guion, y sin nadie encima con una carpeta.",
+    "wa_en": "Hi LuxSea, I would like to ask about scattering ashes at sea.",
+    "wa_es": "Hola LuxSea, quisiera preguntar por esparcir cenizas en el mar.",
+    "cta1_en": "Ask about a date",
+    "cta1_es": "Preguntar por una fecha",
+    "cta2_en": "Send a message",
+    "cta2_es": "Enviar un mensaje",
+    "faq_h_en": "Questions families ask",
+    "faq_h_es": "Preguntas que hacen las familias",
+    "cta_h_en": "There is no form to fill in",
+    "cta_h_es": "No hay formulario que llenar",
+    "cta_p_en": "Send a message when you are ready and we will answer plainly: what it costs, how far out we go, and what you are allowed to put in the water. Nothing is booked until you say so.",
+    "cta_p_es": "Escríbenos cuando estés listo y te contestamos claro: cuánto cuesta, hasta dónde salimos y qué se puede poner en el agua. No se reserva nada hasta que lo digas.",
+    "sections_en": [
+      [
+        "The rule that decides where we go",
+        [
+          "Federal law sets the line. Cremated remains may be scattered at sea no closer than three nautical miles from land, which is why this cannot happen at the sandbar or anywhere inside the bay, however much easier that would be.",
+          "From Miami that is roughly a thirty to forty minute run depending on the water. The captain also has to notify the Environmental Protection Agency within thirty days of the scattering. He files that report; it is not paperwork you are left holding."
+        ],
+        null
+      ],
+      [
+        "What the day is actually like",
+        [
+          "We leave on time, run out quietly, and stop the engine. After that there is no schedule. Some families say something, some play a song, some stand there and say nothing at all, and none of those needs explaining to us.",
+          "There are usually four to eight people aboard, though the Chris Craft 45 takes up to thirteen. It has a proper head with a shower and a cabin, which matters more than it sounds on a day when somebody may need a few minutes out of sight."
+        ],
+        null
+      ],
+      [
+        "What can go in the water",
+        [
+          "Flowers and petals are fine, and most families bring them. Anything that will not break down in seawater is not: no plastic wrap, no ribbon, no cellophane sleeve from the florist. If you want to put the urn itself in the water it needs to be a biodegradable one made for the purpose.",
+          "We have done this a handful of times, not hundreds. If you have a question we cannot answer, we will tell you that rather than guess at it."
+        ],
+        null
+      ]
+    ],
+    "sections_es": [
+      [
+        "La regla que decide hasta dónde salimos",
+        [
+          "La ley federal marca el límite. Las cenizas solo pueden esparcirse en el mar a no menos de tres millas náuticas de la costa, y por eso esto no puede hacerse en el banco de arena ni dentro de la bahía, por más cómodo que sería.",
+          "Desde Miami son unos treinta o cuarenta minutos de navegación según cómo esté el agua. El capitán además tiene que avisar a la Agencia de Protección Ambiental dentro de los treinta días siguientes. Ese reporte lo presenta él; no es un trámite que te quede a ti."
+        ],
+        null
+      ],
+      [
+        "Cómo es el día en realidad",
+        [
+          "Salimos a la hora, navegamos sin ruido y apagamos el motor. A partir de ahí no hay horario. Hay familias que dicen algo, otras que ponen una canción, otras que se quedan calladas, y ninguna de esas cosas hay que explicárnosla.",
+          "Suelen ir de cuatro a ocho personas, aunque el Chris Craft 45 lleva hasta trece. Tiene baño de verdad con ducha y camarote, que importa más de lo que parece un día en que alguien puede necesitar unos minutos a solas."
+        ],
+        null
+      ],
+      [
+        "Qué se puede poner en el agua",
+        [
+          "Flores y pétalos sí, y casi todas las familias los llevan. Lo que no se deshace en el agua de mar, no: nada de plástico, ni cintas, ni el celofán de la floristería. Si quieren poner la urna en el agua, tiene que ser una urna biodegradable hecha para eso.",
+          "Esto lo hemos hecho unas pocas veces, no cientos. Si hay algo que no sabemos, te lo decimos en vez de inventarlo."
+        ],
+        null
+      ]
+    ],
+    "faqs_en": [
+      [
+        "How far out do we have to go?",
+        "At least three nautical miles from shore. That is the federal minimum for scattering cremated remains at sea, and from Miami it is roughly a thirty to forty minute run each way."
+      ],
+      [
+        "Does anyone have to be notified?",
+        "Yes. The Environmental Protection Agency has to be told within thirty days of the scattering. The captain files that report, so it is not something the family is left to work out."
+      ],
+      [
+        "Can we bring flowers?",
+        "Yes, as long as they break down in seawater. Loose flowers and petals are fine. Plastic wrap, ribbon and florist cellophane are not, so unwrap them before you come aboard."
+      ],
+      [
+        "How many people can come?",
+        "Up to 13 on the Chris Craft 45, which has a head with a shower and a cabin below. Most families come out with four to eight."
+      ],
+      [
+        "How long does it take?",
+        "Four hours is the shortest booking and it is usually enough, counting the run out and back. If you would rather not watch the clock at all, take five."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Hasta dónde hay que salir?",
+        "Al menos tres millas náuticas de la costa. Es el mínimo federal para esparcir cenizas en el mar, y desde Miami son unos treinta o cuarenta minutos de ida y otros tantos de vuelta."
+      ],
+      [
+        "¿Hay que avisarle a alguien?",
+        "Sí. Hay que informar a la Agencia de Protección Ambiental dentro de los treinta días siguientes. Ese reporte lo presenta el capitán, así que no es algo que la familia tenga que resolver."
+      ],
+      [
+        "¿Podemos llevar flores?",
+        "Sí, siempre que se deshagan en el agua de mar. Flores sueltas y pétalos, sin problema. Plástico, cintas y celofán de floristería no, así que quítalos antes de subir."
+      ],
+      [
+        "¿Cuántas personas pueden ir?",
+        "Hasta 13 en el Chris Craft 45, que tiene baño con ducha y camarote abajo. La mayoría de las familias sale con cuatro a ocho."
+      ],
+      [
+        "¿Cuánto dura?",
+        "Cuatro horas es la reserva más corta y suele alcanzar, contando la salida y el regreso. Si prefieres no mirar el reloj, toma cinco."
       ]
     ]
   }
