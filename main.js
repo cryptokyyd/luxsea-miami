@@ -140,6 +140,71 @@ document.documentElement.classList.add('js');
 })();
 
 /* ------------------------------------------------------------------
+   5c. Availability calendars.
+   Reads /api/availability, which returns busy DATES only — no titles, no
+   customer names. Renders two months per boat. If the feed is not configured
+   (or we're on a static preview with no /api), it falls back to a plain
+   "message us" line rather than implying every date is free.
+   ------------------------------------------------------------------ */
+(function availability() {
+  var mounts = document.querySelectorAll('[data-availability]');
+  if (!mounts.length) return;
+
+  var ES = { mon: ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],
+             dow: ['L','M','X','J','V','S','D'], booked: 'Reservado', free: 'Libre',
+             note: 'Se actualiza solo desde el calendario del capitán. Si tu día aparece libre, casi siempre lo está — confírmalo por WhatsApp.',
+             off: 'Escríbenos por WhatsApp y te confirmamos la fecha al momento.' };
+  var EN = { mon: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+             dow: ['M','T','W','T','F','S','S'], booked: 'Booked', free: 'Open',
+             note: 'Updated straight from the captain’s calendar. If your day shows open it almost certainly is — confirm it on WhatsApp.',
+             off: 'Message us on WhatsApp and we’ll confirm the date straight away.' };
+
+  function iso(d) { return d.toISOString().slice(0, 10); }
+
+  function month(base, offset, busy, L, todayIso) {
+    var d = new Date(Date.UTC(base.getUTCFullYear(), base.getUTCMonth() + offset, 1));
+    var y = d.getUTCFullYear(), m = d.getUTCMonth();
+    var first = (new Date(Date.UTC(y, m, 1)).getUTCDay() + 6) % 7;   // Monday-first
+    var len = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    var cells = '';
+    for (var i = 0; i < first; i++) cells += '<div class="avail__d avail__d--pad"></div>';
+    for (var day = 1; day <= len; day++) {
+      var key = iso(new Date(Date.UTC(y, m, day)));
+      var cls = 'avail__d';
+      if (busy.indexOf(key) !== -1) cls += ' avail__d--busy';
+      if (key < todayIso) cls += ' avail__d--past';
+      cells += '<div class="' + cls + '" title="' + key + (busy.indexOf(key) !== -1 ? ' · ' + L.booked : '') + '">' + day + '</div>';
+    }
+    return '<div class="avail__m"><div class="avail__mh">' + L.mon[m] + ' ' + y + '</div>' +
+           '<div class="avail__grid" role="presentation">' +
+           L.dow.map(function (x) { return '<div class="avail__dow">' + x + '</div>'; }).join('') +
+           cells + '</div></div>';
+  }
+
+  mounts.forEach(function (el) {
+    var boat = el.dataset.availability;
+    var L = document.documentElement.lang === 'es' ? ES : EN;
+    var today = new Date();
+    var todayIso = iso(today);
+
+    fetch('/api/availability?boat=' + encodeURIComponent(boat))
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (data) {
+        if (!data.configured) throw new Error('not configured');
+        var busy = data.busy || [];
+        el.innerHTML =
+          '<div class="avail__months">' + month(today, 0, busy, L, todayIso) + month(today, 1, busy, L, todayIso) + '</div>' +
+          '<p class="avail__key"><span><i style="background:var(--ember)"></i>' + L.booked + '</span>' +
+          '<span><i style="background:var(--surface);outline:1px solid var(--line)"></i>' + L.free + '</span></p>' +
+          '<p class="avail__note">' + L.note + '</p>';
+      })
+      .catch(function () {
+        el.innerHTML = '<p class="avail__note">' + L.off + '</p>';
+      });
+  });
+})();
+
+/* ------------------------------------------------------------------
    6. Enquiry forms → a prefilled WhatsApp message.
    No backend, no dead endpoint. Validates before it sends.
    ------------------------------------------------------------------ */

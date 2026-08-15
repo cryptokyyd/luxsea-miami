@@ -1,0 +1,9 @@
+{
+  "name": "luxsea-miami",
+  "private": true,
+  "type": "module",
+  "description": "Static site. The only JS that runs on a server is api/availability.js.",
+  "scripts": {
+    "test": "node api/availability.test.mjs"
+  }
+}
