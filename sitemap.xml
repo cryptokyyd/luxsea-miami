@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://luxsea-miami.vercel.app/</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/es/</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/fleet</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/experiences</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/about</loc></url>
@@ -52,5 +53,29 @@
   <url><loc>https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/miami-skyline-photo-boat-charter"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/chris-craft-45-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/chris-craft-45-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/chris-craft-45-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/chris-craft-45-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/chris-craft-45-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/chris-craft-45-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami"/>
   </url>
 </urlset>

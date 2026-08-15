@@ -1,420 +1,882 @@
 [
-{
-  "slug_en": "bachelorette-boat-party-miami.html",
-  "slug_es": "es/despedida-de-soltera-en-bote-miami.html",
-  "nav_en": "Bachelorette boat party", "nav_es": "Despedida de soltera en bote",
-  "blurb_en": "Up to 13, the whole day photographed, and the bride organising nothing.",
-  "blurb_es": "Hasta 13, el día entero en fotos, y la novia sin organizar nada.",
-  "service_type_en": "Bachelorette party boat charter",
-  "service_type_es": "Bote para despedida de soltera",
-  "hero_en": ["day-out.jpg", "A large group of friends spread across the bow of the Chris Craft at the sandbar"],
-  "hero_es": ["day-out.jpg", "Un grupo grande de amigas en la proa del Chris Craft en el banco de arena"],
-  "title_en": "Bachelorette Boat Party Miami | Private Charter up to 13 | LuxSea",
-  "title_es": "Despedida de Soltera en Bote en Miami | Hasta 13 Personas | LuxSea",
-  "desc_en": "Private bachelorette boat party in Miami for up to 13 guests. Captain, fuel, cooler, speaker and floating pool included. Bring the decorations — we set the boat up before you arrive.",
-  "desc_es": "Despedida de soltera en bote privado en Miami para hasta 13 personas. Capitán, gasolina, nevera, bocina y piscina flotante incluidos. Trae la decoración y te montamos el bote antes de que llegues.",
-  "said_en": "Despedidas de solteras", "said_es": "Despedidas de solteras",
-  "h1_en": "The bachelorette should be organising nothing",
-  "h1_es": "La novia no debería estar organizando nada",
-  "lede_en": "A private boat for up to 13, a captain who handles the day, and a group chat we run with whoever is planning the surprise — not with the bride.",
-  "lede_es": "Un bote privado para hasta 13, un capitán que se encarga del día, y un chat que llevamos con quien esté armando la sorpresa — no con la novia.",
-  "wa_en": "Hi LuxSea — I'm planning a bachelorette and want to check a date.",
-  "wa_es": "Hola LuxSea — estoy organizando una despedida de soltera y quiero consultar una fecha.",
-  "cta1_en": "Check a date", "cta1_es": "Consultar una fecha",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Bachelorette boat questions", "faq_h_es": "Preguntas sobre despedidas en bote",
-  "cta_h_en": "Tell us the date and who's really in charge",
-  "cta_h_es": "Dinos la fecha y quién manda de verdad",
-  "cta_p_en": "We'll come back with one number covering boat, captain and fuel — and we'll keep the bride out of the thread if that's the plan.",
-  "cta_p_es": "Te devolvemos un solo número con bote, capitán y gasolina — y dejamos a la novia fuera del chat si ese es el plan.",
-  "sections_en": [
-    ["The boat that actually fits a bachelorette", [
-      "Thirteen people is the number that decides everything. It rules out most of the boats advertised in Miami, and it's why bachelorettes almost always go out on the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> — the only one of our three with the deck space, a bathroom with a shower, and a fitted cabin to get changed in.",
-      "That shower matters more than it sounds. A six-hour day in July with a group who intend to be photographed is a very different day if there's fresh water on board and somewhere private to use it."
-    ], ["despedida.jpg", "Guests on the covered deck of the Chris Craft with the Miami skyline behind them"]],
-    ["We plan it with you, not with the bride", [
-      "Almost every bachelorette we run is a surprise from someone's point of view. So we work on WhatsApp with whoever is organising, we don't post anything before the day, and we don't call the bride to confirm details.",
-      "Tell us what's being kept quiet and we'll work around it. If the cake needs to appear at a specific moment, or a banner needs to be up before anyone steps on, that's the kind of thing we do early — an hour before you arrive, while the dock is still empty."
-    ], ["friends.jpg", "Friends sitting along the rail with the sun flaring off the shallow bay water"]],
-    ["What the day usually looks like", [
-      "Most groups want the same three things: the sandbar for swimming, somewhere calm to eat, and the skyline for photographs. Four hours covers two of those comfortably. Six covers all three without anyone being rushed.",
-      "The floating pool comes off at the sandbar and that's where most of the day goes. Bring your own playlist — the speaker is already on board — and bring the food and drinks you actually want, because there's a cooler on ice waiting for them.",
-      "If the group is bigger than thirteen, we can tie a second boat alongside at the sandbar so it stays one party rather than two. Ask when you book, not on the day."
-    ], ["chriscraft-deck.jpg", "The Chris Craft at anchor with the swim ring in the water and mangroves behind"]]
-  ],
-  "sections_es": [
-    ["El bote que de verdad sirve para una despedida", [
-      "Trece personas es el número que decide todo. Descarta a la mayoría de los botes que se anuncian en Miami, y por eso las despedidas casi siempre salen en el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> — el único de los tres con espacio en cubierta, baño con ducha y un camarote equipado para cambiarse.",
-      "Esa ducha importa más de lo que parece. Un día de seis horas en julio con un grupo que piensa salir en fotos es un día muy distinto si hay agua dulce a bordo y un lugar privado para usarla."
-    ], ["despedida.jpg", "Invitadas en la cubierta cubierta del Chris Craft con el skyline de Miami detrás"]],
-    ["Lo planeamos contigo, no con la novia", [
-      "Casi todas las despedidas que hacemos son sorpresa para alguien. Así que trabajamos por WhatsApp con quien esté organizando, no publicamos nada antes del día, y no llamamos a la novia para confirmar detalles.",
-      "Dinos qué se está guardando en secreto y nos acomodamos. Si el bizcocho tiene que aparecer en un momento exacto, o hay que colgar un cartel antes de que suba nadie, eso lo hacemos temprano — una hora antes, con el muelle todavía vacío."
-    ], ["friends.jpg", "Amigas sentadas en la borda con el sol reflejando en el agua baja de la bahía"]],
-    ["Cómo suele ser el día", [
-      "Casi todos los grupos quieren lo mismo: el banco de arena para nadar, un sitio tranquilo para comer, y la ciudad de fondo para las fotos. Con cuatro horas te dan dos de esas tres. Con seis te dan las tres sin que nadie ande apurado.",
-      "La piscina flotante se tira en el banco de arena y ahí se va la mitad del día. Trae tu playlist — la bocina ya está a bordo — y trae la comida y las bebidas que de verdad quieres, porque hay una nevera con hielo esperándolas.",
-      "Si el grupo pasa de trece, podemos amarrar un segundo bote al lado en el banco de arena para que siga siendo una sola fiesta y no dos. Pídelo al reservar, no el mismo día."
-    ], ["chriscraft-deck.jpg", "El Chris Craft anclado con el flotador en el agua y los manglares detrás"]]
-  ],
-  "faqs_en": [
-    ["How many people can come on a bachelorette boat?", "Up to 13 guests on the Chris Craft 45, and that count includes everyone stepping on board. It's a Coast Guard limit, not a preference. If your group is larger, we can raft a second boat alongside at the sandbar."],
-    ["Can we decorate the boat?", "Yes, and we'd rather do it for you. Send the decorations ahead or bring them and we'll have them up before the group arrives — balloons, a banner, a sash, whatever you've planned. Nothing that has to be nailed or taped to the hull."],
-    ["Can we bring our own food and drinks?", "Yes. There's a cooler on ice, drinking water and a speaker already on board. Bring whatever you actually want to eat and drink; there's no corkage and nothing to buy from us."],
-    ["How far in advance should we book?", "Summer weekends go weeks ahead, and a bachelorette is usually planned around a date that can't move — so book that one early. Midweek there is almost always room, sometimes the same week."]
-  ],
-  "faqs_es": [
-    ["¿Cuántas personas caben en una despedida en bote?", "Hasta 13 en el Chris Craft 45, y ese número incluye a todas las que suben. Es un límite de la Guardia Costera, no una preferencia. Si el grupo es más grande, podemos amarrar un segundo bote al lado en el banco de arena."],
-    ["¿Podemos decorar el bote?", "Sí, y preferimos hacerlo nosotros. Mándanos la decoración antes o tráela, y la dejamos puesta antes de que llegue el grupo — globos, cartel, banda, lo que hayan planeado. Nada que haya que clavar o pegar al casco."],
-    ["¿Podemos llevar nuestra comida y bebidas?", "Sí. A bordo ya hay nevera con hielo, agua y bocina. Trae lo que de verdad quieran comer y beber; no cobramos descorche ni hay que comprarnos nada."],
-    ["¿Con cuánta anticipación hay que reservar?", "Los fines de semana de verano se llenan con semanas. Una despedida normalmente gira alrededor de una fecha que no se puede mover, así que esa resérvala temprano. Entre semana casi siempre hay espacio, a veces la misma semana."]
-  ]
-},
-{
-  "slug_en": "birthday-boat-rental-miami.html",
-  "slug_es": "es/cumpleanos-en-bote-miami.html",
-  "nav_en": "Birthday boat rental", "nav_es": "Cumpleaños en bote",
-  "blurb_en": "Cake kept cold, your playlist, and the engine cut with downtown behind you.",
-  "blurb_es": "El bizcocho en frío, tu playlist, y el motor apagado con el downtown detrás.",
-  "service_type_en": "Birthday boat charter",
-  "service_type_es": "Bote para cumpleaños",
-  "hero_en": ["bachelorette.jpg", "Guests along the bow of the Chris Craft on the coral sunpads mid-charter"],
-  "hero_es": ["bachelorette.jpg", "Invitados en la proa del Chris Craft sobre los cojines coral durante el paseo"],
-  "title_en": "Birthday Boat Rental Miami | Private Charter with Captain | LuxSea",
-  "title_es": "Cumpleaños en Bote en Miami | Bote Privado con Capitán | LuxSea",
-  "desc_en": "Celebrate a birthday on a private boat in Miami. Bring the cake — we keep it cold and set the boat up before you arrive. Captain, fuel, cooler and speaker included. English and Spanish.",
-  "desc_es": "Celebra un cumpleaños en un bote privado en Miami. Trae el bizcocho: lo guardamos en frío y montamos el bote antes de que llegues. Capitán, gasolina, nevera y bocina incluidos.",
-  "said_en": "Cumpleaños", "said_es": "Cumpleaños",
-  "h1_en": "Cut the engine, and sing with the city behind you",
-  "h1_es": "Apagamos el motor y cantas con la ciudad detrás",
-  "lede_en": "Birthdays are most of what we do. Bring the cake and the playlist; we handle the timing, the ice and the moment everyone actually came for.",
-  "lede_es": "Los cumpleaños son la mayoría de lo que hacemos. Trae el bizcocho y la playlist; nosotros ponemos el tiempo, el hielo y el momento por el que vinieron todos.",
-  "wa_en": "Hi LuxSea — I'd like to organise a birthday on the boat.",
-  "wa_es": "Hola LuxSea — quiero organizar un cumpleaños en el bote.",
-  "cta1_en": "Plan a birthday", "cta1_es": "Organizar un cumpleaños",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Birthday charter questions", "faq_h_es": "Preguntas sobre cumpleaños en bote",
-  "cta_h_en": "Whose birthday is it?",
-  "cta_h_es": "¿De quién es el cumpleaños?",
-  "cta_p_en": "Send us the date and the age if it's a round one. We'll come back with a price and a plan for the moment with the skyline.",
-  "cta_p_es": "Mándanos la fecha, y la edad si es una redonda. Te devolvemos precio y un plan para el momento con la ciudad de fondo.",
-  "sections_en": [
-    ["The cake is our job, not yours", [
-      "Bring it and hand it over. It goes straight into the fridge and stays there until you ask for it, which on a Miami afternoon is the difference between a cake and a puddle.",
-      "Same with the balloons and the banner. Tell us in advance and it's all up before the group walks down the dock, because nobody wants to watch a party being assembled around them."
-    ], ["sunset-poster.jpg", "Two guests marking a thirtieth birthday on board, filmed during the charter"]],
-    ["The moment everybody actually wants", [
-      "It's the same on almost every trip: cut the engine somewhere with downtown filling the background, and sing there. We know which spots hold that view and roughly what time the light is behind you rather than in your eyes.",
-      "Tell us when you book whether you want that early — good for kids and grandparents — or right at the end of the charter, which is the better photograph but a later night."
-    ], ["chriscraft-deck.jpg", "The Chris Craft at anchor with the float in the water and mangroves behind"]],
-    ["Which boat for which birthday", [
-      "A thirtieth with a big group goes on the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> — thirteen guests, a proper bathroom, room to spread out.",
-      "A quieter family birthday, especially one with grandparents or small kids, is better on the covered <a href=\"fleet.html#sundancer\">Sea Ray Sundancer 40</a>, where there's shade all day.",
-      "Four or five friends who mainly want the sandbar can take the <a href=\"fleet.html#amberjack\">Sea Ray Amberjack 32</a> and spend less doing it. Tell us the headcount and we'll tell you which one, and why."
-    ], ["day-out.jpg", "A group of friends spread across the bow at the sandbar on a bright day"]]
-  ],
-  "sections_es": [
-    ["El bizcocho es nuestro problema, no tuyo", [
-      "Tráelo y entrégalo. Va directo a la nevera y ahí se queda hasta que lo pidas, que en una tarde de Miami es la diferencia entre un bizcocho y un charco.",
-      "Igual con los globos y el cartel. Avísanos antes y ya está todo puesto cuando el grupo baje por el muelle, porque a nadie le gusta ver cómo se monta su propia fiesta."
-    ], ["sunset-poster.jpg", "Dos invitados celebrando un cumpleaños de treinta a bordo, grabado durante el paseo"]],
-    ["El momento que todos quieren", [
-      "Es el mismo en casi todos los viajes: apagar el motor en un punto donde el downtown llene el fondo, y cantar ahí. Sabemos qué sitios agarran esa vista y más o menos a qué hora la luz queda detrás de ustedes y no en la cara.",
-      "Dinos al reservar si lo quieren temprano — mejor con niños y abuelos — o justo al final del paseo, que da mejor foto pero termina más tarde."
-    ], ["chriscraft-deck.jpg", "El Chris Craft anclado con el flotador en el agua y los manglares detrás"]],
-    ["Qué bote para qué cumpleaños", [
-      "Unos treinta con grupo grande salen en el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> — trece personas, baño de verdad, espacio para repartirse.",
-      "Un cumpleaños tranquilo en familia, sobre todo con abuelos o niños chiquitos, va mejor en el <a href=\"../fleet.html#sundancer\">Sea Ray Sundancer 40</a>, que es cubierto y tiene sombra todo el día.",
-      "Cuatro o cinco amigos que solo quieren el banco de arena pueden llevarse el <a href=\"../fleet.html#amberjack\">Sea Ray Amberjack 32</a> y gastar menos. Dinos cuántos son y te decimos cuál, y por qué."
-    ], ["day-out.jpg", "Un grupo de amigos repartidos en la proa en el banco de arena en un día claro"]]
-  ],
-  "faqs_en": [
-    ["Can we bring a cake on the boat?", "Yes, and we'd prefer you did. Hand it to the captain when you arrive and it goes in the fridge until you ask for it. Candles are fine; we'll find you somewhere out of the wind to light them."],
-    ["Is a birthday charter good for kids?", "Yes. We carry child-size life jackets as standard, and the covered Sundancer 40 keeps everyone out of the sun. We'll anchor somewhere the water is chest-deep so the kids can get in and stay in."],
-    ["Can we play our own music?", "Yes. The speaker is already on board and connects to your phone. You control it, and you control the volume — we only ask you turn it down when we're close to other anchored boats."],
-    ["How long should a birthday charter be?", "Four hours is the most-booked and it's enough for the sandbar plus the skyline. Six hours is the one people pick when there's food involved and they want the sunset on the way back."]
-  ],
-  "faqs_es": [
-    ["¿Podemos llevar bizcocho al bote?", "Sí, y preferimos que lo hagas. Se lo entregas al capitán al llegar y va a la nevera hasta que lo pidas. Las velas no son problema; te buscamos un sitio sin viento para encenderlas."],
-    ["¿Un cumpleaños en bote sirve con niños?", "Sí. Llevamos chalecos de talla infantil siempre, y el Sundancer 40 es cubierto, así que nadie pasa el día al sol. Anclamos donde el agua da al pecho para que los niños se metan y se queden."],
-    ["¿Podemos poner nuestra música?", "Sí. La bocina ya está a bordo y se conecta a tu teléfono. Tú la manejas y tú manejas el volumen — solo pedimos que lo bajen cuando estemos cerca de otros botes anclados."],
-    ["¿De cuántas horas conviene el paseo?", "Cuatro horas es lo más reservado y alcanza para el banco de arena y la ciudad. Seis es lo que escoge la gente cuando hay comida de por medio y quieren el atardecer de regreso."]
-  ]
-},
-{
-  "slug_en": "sunset-cruise-miami.html",
-  "slug_es": "es/paseo-al-atardecer-en-bote-miami.html",
-  "nav_en": "Sunset cruise", "nav_es": "Paseo al atardecer",
-  "blurb_en": "Forty good minutes, timed backwards from the sun. The shortest charter we run.",
-  "blurb_es": "Cuarenta minutos buenos, calculados hacia atrás desde el sol. El paseo más corto.",
-  "service_type_en": "Sunset boat cruise",
-  "service_type_es": "Paseo en bote al atardecer",
-  "hero_en": ["birthday.jpg", "A LuxSea boat running back across the bay in low golden light with the skyline behind"],
-  "hero_es": ["birthday.jpg", "Un bote de LuxSea cruzando la bahía con luz dorada y el skyline detrás"],
-  "title_en": "Sunset Cruise Miami | Private Boat, Captain Included | LuxSea",
-  "title_es": "Paseo al Atardecer en Bote en Miami | Privado con Capitán | LuxSea",
-  "desc_en": "A private sunset cruise on Biscayne Bay, timed backwards from the actual sunset so you're out on the water when it happens. Captain and fuel included. English and Spanish.",
-  "desc_es": "Paseo privado al atardecer en la bahía de Biscayne, calculado hacia atrás desde la puesta del sol para que estés en el agua justo cuando pasa. Capitán y gasolina incluidos.",
-  "said_en": "Atardeceres", "said_es": "Atardeceres",
-  "h1_en": "Miami's good hour lasts about forty minutes",
-  "h1_es": "La hora buena de Miami dura unos cuarenta minutos",
-  "lede_en": "It reads better from the water than from any rooftop in the city, and it is the one charter people book twice.",
-  "lede_es": "Se ve mejor desde el agua que desde cualquier azotea de la ciudad, y es el único paseo que la gente repite.",
-  "wa_en": "Hi LuxSea — I'd like to book a sunset cruise.",
-  "wa_es": "Hola LuxSea — quiero reservar un paseo al atardecer.",
-  "cta1_en": "Book a sunset", "cta1_es": "Reservar un atardecer",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Sunset cruise questions", "faq_h_es": "Preguntas sobre el atardecer",
-  "cta_h_en": "Pick a date and we'll work backwards from the sun",
-  "cta_h_es": "Elige la fecha y calculamos desde el sol",
-  "cta_p_en": "Sunset moves by more than an hour across the year. Tell us the day and we'll tell you what time to be at the dock.",
-  "cta_p_es": "La puesta del sol se mueve más de una hora a lo largo del año. Dinos el día y te decimos a qué hora estar en el muelle.",
-  "sections_en": [
-    ["We time it backwards, not forwards", [
-      "Sunset in Miami moves from about 5:30 in December to past 8:15 in June. A charter booked as \"early evening\" misses it half the year, so we don't book it that way — we take the sunset time for your date and work backwards to a dock time.",
-      "That usually means leaving between ninety minutes and two hours before. It gives you the run out, somewhere to sit while the light drops, and the return with the city already lit, which is the half most people forget to expect."
-    ], ["hero-poster.jpg", "Aerial view of the Chris Craft anchored in green water with the sunpads out"]],
-    ["Where we watch it from", [
-      "There is no single best spot; it depends on the wind. On a calm evening we'll sit out where the water is open and the whole western sky is uninterrupted. When it's blowing, we tuck in behind an island and you get the same sky with none of the chop.",
-      "The captain calls that on the day. It's the part of this you're actually paying for."
-    ], ["summer.jpg", "Aerial view over the bow sunpads with the tender alongside in turquoise water"]],
-    ["It's the proposal charter too", [
-      "More of these end in a proposal than any other trip we run. If that's the plan, say so quietly when you book and we'll handle it: no announcement, no crew hovering, engine off at the moment you want it off.",
-      "We'll also take the photographs if you want them, or stay completely out of the frame if you don't. Both are fine — just tell us which."
-    ], ["fleet-vibes.jpg", "Two LuxSea boats tied alongside each other with the downtown Miami skyline across the water"]]
-  ],
-  "sections_es": [
-    ["Lo calculamos hacia atrás, no hacia adelante", [
-      "En Miami el sol se pone desde las 5:30 en diciembre hasta pasadas las 8:15 en junio. Un paseo reservado como \"al caer la tarde\" se lo pierde medio año, así que no lo reservamos así — tomamos la hora exacta de tu fecha y calculamos hacia atrás la hora del muelle.",
-      "Normalmente eso significa salir entre hora y media y dos horas antes. Te da la salida, un rato sentado mientras baja la luz, y el regreso con la ciudad ya encendida, que es la mitad que casi nadie espera."
-    ], ["hero-poster.jpg", "Vista aérea del Chris Craft anclado en agua verde con los cojines de proa afuera"]],
-    ["Desde dónde lo vemos", [
-      "No hay un solo mejor sitio; depende del viento. En una tarde tranquila nos quedamos en agua abierta, donde todo el cielo del oeste se ve sin nada que lo tape. Si está soplando, nos metemos detrás de una isla y tienes el mismo cielo sin el oleaje.",
-      "Eso lo decide el capitán ese día. Esa es la parte por la que realmente estás pagando."
-    ], ["summer.jpg", "Vista aérea sobre los cojines de proa con la lancha auxiliar al lado en agua turquesa"]],
-    ["También es el paseo de las propuestas", [
-      "De estos terminan en propuesta de matrimonio más que de cualquier otro paseo. Si ese es el plan, dilo bajito al reservar y nos encargamos: sin anuncios, sin tripulación rondando, motor apagado en el momento exacto.",
-      "También tomamos las fotos si las quieres, o nos quitamos del cuadro por completo si no. Cualquiera de las dos está bien — solo dinos cuál."
-    ], ["fleet-vibes.jpg", "Dos botes de LuxSea amarrados uno al lado del otro con el skyline de Miami al fondo"]]
-  ],
-  "faqs_en": [
-    ["What time does a sunset cruise leave?", "It depends entirely on the date. Sunset in Miami runs from around 5:30pm in December to past 8:15pm in June, and we set the dock time from the actual sunset for your day — usually ninety minutes to two hours before it."],
-    ["How long is a sunset charter?", "Most are four hours, which gives you the run out, the sunset itself, and the return with the skyline lit. If you only want the sunset, a shorter trip works, but the return leg is the part people remember."],
-    ["What happens if it's cloudy?", "We still go — an overcast evening on the bay is often better than a clear one, and the city lights don't care about the sky. If the captain cancels for actual weather, you reschedule at no cost or get the deposit back."],
-    ["Can we bring drinks and food?", "Yes. Cooler on ice, water and a speaker are already on board. Sunset charters are the ones where people bring a bottle and something to eat rather than a full spread."]
-  ],
-  "faqs_es": [
-    ["¿A qué hora sale el paseo al atardecer?", "Depende completamente de la fecha. En Miami el sol se pone entre las 5:30pm en diciembre y pasadas las 8:15pm en junio, y fijamos la hora del muelle desde la puesta real de tu día — normalmente entre hora y media y dos horas antes."],
-    ["¿Cuánto dura un paseo al atardecer?", "La mayoría son de cuatro horas, que te dan la salida, el atardecer y el regreso con la ciudad encendida. Si solo quieres el atardecer, un paseo más corto funciona, pero el regreso es la parte que la gente recuerda."],
-    ["¿Y si está nublado?", "Salimos igual — una tarde nublada en la bahía muchas veces es mejor que una despejada, y las luces de la ciudad no dependen del cielo. Si el capitán cancela por tiempo de verdad, reprogramas sin costo o te devolvemos el depósito."],
-    ["¿Podemos llevar bebidas y comida?", "Sí. Nevera con hielo, agua y bocina ya están a bordo. Los paseos al atardecer son los que la gente hace con una botella y algo de picar más que con una comida completa."]
-  ]
-},
-{
-  "slug_en": "sandbar-boat-rental-miami.html",
-  "slug_es": "es/banco-de-arena-en-bote-miami.html",
-  "nav_en": "Sandbar day", "nav_es": "Día en el banco de arena",
-  "blurb_en": "Waist-deep water, white sand under it, and the floating pool in.",
-  "blurb_es": "Agua a la cintura, arena blanca debajo, y la piscina flotante afuera.",
-  "service_type_en": "Sandbar boat charter",
-  "service_type_es": "Bote al banco de arena",
-  "hero_en": ["three-boats.jpg", "Two LuxSea boats rafted together at the sandbar with floats out and swimmers in the shallows"],
-  "hero_es": ["three-boats.jpg", "Dos botes de LuxSea amarrados en el banco de arena con flotadores y gente en el agua"],
-  "title_en": "Sandbar Boat Rental Miami | Anchor All Day | LuxSea Miami",
-  "title_es": "Bote al Banco de Arena en Miami | Todo el Día Anclados | LuxSea",
-  "desc_en": "Spend the day anchored at a Miami sandbar. Floating pool, cooler on ice and a captain who knows which bank is empty on your day. Captain and fuel included.",
-  "desc_es": "Pasa el día anclado en un banco de arena de Miami. Piscina flotante, nevera con hielo y un capitán que sabe qué banco está vacío ese día. Capitán y gasolina incluidos.",
-  "said_en": "Banco de arena", "said_es": "Banco de arena",
-  "h1_en": "Anchor once, and stay there",
-  "h1_es": "Anclar una vez y quedarse ahí",
-  "lede_en": "The most-booked plan midweek: waist-deep water over white sand, the floating pool in, and nowhere else to be.",
-  "lede_es": "El plan más pedido entre semana: agua a la cintura sobre arena blanca, la piscina flotante afuera, y ningún otro sitio donde estar.",
-  "wa_en": "Hi LuxSea — I'd like a sandbar day.",
-  "wa_es": "Hola LuxSea — quiero un día en el banco de arena.",
-  "cta1_en": "Book a sandbar day", "cta1_es": "Reservar el banco de arena",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Sandbar day questions", "faq_h_es": "Preguntas sobre el banco de arena",
-  "cta_h_en": "Pick a day and we'll pick the bank",
-  "cta_h_es": "Elige el día y nosotros el banco",
-  "cta_p_en": "Which sandbar is worth anchoring at changes with the tide, the wind and the day of the week. That call is the captain's.",
-  "cta_p_es": "Qué banco vale la pena cambia con la marea, el viento y el día de la semana. Esa decisión es del capitán.",
-  "sections_en": [
-    ["The tide decides, not the calendar", [
-      "A sandbar is only a sandbar at the right stage of tide. Too high and it's just open water; too low and you can't get near it. The difference between a great day and an average one is usually somebody checking that before you book, not after.",
-      "Send us the date you want and we'll tell you what the water is doing that day and what time to aim for. Sometimes that means moving your start by two hours, and it's worth it."
-    ], ["friends.jpg", "Friends sitting along the rail with the sun flaring off shallow bay water"]],
-    ["Which boat, and why it matters here", [
-      "For a sandbar day specifically, the <a href=\"fleet.html#amberjack\">Sea Ray Amberjack 32</a> is often the right answer — it's open, it's quick to get there, and for four or five people it costs less than putting the big boat on the same patch of water.",
-      "The <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> earns its keep on a longer sandbar day, because a bathroom and shade stop being a luxury somewhere around hour four."
-    ], ["amberjack-32.jpg", "The Sea Ray Amberjack 32 anchored by itself in deep green water with the bimini up"]],
-    ["What's already on board", [
-      "The floating pool goes in as soon as we're anchored — it's the thing that turns a stop into an afternoon. Cooler on ice, drinking water, speaker and life jackets in every size are all standard, on all three boats.",
-      "Weekends the popular banks fill up and it becomes a social thing, boats rafted three deep and music everywhere. Midweek you can have one almost to yourselves. Both are good days; they're just not the same day, so tell us which one you're after."
-    ], ["summer.jpg", "Aerial view over the bow with the tender alongside in bright turquoise water"]]
-  ],
-  "sections_es": [
-    ["Decide la marea, no el calendario", [
-      "Un banco de arena solo es banco de arena en el momento correcto de la marea. Muy alta y es agua abierta; muy baja y no te puedes acercar. La diferencia entre un día buenísimo y uno normal casi siempre es que alguien revisó eso antes de reservar, no después.",
-      "Mándanos la fecha que quieres y te decimos qué está haciendo el agua ese día y a qué hora conviene. A veces eso significa mover la salida dos horas, y vale la pena."
-    ], ["friends.jpg", "Amigos sentados en la borda con el sol reflejando en el agua baja de la bahía"]],
-    ["Qué bote, y por qué aquí importa", [
-      "Para un día de banco de arena en concreto, el <a href=\"../fleet.html#amberjack\">Sea Ray Amberjack 32</a> suele ser la respuesta correcta — es abierto, llega rápido, y para cuatro o cinco personas cuesta menos que poner el bote grande en el mismo pedazo de agua.",
-      "El <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> se justifica en un día largo, porque un baño y la sombra dejan de ser un lujo más o menos a la cuarta hora."
-    ], ["amberjack-32.jpg", "El Sea Ray Amberjack 32 anclado solo en agua verde profunda con el bimini puesto"]],
-    ["Lo que ya viene a bordo", [
-      "La piscina flotante se tira apenas anclamos — es lo que convierte una parada en una tarde. Nevera con hielo, agua, bocina y chalecos de todas las tallas van de serie, en los tres botes.",
-      "Los fines de semana los bancos populares se llenan y se vuelve algo social, botes amarrados de tres en tres y música por todos lados. Entre semana puedes tener uno casi para ustedes. Los dos son buenos días; simplemente no son el mismo día, así que dinos cuál buscas."
-    ], ["summer.jpg", "Vista aérea sobre la proa con la lancha auxiliar al lado en agua turquesa"]]
-  ],
-  "faqs_en": [
-    ["Which sandbar do you go to?", "It depends on the tide, the wind and the day. Biscayne Bay has several and they are not equally good at the same moment. The captain picks on the day — that judgement is most of what you're paying for."],
-    ["Is the water shallow enough for kids?", "At the right tide it's roughly waist to chest deep on an adult, over firm sand. We anchor so that non-swimmers can stand, and we carry child-size life jackets as standard."],
-    ["Do you provide floats?", "Yes. The floating pool mat goes in the water as soon as we anchor, and it's included on all three boats. You're welcome to bring your own inflatables as well."],
-    ["Can we meet friends on another boat there?", "Yes, and it's common. Tell us in advance and we'll raft alongside them so it's one group rather than two boats shouting across the water."]
-  ],
-  "faqs_es": [
-    ["¿A qué banco de arena van?", "Depende de la marea, el viento y el día. La bahía de Biscayne tiene varios y no son igual de buenos en el mismo momento. El capitán elige ese día — ese criterio es la mayor parte de lo que estás pagando."],
-    ["¿El agua es lo bastante baja para niños?", "Con la marea correcta da más o menos de la cintura al pecho de un adulto, sobre arena firme. Anclamos donde los que no nadan hacen pie, y llevamos chalecos de talla infantil siempre."],
-    ["¿Ustedes ponen los flotadores?", "Sí. La piscina flotante se tira al agua apenas anclamos y va incluida en los tres botes. También puedes traer tus propios inflables."],
-    ["¿Podemos encontrarnos con amigos en otro bote?", "Sí, y es común. Avísanos antes y amarramos al lado para que sea un solo grupo y no dos botes gritándose de un lado a otro."]
-  ]
-},
-{
-  "slug_en": "family-boat-rental-miami.html",
-  "slug_es": "es/paseo-en-bote-en-familia-miami.html",
-  "nav_en": "Family boat day", "nav_es": "Paseo en familia",
-  "blurb_en": "Shade all day, child-size life jackets as standard, and nobody in a hurry.",
-  "blurb_es": "Sombra todo el día, chalecos de niño de serie, y nadie con prisa.",
-  "service_type_en": "Family boat charter",
-  "service_type_es": "Paseo en bote en familia",
-  "hero_en": ["amigos.jpg", "The Chris Craft anchored close to the mangroves with a family aboard"],
-  "hero_es": ["amigos.jpg", "El Chris Craft anclado cerca de los manglares con una familia a bordo"],
-  "title_en": "Family Boat Rental Miami | Shaded, Kid-Friendly Charter | LuxSea",
-  "title_es": "Paseo en Bote en Familia en Miami | Con Sombra y Niños | LuxSea",
-  "desc_en": "A family boat day in Miami on a covered boat, with child-size life jackets as standard and an anchorage where the water is chest-deep. Captain and fuel included. Run in Spanish or English.",
-  "desc_es": "Un día en bote en familia en Miami, en un bote cubierto, con chalecos de talla infantil de serie y un fondeo donde el agua da al pecho. Capitán y gasolina incluidos.",
-  "said_en": "Paseos en familia", "said_es": "Paseos en familia",
-  "h1_en": "The one where nobody is in a hurry",
-  "h1_es": "El día en que nadie tiene prisa",
-  "lede_en": "Shade for the whole afternoon, water shallow enough to stand in, and a captain who runs the safety brief in the language your family actually speaks.",
-  "lede_es": "Sombra toda la tarde, agua donde se hace pie, y un capitán que da las instrucciones de seguridad en el idioma que tu familia realmente habla.",
-  "wa_en": "Hi LuxSea — I'd like a family boat day.",
-  "wa_es": "Hola LuxSea — quiero un paseo en familia.",
-  "cta1_en": "Book a family day", "cta1_es": "Reservar un día en familia",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Family charter questions", "faq_h_es": "Preguntas sobre paseos en familia",
-  "cta_h_en": "How many, and how old?",
-  "cta_h_es": "¿Cuántos son y de qué edades?",
-  "cta_p_en": "Ages change which boat we'd put you on and where we'd anchor. Tell us and we'll tell you what we'd do.",
-  "cta_p_es": "Las edades cambian el bote que te pondríamos y dónde anclaríamos. Dinos y te decimos qué haríamos.",
-  "sections_en": [
-    ["Shade is the whole decision", [
-      "With grandparents or small children, the boat that works is the covered <a href=\"fleet.html#sundancer\">Sea Ray Sundancer 40</a>. Six hours of direct Florida sun is not a nice afternoon for a four-year-old or a seventy-year-old, and no amount of sunscreen fixes it.",
-      "It's the reason we don't just put every family on the biggest boat. The 45 has more room; the 40 has more shade, and on a family day shade wins."
-    ], ["sundancer-40.jpg", "The Sea Ray Sundancer anchored off a mangrove island with a float in the water"]],
-    ["We anchor where people can stand", [
-      "Most of a family day happens at anchor, not underway. We pick a spot where the water comes up to about chest height on an adult, over firm sand, so that nobody who isn't a strong swimmer has to be watched every second.",
-      "Child-size life jackets are on board as standard — you don't need to ask for them or bring your own. The floating pool goes in as soon as we stop, and that's usually where the kids stay."
-    ], ["three-boats.jpg", "Two boats rafted together at the sandbar with floats out and swimmers in the shallows"]],
-    ["The safety brief happens in your language", [
-      "Half of our groups have somebody in them who doesn't speak English — usually the person the day is being thrown for. The briefing, the instructions and the whole afternoon run in Spanish or English, whichever your family runs on.",
-      "That isn't a marketing line. If one person on a boat doesn't understand what to do, everyone on that boat is less safe. It's why we say it here rather than burying it."
-    ], ["day-out.jpg", "A group spread across the bow at the sandbar on a bright day"]]
-  ],
-  "sections_es": [
-    ["La sombra lo decide todo", [
-      "Con abuelos o niños chiquitos, el bote que funciona es el <a href=\"../fleet.html#sundancer\">Sea Ray Sundancer 40</a>, que es cubierto. Seis horas de sol directo de Florida no son una tarde agradable para un niño de cuatro años ni para alguien de setenta, y no hay bloqueador que lo arregle.",
-      "Por eso no metemos a todas las familias en el bote más grande. El 45 tiene más espacio; el 40 tiene más sombra, y en un día en familia gana la sombra."
-    ], ["sundancer-40.jpg", "El Sea Ray Sundancer anclado frente a una isla de manglares con un flotador en el agua"]],
-    ["Anclamos donde se hace pie", [
-      "La mayor parte de un día en familia pasa anclados, no navegando. Buscamos un punto donde el agua llegue más o menos al pecho de un adulto, sobre arena firme, para que nadie que no nade bien tenga que estar vigilado cada segundo.",
-      "Los chalecos de talla infantil van a bordo de serie — no hay que pedirlos ni traerlos. La piscina flotante se tira apenas paramos, y ahí normalmente se quedan los niños."
-    ], ["three-boats.jpg", "Dos botes amarrados en el banco de arena con flotadores y gente nadando"]],
-    ["Las instrucciones de seguridad van en tu idioma", [
-      "La mitad de nuestros grupos llevan a alguien que no habla inglés — normalmente la persona por la que se armó el día. Las instrucciones y toda la tarde van en español o en inglés, como hable tu familia.",
-      "Eso no es una frase de marketing. Si una persona en el bote no entiende qué hacer, todos en ese bote están menos seguros. Por eso lo decimos aquí y no escondido en letra chica."
-    ], ["day-out.jpg", "Un grupo repartido en la proa en el banco de arena en un día claro"]]
-  ],
-  "faqs_en": [
-    ["Do you have life jackets for children?", "Yes, child sizes are carried as standard on all three boats. You don't need to request them in advance or bring your own, though you're welcome to if your child has one they're used to."],
-    ["Which boat is best with small kids?", "The covered Sea Ray Sundancer 40. Shade for the whole afternoon matters more than deck space when the youngest person aboard is four. If your group is large enough to need the Chris Craft 45, we'll rig shade on it."],
-    ["Is it safe for people who can't swim?", "We anchor in water shallow enough for an adult to stand comfortably, and life jackets are available for everyone on board regardless of age. Tell us in advance if someone can't swim and we'll pick the spot accordingly."],
-    ["Can grandparents get on and off easily?", "The Sundancer 40 has the easiest boarding of the three and a swim platform with a ladder at the stern. Mention mobility when you book and the captain will bring the boat alongside rather than expecting a step down."]
-  ],
-  "faqs_es": [
-    ["¿Tienen chalecos para niños?", "Sí, las tallas infantiles van de serie en los tres botes. No hace falta pedirlos con anticipación ni traerlos, aunque puedes traer el suyo si el niño ya está acostumbrado a uno."],
-    ["¿Cuál bote es mejor con niños chiquitos?", "El Sea Ray Sundancer 40, que es cubierto. La sombra toda la tarde importa más que el espacio en cubierta cuando el más chico a bordo tiene cuatro años. Si el grupo es tan grande que necesita el Chris Craft 45, le montamos sombra."],
-    ["¿Es seguro para quien no sabe nadar?", "Anclamos en agua donde un adulto hace pie cómodamente, y hay chalecos para todos a bordo sin importar la edad. Avísanos antes si alguien no nada y elegimos el punto según eso."],
-    ["¿Los abuelos pueden subir y bajar sin problema?", "El Sundancer 40 es el más fácil de abordar de los tres y tiene plataforma de baño con escalera en la popa. Menciona la movilidad al reservar y el capitán acerca el bote en vez de esperar que alguien baje un escalón."]
-  ]
-},
-{
-  "slug_en": "miami-skyline-photo-boat-charter.html",
-  "slug_es": "es/fotos-con-el-skyline-de-miami-en-bote.html",
-  "nav_en": "Skyline & photos", "nav_es": "Fotos con el skyline",
-  "blurb_en": "Star Island, the big houses, and the hour the light lands on the city.",
-  "blurb_es": "Star Island, las casas grandes, y la hora en que la luz cae sobre la ciudad.",
-  "service_type_en": "Photo and skyline boat charter",
-  "service_type_es": "Paseo en bote para fotos con el skyline",
-  "hero_en": ["fleet-vibes.jpg", "Two LuxSea boats tied alongside each other with the downtown Miami skyline across the water"],
-  "hero_es": ["fleet-vibes.jpg", "Dos botes de LuxSea amarrados con el skyline del downtown de Miami al fondo"],
-  "title_en": "Miami Skyline Photo Boat Charter | Star Island Route | LuxSea",
-  "title_es": "Fotos con el Skyline de Miami en Bote | Ruta Star Island | LuxSea",
-  "desc_en": "A private boat charter built around photographs: Star Island, the waterfront houses and the downtown skyline, run at the hour the light lands on the city instead of behind it.",
-  "desc_es": "Un paseo privado armado alrededor de las fotos: Star Island, las casas frente al agua y el skyline del downtown, a la hora en que la luz cae sobre la ciudad y no en contra.",
-  "said_en": "Fotos con la ciudad", "said_es": "Fotos con la ciudad",
-  "h1_en": "The difference between a photo and the photo is the hour",
-  "h1_es": "La diferencia entre una foto y LA foto es la hora",
-  "lede_en": "Star Island, the waterfront houses and the downtown line — on a route shaped around where the light actually falls.",
-  "lede_es": "Star Island, las casas frente al agua y la línea del downtown — en una ruta armada según dónde cae la luz de verdad.",
-  "wa_en": "Hi LuxSea — I want a charter for photos with the skyline.",
-  "wa_es": "Hola LuxSea — quiero un paseo para fotos con la ciudad.",
-  "cta1_en": "Book a photo run", "cta1_es": "Reservar para fotos",
-  "cta2_en": "Send the details", "cta2_es": "Enviar los detalles",
-  "faq_h_en": "Skyline and photo questions", "faq_h_es": "Preguntas sobre fotos y skyline",
-  "cta_h_en": "Tell us what you're shooting",
-  "cta_h_es": "Dinos qué vas a fotografiar",
-  "cta_p_en": "A content shoot, a family portrait and a proposal need three different routes. Say which and we'll build the day around it.",
-  "cta_p_es": "Una sesión de contenido, un retrato familiar y una propuesta necesitan tres rutas distintas. Dinos cuál y armamos el día alrededor de eso.",
-  "sections_en": [
-    ["Light on the city, not behind it", [
-      "The downtown skyline faces roughly west across the bay, which means for most of the day you are shooting into your own light. Late afternoon is when the sun swings round and lands on the buildings instead of behind them, and that window is short.",
-      "We plan the route backwards from it. Star Island and the waterfront houses first, when the sun is still high and side-on, then the open bay for the skyline as the light drops."
-    ], ["despedida.jpg", "Guests on deck with the Miami skyline visible across the water behind them"]],
-    ["Bring a photographer, or don't", [
-      "Plenty of these charters go out with a hired photographer or a content team, and the boat gets treated as a set — we'll hold position, cut the engine, reposition for the angle, and do it again if the first pass didn't work.",
-      "Just as many go out with nobody but the group and a phone. Both are normal. The only thing that changes is how long we sit still, so tell us which when you book."
-    ], ["chriscraft-45.jpg", "The Chris Craft 45 anchored side-on in green water off a mangrove island"]],
-    ["What actually photographs well from the water", [
-      "Star Island and the houses along it, the cruise terminals when a ship is in, the bridges, and the downtown wall of towers from open water. On a clear evening the city lights come up while there's still colour in the sky, and that fifteen minutes is the best of it.",
-      "What doesn't work is the middle of the day in flat overhead sun with the skyline in haze. We'll say so when you ask for that slot rather than take the booking and let you find out."
-    ], ["birthday.jpg", "A LuxSea boat running across the bay in low golden light with the skyline behind"]]
-  ],
-  "sections_es": [
-    ["La luz sobre la ciudad, no detrás", [
-      "El skyline del downtown mira más o menos al oeste cruzando la bahía, lo que significa que casi todo el día estás disparando contra tu propia luz. La tarde es cuando el sol gira y cae sobre los edificios en vez de detrás, y esa ventana es corta.",
-      "Armamos la ruta hacia atrás desde ahí. Primero Star Island y las casas frente al agua, con el sol todavía alto y de lado, y después la bahía abierta para el skyline mientras baja la luz."
-    ], ["despedida.jpg", "Invitados en cubierta con el skyline de Miami al otro lado del agua"]],
-    ["Trae fotógrafo, o no", [
-      "Muchos de estos paseos salen con fotógrafo contratado o con un equipo de contenido, y el bote se trata como un set — mantenemos posición, apagamos el motor, nos recolocamos para el ángulo, y lo repetimos si la primera pasada no salió.",
-      "Otros tantos salen solo con el grupo y un teléfono. Las dos cosas son normales. Lo único que cambia es cuánto rato nos quedamos quietos, así que dinos cuál al reservar."
-    ], ["chriscraft-45.jpg", "El Chris Craft 45 anclado de lado en agua verde frente a una isla de manglares"]],
-    ["Qué se ve bien de verdad desde el agua", [
-      "Star Island y las casas de la isla, las terminales de cruceros cuando hay barco, los puentes, y la pared de torres del downtown desde agua abierta. En una tarde despejada las luces de la ciudad se encienden cuando todavía queda color en el cielo, y esos quince minutos son lo mejor.",
-      "Lo que no funciona es el mediodía con sol plano encima y el skyline en bruma. Te lo decimos cuando pides ese horario, en vez de tomar la reserva y dejar que lo descubras tú."
-    ], ["birthday.jpg", "Un bote de LuxSea cruzando la bahía con luz dorada y el skyline detrás"]]
-  ],
-  "faqs_en": [
-    ["What's the best time of day for skyline photos?", "Late afternoon into sunset. The downtown towers face west across the bay, so earlier in the day you're shooting into the light. The last hour before sunset, and the fifteen minutes after it when the lights come on, are the two best windows."],
-    ["Can we bring a photographer or a drone?", "A photographer, yes — it's common, and the captain will hold position and reposition for angles. Drones are a different matter: parts of Biscayne Bay sit under restricted airspace near the airport and the port, so ask before you plan around one."],
-    ["Do you go past Star Island?", "Yes, it's part of the standard route. We run past the island and the waterfront houses, then out to open water for the skyline. You can't go ashore anywhere private, but the whole run is photographable from the boat."],
-    ["Is this good for a proposal?", "It's the most common one we do after birthdays. Say so quietly when you book and we'll cut the engine at the moment you want, keep out of the frame, and take the photos afterwards if you'd like them."]
-  ],
-  "faqs_es": [
-    ["¿Cuál es la mejor hora para fotos con el skyline?", "La tarde, entrando en el atardecer. Las torres del downtown miran al oeste cruzando la bahía, así que más temprano estás disparando contra la luz. La última hora antes de la puesta, y los quince minutos después cuando se encienden las luces, son las dos mejores ventanas."],
-    ["¿Podemos llevar fotógrafo o dron?", "Fotógrafo sí — es común, y el capitán mantiene posición y se recoloca para los ángulos. El dron es otra cosa: partes de la bahía de Biscayne quedan bajo espacio aéreo restringido cerca del aeropuerto y el puerto, así que pregunta antes de contar con uno."],
-    ["¿Pasan por Star Island?", "Sí, es parte de la ruta normal. Pasamos por la isla y las casas frente al agua, y después salimos a agua abierta para el skyline. No se puede bajar en propiedad privada, pero todo el recorrido se fotografía desde el bote."],
-    ["¿Sirve para una propuesta de matrimonio?", "Es la más común que hacemos después de los cumpleaños. Dilo bajito al reservar y apagamos el motor en el momento que quieras, nos quitamos del cuadro, y tomamos las fotos después si las quieres."]
-  ]
-}
+  {
+    "slug_en": "bachelorette-boat-party-miami.html",
+    "slug_es": "es/despedida-de-soltera-en-bote-miami.html",
+    "nav_en": "Bachelorette boat party",
+    "nav_es": "Despedida de soltera en bote",
+    "blurb_en": "Up to 13, the whole day photographed, and the bride organising nothing.",
+    "blurb_es": "Hasta 13, el día entero en fotos, y la novia sin organizar nada.",
+    "service_type_en": "Bachelorette party boat charter",
+    "service_type_es": "Bote para despedida de soltera",
+    "hero_en": [
+      "despedida-2.jpg",
+      "A bachelorette group spread along the bow of the Chris Craft with the Miami skyline behind them"
+    ],
+    "hero_es": [
+      "despedida-2.jpg",
+      "Un grupo de despedida en la proa del Chris Craft con el skyline de Miami detrás"
+    ],
+    "title_en": "Bachelorette Boat Party Miami | Private Charter up to 13 | LuxSea",
+    "title_es": "Despedida de Soltera en Bote en Miami | Hasta 13 Personas | LuxSea",
+    "desc_en": "Private bachelorette boat party in Miami for up to 13 guests. Captain, fuel, cooler, speaker and floating pool included. Bring the decorations — we set the boat up before you arrive.",
+    "desc_es": "Despedida de soltera en bote privado en Miami para hasta 13 personas. Capitán, gasolina, nevera, bocina y piscina flotante incluidos. Trae la decoración y te montamos el bote antes de que llegues.",
+    "said_en": "Despedidas de solteras",
+    "said_es": "Despedidas de solteras",
+    "h1_en": "The bachelorette should be organising nothing",
+    "h1_es": "La novia no debería estar organizando nada",
+    "lede_en": "A private boat for up to 13, a captain who handles the day, and a group chat we run with whoever is planning the surprise — not with the bride.",
+    "lede_es": "Un bote privado para hasta 13, un capitán que se encarga del día, y un chat que llevamos con quien esté armando la sorpresa — no con la novia.",
+    "wa_en": "Hi LuxSea — I'm planning a bachelorette and want to check a date.",
+    "wa_es": "Hola LuxSea — estoy organizando una despedida de soltera y quiero consultar una fecha.",
+    "cta1_en": "Check a date",
+    "cta1_es": "Consultar una fecha",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Bachelorette boat questions",
+    "faq_h_es": "Preguntas sobre despedidas en bote",
+    "cta_h_en": "Tell us the date and who's really in charge",
+    "cta_h_es": "Dinos la fecha y quién manda de verdad",
+    "cta_p_en": "We'll come back with one number covering boat, captain and fuel — and we'll keep the bride out of the thread if that's the plan.",
+    "cta_p_es": "Te devolvemos un solo número con bote, capitán y gasolina — y dejamos a la novia fuera del chat si ese es el plan.",
+    "sections_en": [
+      [
+        "The boat that actually fits a bachelorette",
+        [
+          "Thirteen people is the number that decides everything. It rules out most of the boats advertised in Miami, and it's why bachelorettes almost always go out on the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> — the only one of our three with the deck space, a bathroom with a shower, and a fitted cabin to get changed in.",
+          "That shower matters more than it sounds. A six-hour day in July with a group who intend to be photographed is a very different day if there's fresh water on board and somewhere private to use it."
+        ],
+        [
+          "despedida.jpg",
+          "Guests on the covered deck with the downtown towers across the water"
+        ]
+      ],
+      [
+        "We plan it with you, not with the bride",
+        [
+          "Almost every bachelorette we run is a surprise from someone's point of view. So we work on WhatsApp with whoever is organising, we don't post anything before the day, and we don't call the bride to confirm details.",
+          "Tell us what's being kept quiet and we'll work around it. If the cake needs to appear at a specific moment, or a banner needs to be up before anyone steps on, that's the kind of thing we do early — an hour before you arrive, while the dock is still empty."
+        ],
+        [
+          "beachday.jpg",
+          "The group standing along the teak bow, drinks up, mid-afternoon"
+        ]
+      ],
+      [
+        "What the day usually looks like",
+        [
+          "Most groups want the same three things: the sandbar for swimming, somewhere calm to eat, and the skyline for photographs. Four hours covers two of those comfortably. Six covers all three without anyone being rushed.",
+          "The floating pool comes off at the sandbar and that's where most of the day goes. Bring your own playlist — the speaker is already on board — and bring the food and drinks you actually want, because there's a cooler on ice waiting for them.",
+          "If the group is bigger than thirteen, we can tie a second boat alongside at the sandbar so it stays one party rather than two. Ask when you book, not on the day."
+        ],
+        [
+          "playa.jpg",
+          "A large group filling the bow under a cloudy Miami sky"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "El bote que de verdad sirve para una despedida",
+        [
+          "Trece personas es el número que decide todo. Descarta a la mayoría de los botes que se anuncian en Miami, y por eso las despedidas casi siempre salen en el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> — el único de los tres con espacio en cubierta, baño con ducha y un camarote equipado para cambiarse.",
+          "Esa ducha importa más de lo que parece. Un día de seis horas en julio con un grupo que piensa salir en fotos es un día muy distinto si hay agua dulce a bordo y un lugar privado para usarla."
+        ],
+        [
+          "despedida.jpg",
+          "Invitadas en la cubierta cubierta con las torres del downtown al otro lado del agua"
+        ]
+      ],
+      [
+        "Lo planeamos contigo, no con la novia",
+        [
+          "Casi todas las despedidas que hacemos son sorpresa para alguien. Así que trabajamos por WhatsApp con quien esté organizando, no publicamos nada antes del día, y no llamamos a la novia para confirmar detalles.",
+          "Dinos qué se está guardando en secreto y nos acomodamos. Si el bizcocho tiene que aparecer en un momento exacto, o hay que colgar un cartel antes de que suba nadie, eso lo hacemos temprano — una hora antes, con el muelle todavía vacío."
+        ],
+        [
+          "beachday.jpg",
+          "El grupo de pie en la proa de teca, con las bebidas en alto, a media tarde"
+        ]
+      ],
+      [
+        "Cómo suele ser el día",
+        [
+          "Casi todos los grupos quieren lo mismo: el banco de arena para nadar, un sitio tranquilo para comer, y la ciudad de fondo para las fotos. Con cuatro horas te dan dos de esas tres. Con seis te dan las tres sin que nadie ande apurado.",
+          "La piscina flotante se tira en el banco de arena y ahí se va la mitad del día. Trae tu playlist — la bocina ya está a bordo — y trae la comida y las bebidas que de verdad quieres, porque hay una nevera con hielo esperándolas.",
+          "Si el grupo pasa de trece, podemos amarrar un segundo bote al lado en el banco de arena para que siga siendo una sola fiesta y no dos. Pídelo al reservar, no el mismo día."
+        ],
+        [
+          "playa.jpg",
+          "Un grupo grande llenando la proa bajo un cielo nublado de Miami"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "How many people can come on a bachelorette boat?",
+        "Up to 13 guests on the Chris Craft 45, and that count includes everyone stepping on board. It's a Coast Guard limit, not a preference. If your group is larger, we can raft a second boat alongside at the sandbar."
+      ],
+      [
+        "Can we decorate the boat?",
+        "Yes, and we'd rather do it for you. Send the decorations ahead or bring them and we'll have them up before the group arrives — balloons, a banner, a sash, whatever you've planned. Nothing that has to be nailed or taped to the hull."
+      ],
+      [
+        "Can we bring our own food and drinks?",
+        "Yes. There's a cooler on ice, drinking water and a speaker already on board. Bring whatever you actually want to eat and drink; there's no corkage and nothing to buy from us."
+      ],
+      [
+        "How far in advance should we book?",
+        "Summer weekends go weeks ahead, and a bachelorette is usually planned around a date that can't move — so book that one early. Midweek there is almost always room, sometimes the same week."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Cuántas personas caben en una despedida en bote?",
+        "Hasta 13 en el Chris Craft 45, y ese número incluye a todas las que suben. Es un límite de la Guardia Costera, no una preferencia. Si el grupo es más grande, podemos amarrar un segundo bote al lado en el banco de arena."
+      ],
+      [
+        "¿Podemos decorar el bote?",
+        "Sí, y preferimos hacerlo nosotros. Mándanos la decoración antes o tráela, y la dejamos puesta antes de que llegue el grupo — globos, cartel, banda, lo que hayan planeado. Nada que haya que clavar o pegar al casco."
+      ],
+      [
+        "¿Podemos llevar nuestra comida y bebidas?",
+        "Sí. A bordo ya hay nevera con hielo, agua y bocina. Trae lo que de verdad quieran comer y beber; no cobramos descorche ni hay que comprarnos nada."
+      ],
+      [
+        "¿Con cuánta anticipación hay que reservar?",
+        "Los fines de semana de verano se llenan con semanas. Una despedida normalmente gira alrededor de una fecha que no se puede mover, así que esa resérvala temprano. Entre semana casi siempre hay espacio, a veces la misma semana."
+      ]
+    ]
+  },
+  {
+    "slug_en": "birthday-boat-rental-miami.html",
+    "slug_es": "es/cumpleanos-en-bote-miami.html",
+    "nav_en": "Birthday boat rental",
+    "nav_es": "Cumpleaños en bote",
+    "blurb_en": "Cake kept cold, your playlist, and the engine cut with downtown behind you.",
+    "blurb_es": "El bizcocho en frío, tu playlist, y el motor apagado con el downtown detrás.",
+    "service_type_en": "Birthday boat charter",
+    "service_type_es": "Bote para cumpleaños",
+    "hero_en": [
+      "cumple-2.jpg",
+      "A guest holding a birthday cake with number candles, lit, on deck after dark"
+    ],
+    "hero_es": [
+      "cumple-2.jpg",
+      "Una invitada con el bizcocho de cumpleaños y las velas de número encendidas en cubierta"
+    ],
+    "title_en": "Birthday Boat Rental Miami | Private Charter with Captain | LuxSea",
+    "title_es": "Cumpleaños en Bote en Miami | Bote Privado con Capitán | LuxSea",
+    "desc_en": "Celebrate a birthday on a private boat in Miami. Bring the cake — we keep it cold and set the boat up before you arrive. Captain, fuel, cooler and speaker included. English and Spanish.",
+    "desc_es": "Celebra un cumpleaños en un bote privado en Miami. Trae el bizcocho: lo guardamos en frío y montamos el bote antes de que llegues. Capitán, gasolina, nevera y bocina incluidos.",
+    "said_en": "Cumpleaños",
+    "said_es": "Cumpleaños",
+    "h1_en": "Cut the engine, and sing with the city behind you",
+    "h1_es": "Apagamos el motor y cantas con la ciudad detrás",
+    "lede_en": "Birthdays are most of what we do. Bring the cake and the playlist; we handle the timing, the ice and the moment everyone actually came for.",
+    "lede_es": "Los cumpleaños son la mayoría de lo que hacemos. Trae el bizcocho y la playlist; nosotros ponemos el tiempo, el hielo y el momento por el que vinieron todos.",
+    "wa_en": "Hi LuxSea — I'd like to organise a birthday on the boat.",
+    "wa_es": "Hola LuxSea — quiero organizar un cumpleaños en el bote.",
+    "cta1_en": "Plan a birthday",
+    "cta1_es": "Organizar un cumpleaños",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Birthday charter questions",
+    "faq_h_es": "Preguntas sobre cumpleaños en bote",
+    "cta_h_en": "Whose birthday is it?",
+    "cta_h_es": "¿De quién es el cumpleaños?",
+    "cta_p_en": "Send us the date and the age if it's a round one. We'll come back with a price and a plan for the moment with the skyline.",
+    "cta_p_es": "Mándanos la fecha, y la edad si es una redonda. Te devolvemos precio y un plan para el momento con la ciudad de fondo.",
+    "sections_en": [
+      [
+        "The cake is our job, not yours",
+        [
+          "Bring it and hand it over. It goes straight into the fridge and stays there until you ask for it, which on a Miami afternoon is the difference between a cake and a puddle.",
+          "Same with the balloons and the banner. Tell us in advance and it's all up before the group walks down the dock, because nobody wants to watch a party being assembled around them."
+        ],
+        [
+          "sunset-poster.jpg",
+          "Two guests marking a thirtieth birthday on board during the charter"
+        ]
+      ],
+      [
+        "The moment everybody actually wants",
+        [
+          "It's the same on almost every trip: cut the engine somewhere with downtown filling the background, and sing there. We know which spots hold that view and roughly what time the light is behind you rather than in your eyes.",
+          "Tell us when you book whether you want that early — good for kids and grandparents — or right at the end of the charter, which is the better photograph but a later night."
+        ],
+        [
+          "celebra.jpg",
+          "The Sundancer anchored off the beach with the float out and swimmers alongside"
+        ]
+      ],
+      [
+        "Which boat for which birthday",
+        [
+          "A thirtieth with a big group goes on the <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> — thirteen guests, a proper bathroom, room to spread out.",
+          "A quieter family birthday, especially one with grandparents or small kids, is better on the covered <a href=\"fleet.html#sundancer\">Sea Ray Sundancer 40</a>, where there's shade all day.",
+          "Four or five friends who mainly want the sandbar can take the <a href=\"fleet.html#amberjack\">Sea Ray Amberjack 32</a> and spend less doing it. Tell us the headcount and we'll tell you which one, and why."
+        ],
+        [
+          "memories.jpg",
+          "A guest out on the tender with the downtown skyline across the bay"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "El bizcocho es nuestro problema, no tuyo",
+        [
+          "Tráelo y entrégalo. Va directo a la nevera y ahí se queda hasta que lo pidas, que en una tarde de Miami es la diferencia entre un bizcocho y un charco.",
+          "Igual con los globos y el cartel. Avísanos antes y ya está todo puesto cuando el grupo baje por el muelle, porque a nadie le gusta ver cómo se monta su propia fiesta."
+        ],
+        [
+          "sunset-poster.jpg",
+          "Dos invitados celebrando un cumpleaños de treinta a bordo durante el paseo"
+        ]
+      ],
+      [
+        "El momento que todos quieren",
+        [
+          "Es el mismo en casi todos los viajes: apagar el motor en un punto donde el downtown llene el fondo, y cantar ahí. Sabemos qué sitios agarran esa vista y más o menos a qué hora la luz queda detrás de ustedes y no en la cara.",
+          "Dinos al reservar si lo quieren temprano — mejor con niños y abuelos — o justo al final del paseo, que da mejor foto pero termina más tarde."
+        ],
+        [
+          "celebra.jpg",
+          "El Sundancer anclado frente a la playa con el flotador afuera y gente nadando"
+        ]
+      ],
+      [
+        "Qué bote para qué cumpleaños",
+        [
+          "Unos treinta con grupo grande salen en el <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> — trece personas, baño de verdad, espacio para repartirse.",
+          "Un cumpleaños tranquilo en familia, sobre todo con abuelos o niños chiquitos, va mejor en el <a href=\"../fleet.html#sundancer\">Sea Ray Sundancer 40</a>, que es cubierto y tiene sombra todo el día.",
+          "Cuatro o cinco amigos que solo quieren el banco de arena pueden llevarse el <a href=\"../fleet.html#amberjack\">Sea Ray Amberjack 32</a> y gastar menos. Dinos cuántos son y te decimos cuál, y por qué."
+        ],
+        [
+          "memories.jpg",
+          "Un invitado en la lancha auxiliar con el skyline del downtown al otro lado de la bahía"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "Can we bring a cake on the boat?",
+        "Yes, and we'd prefer you did. Hand it to the captain when you arrive and it goes in the fridge until you ask for it. Candles are fine; we'll find you somewhere out of the wind to light them."
+      ],
+      [
+        "Is a birthday charter good for kids?",
+        "Yes. We carry child-size life jackets as standard, and the covered Sundancer 40 keeps everyone out of the sun. We'll anchor somewhere the water is chest-deep so the kids can get in and stay in."
+      ],
+      [
+        "Can we play our own music?",
+        "Yes. The speaker is already on board and connects to your phone. You control it, and you control the volume — we only ask you turn it down when we're close to other anchored boats."
+      ],
+      [
+        "How long should a birthday charter be?",
+        "Four hours is the most-booked and it's enough for the sandbar plus the skyline. Six hours is the one people pick when there's food involved and they want the sunset on the way back."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Podemos llevar bizcocho al bote?",
+        "Sí, y preferimos que lo hagas. Se lo entregas al capitán al llegar y va a la nevera hasta que lo pidas. Las velas no son problema; te buscamos un sitio sin viento para encenderlas."
+      ],
+      [
+        "¿Un cumpleaños en bote sirve con niños?",
+        "Sí. Llevamos chalecos de talla infantil siempre, y el Sundancer 40 es cubierto, así que nadie pasa el día al sol. Anclamos donde el agua da al pecho para que los niños se metan y se queden."
+      ],
+      [
+        "¿Podemos poner nuestra música?",
+        "Sí. La bocina ya está a bordo y se conecta a tu teléfono. Tú la manejas y tú manejas el volumen — solo pedimos que lo bajen cuando estemos cerca de otros botes anclados."
+      ],
+      [
+        "¿De cuántas horas conviene el paseo?",
+        "Cuatro horas es lo más reservado y alcanza para el banco de arena y la ciudad. Seis es lo que escoge la gente cuando hay comida de por medio y quieren el atardecer de regreso."
+      ]
+    ]
+  },
+  {
+    "slug_en": "sunset-cruise-miami.html",
+    "slug_es": "es/paseo-al-atardecer-en-bote-miami.html",
+    "nav_en": "Sunset cruise",
+    "nav_es": "Paseo al atardecer",
+    "blurb_en": "Forty good minutes, timed backwards from the sun. The shortest charter we run.",
+    "blurb_es": "Cuarenta minutos buenos, calculados hacia atrás desde el sol. El paseo más corto.",
+    "service_type_en": "Sunset boat cruise",
+    "service_type_es": "Paseo en bote al atardecer",
+    "hero_en": [
+      "sunset-4.jpg",
+      "The sun going down over the water, seen from the boat with the mangroves in silhouette"
+    ],
+    "hero_es": [
+      "sunset-4.jpg",
+      "El sol bajando sobre el agua, visto desde el bote con los manglares en silueta"
+    ],
+    "title_en": "Sunset Cruise Miami | Private Boat, Captain Included | LuxSea",
+    "title_es": "Paseo al Atardecer en Bote en Miami | Privado con Capitán | LuxSea",
+    "desc_en": "A private sunset cruise on Biscayne Bay, timed backwards from the actual sunset so you're out on the water when it happens. Captain and fuel included. English and Spanish.",
+    "desc_es": "Paseo privado al atardecer en la bahía de Biscayne, calculado hacia atrás desde la puesta del sol para que estés en el agua justo cuando pasa. Capitán y gasolina incluidos.",
+    "said_en": "Atardeceres",
+    "said_es": "Atardeceres",
+    "h1_en": "Miami's good hour lasts about forty minutes",
+    "h1_es": "La hora buena de Miami dura unos cuarenta minutos",
+    "lede_en": "It reads better from the water than from any rooftop in the city, and it is the one charter people book twice.",
+    "lede_es": "Se ve mejor desde el agua que desde cualquier azotea de la ciudad, y es el único paseo que la gente repite.",
+    "wa_en": "Hi LuxSea — I'd like to book a sunset cruise.",
+    "wa_es": "Hola LuxSea — quiero reservar un paseo al atardecer.",
+    "cta1_en": "Book a sunset",
+    "cta1_es": "Reservar un atardecer",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Sunset cruise questions",
+    "faq_h_es": "Preguntas sobre el atardecer",
+    "cta_h_en": "Pick a date and we'll work backwards from the sun",
+    "cta_h_es": "Elige la fecha y calculamos desde el sol",
+    "cta_p_en": "Sunset moves by more than an hour across the year. Tell us the day and we'll tell you what time to be at the dock.",
+    "cta_p_es": "La puesta del sol se mueve más de una hora a lo largo del año. Dinos el día y te decimos a qué hora estar en el muelle.",
+    "sections_en": [
+      [
+        "We time it backwards, not forwards",
+        [
+          "Sunset in Miami moves from about 5:30 in December to past 8:15 in June. A charter booked as \"early evening\" misses it half the year, so we don't book it that way — we take the sunset time for your date and work backwards to a dock time.",
+          "That usually means leaving between ninety minutes and two hours before. It gives you the run out, somewhere to sit while the light drops, and the return with the city already lit, which is the half most people forget to expect."
+        ],
+        [
+          "alma.jpg",
+          "Guests sitting in silhouette watching the sun set behind the Miami skyline"
+        ]
+      ],
+      [
+        "Where we watch it from",
+        [
+          "There is no single best spot; it depends on the wind. On a calm evening we'll sit out where the water is open and the whole western sky is uninterrupted. When it's blowing, we tuck in behind an island and you get the same sky with none of the chop.",
+          "The captain calls that on the day. It's the part of this you're actually paying for."
+        ],
+        [
+          "sunset-5.jpg",
+          "The group in waist-deep water at the sandbar as the light drops behind the city"
+        ]
+      ],
+      [
+        "It's the proposal charter too",
+        [
+          "More of these end in a proposal than any other trip we run. If that's the plan, say so quietly when you book and we'll handle it: no announcement, no crew hovering, engine off at the moment you want it off.",
+          "We'll also take the photographs if you want them, or stay completely out of the frame if you don't. Both are fine — just tell us which."
+        ],
+        [
+          "sunset-3.jpg",
+          "Aerial of the anchorage at dusk, pink cloud over dozens of boats"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "Lo calculamos hacia atrás, no hacia adelante",
+        [
+          "En Miami el sol se pone desde las 5:30 en diciembre hasta pasadas las 8:15 en junio. Un paseo reservado como \"al caer la tarde\" se lo pierde medio año, así que no lo reservamos así — tomamos la hora exacta de tu fecha y calculamos hacia atrás la hora del muelle.",
+          "Normalmente eso significa salir entre hora y media y dos horas antes. Te da la salida, un rato sentado mientras baja la luz, y el regreso con la ciudad ya encendida, que es la mitad que casi nadie espera."
+        ],
+        [
+          "alma.jpg",
+          "Invitados en silueta viendo el sol ponerse detrás del skyline de Miami"
+        ]
+      ],
+      [
+        "Desde dónde lo vemos",
+        [
+          "No hay un solo mejor sitio; depende del viento. En una tarde tranquila nos quedamos en agua abierta, donde todo el cielo del oeste se ve sin nada que lo tape. Si está soplando, nos metemos detrás de una isla y tienes el mismo cielo sin el oleaje.",
+          "Eso lo decide el capitán ese día. Esa es la parte por la que realmente estás pagando."
+        ],
+        [
+          "sunset-5.jpg",
+          "El grupo en el agua del banco de arena mientras la luz cae detrás de la ciudad"
+        ]
+      ],
+      [
+        "También es el paseo de las propuestas",
+        [
+          "De estos terminan en propuesta de matrimonio más que de cualquier otro paseo. Si ese es el plan, dilo bajito al reservar y nos encargamos: sin anuncios, sin tripulación rondando, motor apagado en el momento exacto.",
+          "También tomamos las fotos si las quieres, o nos quitamos del cuadro por completo si no. Cualquiera de las dos está bien — solo dinos cuál."
+        ],
+        [
+          "sunset-3.jpg",
+          "Vista aérea del fondeadero al atardecer, nubes rosadas sobre decenas de botes"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "What time does a sunset cruise leave?",
+        "It depends entirely on the date. Sunset in Miami runs from around 5:30pm in December to past 8:15pm in June, and we set the dock time from the actual sunset for your day — usually ninety minutes to two hours before it."
+      ],
+      [
+        "How long is a sunset charter?",
+        "Most are four hours, which gives you the run out, the sunset itself, and the return with the skyline lit. If you only want the sunset, a shorter trip works, but the return leg is the part people remember."
+      ],
+      [
+        "What happens if it's cloudy?",
+        "We still go — an overcast evening on the bay is often better than a clear one, and the city lights don't care about the sky. If the captain cancels for actual weather, you reschedule at no cost or get the deposit back."
+      ],
+      [
+        "Can we bring drinks and food?",
+        "Yes. Cooler on ice, water and a speaker are already on board. Sunset charters are the ones where people bring a bottle and something to eat rather than a full spread."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿A qué hora sale el paseo al atardecer?",
+        "Depende completamente de la fecha. En Miami el sol se pone entre las 5:30pm en diciembre y pasadas las 8:15pm en junio, y fijamos la hora del muelle desde la puesta real de tu día — normalmente entre hora y media y dos horas antes."
+      ],
+      [
+        "¿Cuánto dura un paseo al atardecer?",
+        "La mayoría son de cuatro horas, que te dan la salida, el atardecer y el regreso con la ciudad encendida. Si solo quieres el atardecer, un paseo más corto funciona, pero el regreso es la parte que la gente recuerda."
+      ],
+      [
+        "¿Y si está nublado?",
+        "Salimos igual — una tarde nublada en la bahía muchas veces es mejor que una despejada, y las luces de la ciudad no dependen del cielo. Si el capitán cancela por tiempo de verdad, reprogramas sin costo o te devolvemos el depósito."
+      ],
+      [
+        "¿Podemos llevar bebidas y comida?",
+        "Sí. Nevera con hielo, agua y bocina ya están a bordo. Los paseos al atardecer son los que la gente hace con una botella y algo de picar más que con una comida completa."
+      ]
+    ]
+  },
+  {
+    "slug_en": "sandbar-boat-rental-miami.html",
+    "slug_es": "es/banco-de-arena-en-bote-miami.html",
+    "nav_en": "Sandbar day",
+    "nav_es": "Día en el banco de arena",
+    "blurb_en": "Waist-deep water, white sand under it, and the floating pool in.",
+    "blurb_es": "Agua a la cintura, arena blanca debajo, y la piscina flotante afuera.",
+    "service_type_en": "Sandbar boat charter",
+    "service_type_es": "Bote al banco de arena",
+    "hero_en": [
+      "boatday.jpg",
+      "Aerial of two LuxSea boats rafted together at the sandbar with the float mat out"
+    ],
+    "hero_es": [
+      "boatday.jpg",
+      "Vista aérea de dos botes de LuxSea amarrados en el banco de arena con la piscina flotante"
+    ],
+    "title_en": "Sandbar Boat Rental Miami | Anchor All Day | LuxSea Miami",
+    "title_es": "Bote al Banco de Arena en Miami | Todo el Día Anclados | LuxSea",
+    "desc_en": "Spend the day anchored at a Miami sandbar. Floating pool, cooler on ice and a captain who knows which bank is empty on your day. Captain and fuel included.",
+    "desc_es": "Pasa el día anclado en un banco de arena de Miami. Piscina flotante, nevera con hielo y un capitán que sabe qué banco está vacío ese día. Capitán y gasolina incluidos.",
+    "said_en": "Banco de arena",
+    "said_es": "Banco de arena",
+    "h1_en": "Anchor once, and stay there",
+    "h1_es": "Anclar una vez y quedarse ahí",
+    "lede_en": "The most-booked plan midweek: waist-deep water over white sand, the floating pool in, and nowhere else to be.",
+    "lede_es": "El plan más pedido entre semana: agua a la cintura sobre arena blanca, la piscina flotante afuera, y ningún otro sitio donde estar.",
+    "wa_en": "Hi LuxSea — I'd like a sandbar day.",
+    "wa_es": "Hola LuxSea — quiero un día en el banco de arena.",
+    "cta1_en": "Book a sandbar day",
+    "cta1_es": "Reservar el banco de arena",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Sandbar day questions",
+    "faq_h_es": "Preguntas sobre el banco de arena",
+    "cta_h_en": "Pick a day and we'll pick the bank",
+    "cta_h_es": "Elige el día y nosotros el banco",
+    "cta_p_en": "Which sandbar is worth anchoring at changes with the tide, the wind and the day of the week. That call is the captain's.",
+    "cta_p_es": "Qué banco vale la pena cambia con la marea, el viento y el día de la semana. Esa decisión es del capitán.",
+    "sections_en": [
+      [
+        "The tide decides, not the calendar",
+        [
+          "A sandbar is only a sandbar at the right stage of tide. Too high and it's just open water; too low and you can't get near it. The difference between a great day and an average one is usually somebody checking that before you book, not after.",
+          "Send us the date you want and we'll tell you what the water is doing that day and what time to aim for. Sometimes that means moving your start by two hours, and it's worth it."
+        ],
+        [
+          "float-1.jpg",
+          "The Sundancer anchored off a sandbar beach with other boats along the shore"
+        ]
+      ],
+      [
+        "Which boat, and why it matters here",
+        [
+          "For a sandbar day specifically, the <a href=\"fleet.html#amberjack\">Sea Ray Amberjack 32</a> is often the right answer — it's open, it's quick to get there, and for four or five people it costs less than putting the big boat on the same patch of water.",
+          "The <a href=\"fleet.html#chriscraft\">Chris Craft 45</a> earns its keep on a longer sandbar day, because a bathroom and shade stop being a luxury somewhere around hour four."
+        ],
+        [
+          "twofaces.jpg",
+          "The boat pulled up to the sand with the blue float in the shallows"
+        ]
+      ],
+      [
+        "What's already on board",
+        [
+          "The floating pool goes in as soon as we're anchored — it's the thing that turns a stop into an afternoon. Cooler on ice, drinking water, speaker and life jackets in every size are all standard, on all three boats.",
+          "Weekends the popular banks fill up and it becomes a social thing, boats rafted three deep and music everywhere. Midweek you can have one almost to yourselves. Both are good days; they're just not the same day, so tell us which one you're after."
+        ],
+        [
+          "bay-2.jpg",
+          "Anchored close to a mangrove island in flat green water, the float streamed astern"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "Decide la marea, no el calendario",
+        [
+          "Un banco de arena solo es banco de arena en el momento correcto de la marea. Muy alta y es agua abierta; muy baja y no te puedes acercar. La diferencia entre un día buenísimo y uno normal casi siempre es que alguien revisó eso antes de reservar, no después.",
+          "Mándanos la fecha que quieres y te decimos qué está haciendo el agua ese día y a qué hora conviene. A veces eso significa mover la salida dos horas, y vale la pena."
+        ],
+        [
+          "float-1.jpg",
+          "El Sundancer anclado frente a la playa del banco de arena con otros botes en la orilla"
+        ]
+      ],
+      [
+        "Qué bote, y por qué aquí importa",
+        [
+          "Para un día de banco de arena en concreto, el <a href=\"../fleet.html#amberjack\">Sea Ray Amberjack 32</a> suele ser la respuesta correcta — es abierto, llega rápido, y para cuatro o cinco personas cuesta menos que poner el bote grande en el mismo pedazo de agua.",
+          "El <a href=\"../fleet.html#chriscraft\">Chris Craft 45</a> se justifica en un día largo, porque un baño y la sombra dejan de ser un lujo más o menos a la cuarta hora."
+        ],
+        [
+          "twofaces.jpg",
+          "El bote pegado a la arena con el flotador azul en el agua baja"
+        ]
+      ],
+      [
+        "Lo que ya viene a bordo",
+        [
+          "La piscina flotante se tira apenas anclamos — es lo que convierte una parada en una tarde. Nevera con hielo, agua, bocina y chalecos de todas las tallas van de serie, en los tres botes.",
+          "Los fines de semana los bancos populares se llenan y se vuelve algo social, botes amarrados de tres en tres y música por todos lados. Entre semana puedes tener uno casi para ustedes. Los dos son buenos días; simplemente no son el mismo día, así que dinos cuál buscas."
+        ],
+        [
+          "bay-2.jpg",
+          "Anclados junto a una isla de manglares en agua verde y quieta, con el flotador por la popa"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "Which sandbar do you go to?",
+        "It depends on the tide, the wind and the day. Biscayne Bay has several and they are not equally good at the same moment. The captain picks on the day — that judgement is most of what you're paying for."
+      ],
+      [
+        "Is the water shallow enough for kids?",
+        "At the right tide it's roughly waist to chest deep on an adult, over firm sand. We anchor so that non-swimmers can stand, and we carry child-size life jackets as standard."
+      ],
+      [
+        "Do you provide floats?",
+        "Yes. The floating pool mat goes in the water as soon as we anchor, and it's included on all three boats. You're welcome to bring your own inflatables as well."
+      ],
+      [
+        "Can we meet friends on another boat there?",
+        "Yes, and it's common. Tell us in advance and we'll raft alongside them so it's one group rather than two boats shouting across the water."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿A qué banco de arena van?",
+        "Depende de la marea, el viento y el día. La bahía de Biscayne tiene varios y no son igual de buenos en el mismo momento. El capitán elige ese día — ese criterio es la mayor parte de lo que estás pagando."
+      ],
+      [
+        "¿El agua es lo bastante baja para niños?",
+        "Con la marea correcta da más o menos de la cintura al pecho de un adulto, sobre arena firme. Anclamos donde los que no nadan hacen pie, y llevamos chalecos de talla infantil siempre."
+      ],
+      [
+        "¿Ustedes ponen los flotadores?",
+        "Sí. La piscina flotante se tira al agua apenas anclamos y va incluida en los tres botes. También puedes traer tus propios inflables."
+      ],
+      [
+        "¿Podemos encontrarnos con amigos en otro bote?",
+        "Sí, y es común. Avísanos antes y amarramos al lado para que sea un solo grupo y no dos botes gritándose de un lado a otro."
+      ]
+    ]
+  },
+  {
+    "slug_en": "family-boat-rental-miami.html",
+    "slug_es": "es/paseo-en-bote-en-familia-miami.html",
+    "nav_en": "Family boat day",
+    "nav_es": "Paseo en familia",
+    "blurb_en": "Shade all day, child-size life jackets as standard, and nobody in a hurry.",
+    "blurb_es": "Sombra todo el día, chalecos de niño de serie, y nadie con prisa.",
+    "service_type_en": "Family boat charter",
+    "service_type_es": "Paseo en bote en familia",
+    "hero_en": [
+      "amigos.jpg",
+      "The Chris Craft anchored close to the mangroves with the family aboard"
+    ],
+    "hero_es": [
+      "amigos.jpg",
+      "El Chris Craft anclado cerca de los manglares con la familia a bordo"
+    ],
+    "title_en": "Family Boat Rental Miami | Shaded, Kid-Friendly Charter | LuxSea",
+    "title_es": "Paseo en Bote en Familia en Miami | Con Sombra y Niños | LuxSea",
+    "desc_en": "A family boat day in Miami on a covered boat, with child-size life jackets as standard and an anchorage where the water is chest-deep. Captain and fuel included. Run in Spanish or English.",
+    "desc_es": "Un día en bote en familia en Miami, en un bote cubierto, con chalecos de talla infantil de serie y un fondeo donde el agua da al pecho. Capitán y gasolina incluidos.",
+    "said_en": "Paseos en familia",
+    "said_es": "Paseos en familia",
+    "h1_en": "The one where nobody is in a hurry",
+    "h1_es": "El día en que nadie tiene prisa",
+    "lede_en": "Shade for the whole afternoon, water shallow enough to stand in, and a captain who runs the safety brief in the language your family actually speaks.",
+    "lede_es": "Sombra toda la tarde, agua donde se hace pie, y un capitán que da las instrucciones de seguridad en el idioma que tu familia realmente habla.",
+    "wa_en": "Hi LuxSea — I'd like a family boat day.",
+    "wa_es": "Hola LuxSea — quiero un paseo en familia.",
+    "cta1_en": "Book a family day",
+    "cta1_es": "Reservar un día en familia",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Family charter questions",
+    "faq_h_es": "Preguntas sobre paseos en familia",
+    "cta_h_en": "How many, and how old?",
+    "cta_h_es": "¿Cuántos son y de qué edades?",
+    "cta_p_en": "Ages change which boat we'd put you on and where we'd anchor. Tell us and we'll tell you what we'd do.",
+    "cta_p_es": "Las edades cambian el bote que te pondríamos y dónde anclaríamos. Dinos y te decimos qué haríamos.",
+    "sections_en": [
+      [
+        "Shade is the whole decision",
+        [
+          "With grandparents or small children, the boat that works is the covered <a href=\"fleet.html#sundancer\">Sea Ray Sundancer 40</a>. Six hours of direct Florida sun is not a nice afternoon for a four-year-old or a seventy-year-old, and no amount of sunscreen fixes it.",
+          "It's the reason we don't just put every family on the biggest boat. The 45 has more room; the 40 has more shade, and on a family day shade wins."
+        ],
+        [
+          "day-out.jpg",
+          "Everyone spread across the bow at the sandbar on a bright day"
+        ]
+      ],
+      [
+        "We anchor where people can stand",
+        [
+          "Most of a family day happens at anchor, not underway. We pick a spot where the water comes up to about chest height on an adult, over firm sand, so that nobody who isn't a strong swimmer has to be watched every second.",
+          "Child-size life jackets are on board as standard — you don't need to ask for them or bring your own. The floating pool goes in as soon as we stop, and that's usually where the kids stay."
+        ],
+        [
+          "three-boats.jpg",
+          "Two boats rafted together with floats out and swimmers in the shallows"
+        ]
+      ],
+      [
+        "The safety brief happens in your language",
+        [
+          "Half of our groups have somebody in them who doesn't speak English — usually the person the day is being thrown for. The briefing, the instructions and the whole afternoon run in Spanish or English, whichever your family runs on.",
+          "That isn't a marketing line. If one person on a boat doesn't understand what to do, everyone on that boat is less safe. It's why we say it here rather than burying it."
+        ],
+        [
+          "summer.jpg",
+          "Aerial over the bow sunpads with the tender alongside in turquoise water"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "La sombra lo decide todo",
+        [
+          "Con abuelos o niños chiquitos, el bote que funciona es el <a href=\"../fleet.html#sundancer\">Sea Ray Sundancer 40</a>, que es cubierto. Seis horas de sol directo de Florida no son una tarde agradable para un niño de cuatro años ni para alguien de setenta, y no hay bloqueador que lo arregle.",
+          "Por eso no metemos a todas las familias en el bote más grande. El 45 tiene más espacio; el 40 tiene más sombra, y en un día en familia gana la sombra."
+        ],
+        [
+          "day-out.jpg",
+          "Todos repartidos en la proa en el banco de arena en un día claro"
+        ]
+      ],
+      [
+        "Anclamos donde se hace pie",
+        [
+          "La mayor parte de un día en familia pasa anclados, no navegando. Buscamos un punto donde el agua llegue más o menos al pecho de un adulto, sobre arena firme, para que nadie que no nade bien tenga que estar vigilado cada segundo.",
+          "Los chalecos de talla infantil van a bordo de serie — no hay que pedirlos ni traerlos. La piscina flotante se tira apenas paramos, y ahí normalmente se quedan los niños."
+        ],
+        [
+          "three-boats.jpg",
+          "Dos botes amarrados con flotadores afuera y gente nadando en el agua baja"
+        ]
+      ],
+      [
+        "Las instrucciones de seguridad van en tu idioma",
+        [
+          "La mitad de nuestros grupos llevan a alguien que no habla inglés — normalmente la persona por la que se armó el día. Las instrucciones y toda la tarde van en español o en inglés, como hable tu familia.",
+          "Eso no es una frase de marketing. Si una persona en el bote no entiende qué hacer, todos en ese bote están menos seguros. Por eso lo decimos aquí y no escondido en letra chica."
+        ],
+        [
+          "summer.jpg",
+          "Vista aérea sobre los cojines de proa con la lancha auxiliar en agua turquesa"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "Do you have life jackets for children?",
+        "Yes, child sizes are carried as standard on all three boats. You don't need to request them in advance or bring your own, though you're welcome to if your child has one they're used to."
+      ],
+      [
+        "Which boat is best with small kids?",
+        "The covered Sea Ray Sundancer 40. Shade for the whole afternoon matters more than deck space when the youngest person aboard is four. If your group is large enough to need the Chris Craft 45, we'll rig shade on it."
+      ],
+      [
+        "Is it safe for people who can't swim?",
+        "We anchor in water shallow enough for an adult to stand comfortably, and life jackets are available for everyone on board regardless of age. Tell us in advance if someone can't swim and we'll pick the spot accordingly."
+      ],
+      [
+        "Can grandparents get on and off easily?",
+        "The Sundancer 40 has the easiest boarding of the three and a swim platform with a ladder at the stern. Mention mobility when you book and the captain will bring the boat alongside rather than expecting a step down."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Tienen chalecos para niños?",
+        "Sí, las tallas infantiles van de serie en los tres botes. No hace falta pedirlos con anticipación ni traerlos, aunque puedes traer el suyo si el niño ya está acostumbrado a uno."
+      ],
+      [
+        "¿Cuál bote es mejor con niños chiquitos?",
+        "El Sea Ray Sundancer 40, que es cubierto. La sombra toda la tarde importa más que el espacio en cubierta cuando el más chico a bordo tiene cuatro años. Si el grupo es tan grande que necesita el Chris Craft 45, le montamos sombra."
+      ],
+      [
+        "¿Es seguro para quien no sabe nadar?",
+        "Anclamos en agua donde un adulto hace pie cómodamente, y hay chalecos para todos a bordo sin importar la edad. Avísanos antes si alguien no nada y elegimos el punto según eso."
+      ],
+      [
+        "¿Los abuelos pueden subir y bajar sin problema?",
+        "El Sundancer 40 es el más fácil de abordar de los tres y tiene plataforma de baño con escalera en la popa. Menciona la movilidad al reservar y el capitán acerca el bote en vez de esperar que alguien baje un escalón."
+      ]
+    ]
+  },
+  {
+    "slug_en": "miami-skyline-photo-boat-charter.html",
+    "slug_es": "es/fotos-con-el-skyline-de-miami-en-bote.html",
+    "nav_en": "Skyline & photos",
+    "nav_es": "Fotos con el skyline",
+    "blurb_en": "Star Island, the big houses, and the hour the light lands on the city.",
+    "blurb_es": "Star Island, las casas grandes, y la hora en que la luz cae sobre la ciudad.",
+    "service_type_en": "Photo and skyline boat charter",
+    "service_type_es": "Paseo en bote para fotos con el skyline",
+    "hero_en": [
+      "fleet-vibes.jpg",
+      "Two LuxSea boats tied alongside each other with the downtown Miami skyline across the water"
+    ],
+    "hero_es": [
+      "fleet-vibes.jpg",
+      "Dos botes de LuxSea amarrados con el skyline del downtown de Miami al fondo"
+    ],
+    "title_en": "Miami Skyline Photo Boat Charter | Star Island Route | LuxSea",
+    "title_es": "Fotos con el Skyline de Miami en Bote | Ruta Star Island | LuxSea",
+    "desc_en": "A private boat charter built around photographs: Star Island, the waterfront houses and the downtown skyline, run at the hour the light lands on the city instead of behind it.",
+    "desc_es": "Un paseo privado armado alrededor de las fotos: Star Island, las casas frente al agua y el skyline del downtown, a la hora en que la luz cae sobre la ciudad y no en contra.",
+    "said_en": "Fotos con la ciudad",
+    "said_es": "Fotos con la ciudad",
+    "h1_en": "The difference between a photo and the photo is the hour",
+    "h1_es": "La diferencia entre una foto y LA foto es la hora",
+    "lede_en": "Star Island, the waterfront houses and the downtown line — on a route shaped around where the light actually falls.",
+    "lede_es": "Star Island, las casas frente al agua y la línea del downtown — en una ruta armada según dónde cae la luz de verdad.",
+    "wa_en": "Hi LuxSea — I want a charter for photos with the skyline.",
+    "wa_es": "Hola LuxSea — quiero un paseo para fotos con la ciudad.",
+    "cta1_en": "Book a photo run",
+    "cta1_es": "Reservar para fotos",
+    "cta2_en": "Send the details",
+    "cta2_es": "Enviar los detalles",
+    "faq_h_en": "Skyline and photo questions",
+    "faq_h_es": "Preguntas sobre fotos y skyline",
+    "cta_h_en": "Tell us what you're shooting",
+    "cta_h_es": "Dinos qué vas a fotografiar",
+    "cta_p_en": "A content shoot, a family portrait and a proposal need three different routes. Say which and we'll build the day around it.",
+    "cta_p_es": "Una sesión de contenido, un retrato familiar y una propuesta necesitan tres rutas distintas. Dinos cuál y armamos el día alrededor de eso.",
+    "sections_en": [
+      [
+        "Light on the city, not behind it",
+        [
+          "The downtown skyline faces roughly west across the bay, which means for most of the day you are shooting into your own light. Late afternoon is when the sun swings round and lands on the buildings instead of behind them, and that window is short.",
+          "We plan the route backwards from it. Star Island and the waterfront houses first, when the sun is still high and side-on, then the open bay for the skyline as the light drops."
+        ],
+        [
+          "sunset-2.jpg",
+          "Guests on the bow with the Brickell towers filling the background"
+        ]
+      ],
+      [
+        "Bring a photographer, or don't",
+        [
+          "Plenty of these charters go out with a hired photographer or a content team, and the boat gets treated as a set — we'll hold position, cut the engine, reposition for the angle, and do it again if the first pass didn't work.",
+          "Just as many go out with nobody but the group and a phone. Both are normal. The only thing that changes is how long we sit still, so tell us which when you book."
+        ],
+        [
+          "bachelorette.jpg",
+          "Guests along the bow on the coral sunpads, mid-charter"
+        ]
+      ],
+      [
+        "What actually photographs well from the water",
+        [
+          "Star Island and the houses along it, the cruise terminals when a ship is in, the bridges, and the downtown wall of towers from open water. On a clear evening the city lights come up while there's still colour in the sky, and that fifteen minutes is the best of it.",
+          "What doesn't work is the middle of the day in flat overhead sun with the skyline in haze. We'll say so when you ask for that slot rather than take the booking and let you find out."
+        ],
+        [
+          "birthday.jpg",
+          "A LuxSea boat running back across the bay in low golden light"
+        ]
+      ]
+    ],
+    "sections_es": [
+      [
+        "La luz sobre la ciudad, no detrás",
+        [
+          "El skyline del downtown mira más o menos al oeste cruzando la bahía, lo que significa que casi todo el día estás disparando contra tu propia luz. La tarde es cuando el sol gira y cae sobre los edificios en vez de detrás, y esa ventana es corta.",
+          "Armamos la ruta hacia atrás desde ahí. Primero Star Island y las casas frente al agua, con el sol todavía alto y de lado, y después la bahía abierta para el skyline mientras baja la luz."
+        ],
+        [
+          "sunset-2.jpg",
+          "Invitados en la proa con las torres de Brickell llenando el fondo"
+        ]
+      ],
+      [
+        "Trae fotógrafo, o no",
+        [
+          "Muchos de estos paseos salen con fotógrafo contratado o con un equipo de contenido, y el bote se trata como un set — mantenemos posición, apagamos el motor, nos recolocamos para el ángulo, y lo repetimos si la primera pasada no salió.",
+          "Otros tantos salen solo con el grupo y un teléfono. Las dos cosas son normales. Lo único que cambia es cuánto rato nos quedamos quietos, así que dinos cuál al reservar."
+        ],
+        [
+          "bachelorette.jpg",
+          "Invitados en la proa sobre los cojines coral, durante el paseo"
+        ]
+      ],
+      [
+        "Qué se ve bien de verdad desde el agua",
+        [
+          "Star Island y las casas de la isla, las terminales de cruceros cuando hay barco, los puentes, y la pared de torres del downtown desde agua abierta. En una tarde despejada las luces de la ciudad se encienden cuando todavía queda color en el cielo, y esos quince minutos son lo mejor.",
+          "Lo que no funciona es el mediodía con sol plano encima y el skyline en bruma. Te lo decimos cuando pides ese horario, en vez de tomar la reserva y dejar que lo descubras tú."
+        ],
+        [
+          "birthday.jpg",
+          "Un bote de LuxSea cruzando la bahía con luz dorada baja"
+        ]
+      ]
+    ],
+    "faqs_en": [
+      [
+        "What's the best time of day for skyline photos?",
+        "Late afternoon into sunset. The downtown towers face west across the bay, so earlier in the day you're shooting into the light. The last hour before sunset, and the fifteen minutes after it when the lights come on, are the two best windows."
+      ],
+      [
+        "Can we bring a photographer or a drone?",
+        "A photographer, yes — it's common, and the captain will hold position and reposition for angles. Drones are a different matter: parts of Biscayne Bay sit under restricted airspace near the airport and the port, so ask before you plan around one."
+      ],
+      [
+        "Do you go past Star Island?",
+        "Yes, it's part of the standard route. We run past the island and the waterfront houses, then out to open water for the skyline. You can't go ashore anywhere private, but the whole run is photographable from the boat."
+      ],
+      [
+        "Is this good for a proposal?",
+        "It's the most common one we do after birthdays. Say so quietly when you book and we'll cut the engine at the moment you want, keep out of the frame, and take the photos afterwards if you'd like them."
+      ]
+    ],
+    "faqs_es": [
+      [
+        "¿Cuál es la mejor hora para fotos con el skyline?",
+        "La tarde, entrando en el atardecer. Las torres del downtown miran al oeste cruzando la bahía, así que más temprano estás disparando contra la luz. La última hora antes de la puesta, y los quince minutos después cuando se encienden las luces, son las dos mejores ventanas."
+      ],
+      [
+        "¿Podemos llevar fotógrafo o dron?",
+        "Fotógrafo sí — es común, y el capitán mantiene posición y se recoloca para los ángulos. El dron es otra cosa: partes de la bahía de Biscayne quedan bajo espacio aéreo restringido cerca del aeropuerto y el puerto, así que pregunta antes de contar con uno."
+      ],
+      [
+        "¿Pasan por Star Island?",
+        "Sí, es parte de la ruta normal. Pasamos por la isla y las casas frente al agua, y después salimos a agua abierta para el skyline. No se puede bajar en propiedad privada, pero todo el recorrido se fotografía desde el bote."
+      ],
+      [
+        "¿Sirve para una propuesta de matrimonio?",
+        "Es la más común que hacemos después de los cumpleaños. Dilo bajito al reservar y apagamos el motor en el momento que quieras, nos quitamos del cuadro, y tomamos las fotos después si las quieres."
+      ]
+    ]
+  }
 ]

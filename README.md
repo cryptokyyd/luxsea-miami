@@ -15,6 +15,12 @@ python -m http.server 4321 --directory luxsea-miami
 | `experiences.html` | Birthdays, bachelorettes, family, sunset, sandbar, skyline |
 | `about.html` | The owner-not-broker argument |
 | `contact.html` | Booking form → prefilled WhatsApp message |
+| `chris-craft-45-miami.html` | Boat page + 10-photo gallery (ES twin in `es/`) |
+| `sea-ray-sundancer-40-miami.html` | Boat page + 8-photo gallery (ES twin in `es/`) |
+| `sea-ray-amberjack-32-miami.html` | Boat page + gallery (ES twin in `es/`) |
+| `es/index.html` | Spanish home — targets *renta de botes en miami* |
+| `build-service-pages.py` | Generates the 12 celebration pages from `service-pages.json` |
+| `build-boat-pages.py` | Generates the 6 boat pages, the Spanish home and `sitemap.xml` |
 | `brand.html` | The brand guide (noindex — internal reference) |
 | `styles.css` | The whole design system, OKLCH tokens at the top |
 | `main.js` | Contact config, ES/EN toggle, nav, reveal, form |
@@ -74,6 +80,17 @@ A **Google Business Profile**. Every competitor ranks on one, and "boat rental
 miami" traffic lands there before it lands on any website. Same name, same
 photos, both languages. That is worth more than any further page here.
 
+## Rebuilding the generated pages
+
+Twenty of the 25 pages are generated. Edit the source, then:
+
+```bash
+python build-service-pages.py && python build-boat-pages.py
+```
+
+Run them in that order — the boat script imports the service script for the
+shared header/footer and writes the sitemap covering everything.
+
 ## Notes for whoever edits this next
 
 - **Colour is OKLCH only**, tokens at the top of `styles.css`. White text always
@@ -83,5 +100,8 @@ photos, both languages. That is worth more than any further page here.
   Panchang stops at 700.
 - **Spanish is not a translation layer.** Any new copy needs a `data-es`
   attribute or the toggle will leave it in English. Placeholders use `data-es-ph`.
-- **The photos are the identity.** Everything in `assets/media/` came off
+- **The photos are the identity.** All 49 images in `assets/media/` came off
   @luxseamiami. Don't replace them with stock.
+- **No photo is used on two different pages.** The boat galleries are exclusive
+  to their boat, and each celebration page has its own four. If you add a page,
+  add photos rather than reusing — a repeated image reads as a stock library.
