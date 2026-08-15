@@ -187,6 +187,7 @@ a { color: inherit; }
 
 /* ---------- Header ---------- */
 .site-head {
+  --head-row: 74px;   /* the logo/CTA row; the drawer hangs below it */
   position: sticky; top: 0; z-index: var(--z-sticky);
   background: rgb(255 255 255 / 0.94);
   border-bottom: 1px solid var(--line);
@@ -308,7 +309,16 @@ a { color: inherit; }
   display: none; border-top: 1px solid var(--line);
   background: var(--bg); padding: var(--sp-3) 0 var(--sp-4);
 }
-.mobile-nav.is-open { display: block; }
+/* The header is sticky, so a drawer taller than the screen would simply run off
+   the bottom with no way to reach it — the page scrolls instead. Cap it to what
+   is left below the header row and let the drawer itself scroll. */
+.mobile-nav.is-open {
+  display: block;
+  max-height: calc(100vh - var(--head-row));
+  max-height: calc(100dvh - var(--head-row));
+  overflow-y: auto;
+  overscroll-behavior: contain;   /* do not hand the scroll back to the page */
+}
 @media (min-width: 1000px) { .mobile-nav.is-open { display: none; } }
 .mobile-nav a {
   display: block; text-decoration: none; font-family: var(--font-display);
@@ -320,6 +330,7 @@ a { color: inherit; }
    full size. Compact the row rather than dropping the booking CTA — it is the
    whole point of the header. */
 @media (max-width: 560px) {
+  .site-head { --head-row: 64px; }
   .site-head__in { gap: 0.5rem; min-height: 64px; }
   /* Mark-only lockup. The wordmark is the widest thing in the row, and losing it
      is cheaper than losing either the language toggle or the booking CTA —
