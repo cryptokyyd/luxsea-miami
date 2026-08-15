@@ -318,11 +318,16 @@ a { color: inherit; }
 
 /* ---------- Booking strip ---------- */
 .strip { background: var(--bay-deep); border-top: 1px solid oklch(0.345 0.052 203 / 0.5); }
-.strip form {
-  display: grid; gap: var(--sp-3); padding-block: var(--sp-4);
-  grid-template-columns: 1fr;
+.strip .wrap { padding-block: var(--sp-5); }
+.strip__head { max-width: 52ch; margin-bottom: var(--sp-4); }
+.strip__head h2 { font-size: var(--step-2); color: var(--shell); margin-bottom: 0.6rem; }
+.strip__head p { color: var(--shell-dim); font-size: var(--step-0); }
+.strip form { display: grid; gap: var(--sp-3); grid-template-columns: 1fr; }
+@media (min-width: 860px) {
+  .strip form { grid-template-columns: repeat(3, 1fr) auto; align-items: end; }
 }
-@media (min-width: 760px) { .strip form { grid-template-columns: repeat(3, 1fr) auto; align-items: end; } }
+
+/* Shared by the dark strip and the light booking form on /contact. */
 .field { display: grid; gap: 0.4rem; }
 .field label {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step--1);
@@ -337,8 +342,21 @@ a { color: inherit; }
 }
 .field input:hover, .field select:hover { border-color: var(--sun); }
 .field ::placeholder { color: oklch(0.70 0.02 205); opacity: 1; }
-.strip .btn { width: 100%; justify-content: center; }
-@media (min-width: 760px) { .strip .btn { width: auto; } }
+/* Sits under the whole row, not in the fourth column beside the button. */
+.strip__fine {
+  grid-column: 1 / -1; margin: 0;
+  color: var(--shell-dim); font-size: var(--step--1);
+}
+.strip .btn { width: 100%; justify-content: center; gap: 0.55em; }
+@media (min-width: 860px) { .strip .btn { width: auto; } }
+.btn__ico { width: 1.15em; height: 1.15em; flex: none; }
+
+/* The native picker glyph renders near-black, which is invisible on the bay
+   ground. Inverting it is the only hook the control exposes. */
+.strip input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); opacity: 0.65; cursor: pointer;
+}
+.strip input[type="date"]:hover::-webkit-calendar-picker-indicator { opacity: 1; }
 
 /* ---------- Booking form on a light ground ---------- */
 .form-light { display: grid; gap: var(--sp-3); }

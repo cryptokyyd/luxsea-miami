@@ -136,7 +136,7 @@ BOATS = [
    ("sd-05.jpg","Looking forward from the helm seat","Mirando a proa desde el asiento del timón"),
    ("sd-06.jpg","The cabin below, looking aft","El camarote de abajo, mirando a popa"),
    ("sd-07.jpg","The V-berth forward","La litera en V a proa"),
-   ("sd-08.jpg","The head compartment","El baño"),
+   ("sd-08.jpg","The head compartment, with its shower","El baño, con su ducha"),
    ("sd-09.jpg","Straight down over the teak cockpit with the floating pool astern","Vista cenital de la bañera de teca con la piscina flotante por la popa"),
    ("sd-10.jpg","At anchor in the bay with the downtown skyline behind","Fondeado en la bahía con el skyline del downtown detrás"),
    ("sd-11.jpg","The cockpit and wet bar alongside the dock after dark","La bañera y el mueble bar junto al muelle de noche"),
@@ -477,14 +477,18 @@ def spanish_home():
 
   <section class="strip" aria-labelledby="q-h">
     <div class="wrap">
-      <h2 id="q-h" class="vh">Consultar una fecha</h2>
+      <div class="strip__head">
+        <h2 id="q-h">Mira una fecha antes de escribir</h2>
+        <p>Dinos el día y te mandamos el total por WhatsApp: bote, capitán y gasolina en una sola cifra, en español o en inglés.</p>
+      </div>
       <form data-enquiry>
         <div class="field"><label for="q-date">¿Qué día?</label><input type="date" id="q-date" name="date" required></div>
         <div class="field"><label for="q-hours">¿Cuántas horas?</label>
           <select id="q-hours" name="hours"><option selected>4 horas — lo más pedido</option><option>5 horas</option><option>6 horas</option><option>Todavía no sé</option></select>
         </div>
         <div class="field"><label for="q-guests">¿Cuántas personas?</label><input type="number" id="q-guests" name="guests" min="1" max="13" value="8" required></div>
-        <button class="btn btn--primary" type="submit">Pedir precio</button>
+        <button class="btn btn--primary" type="submit"><svg class="btn__ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.92-4.45 9.92-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.2 1.26-1.96 1.42-.52.11-1.2.2-3.49-.75-2.93-1.21-4.81-4.18-4.96-4.38-.14-.2-1.18-1.57-1.18-3s.75-2.13 1.02-2.42c.26-.29.58-.36.77-.36h.55c.18 0 .42-.03.65.5.24.57.82 1.99.89 2.14.7.14.12.31.02.51-.1.2-.14.32-.29.49-.14.17-.3.38-.43.51-.14.14-.29.3-.13.58.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.42.29.14.46.12.63-.7.17-.2.72-.85.92-1.14.19-.29.39-.24.65-.14.26.09 1.67.79 1.96.93.29.14.48.22.55.34.07.12.07.69-.17 1.36Z"/></svg><span>Pedir precio por WhatsApp</span></button>
+        <p class="strip__fine">Sin cargo de reserva. Normalmente contestamos el mismo día.</p>
         <p class="vh" role="status" data-status></p>
       </form>
     </div>

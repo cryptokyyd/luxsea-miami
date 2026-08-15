@@ -209,6 +209,14 @@ document.documentElement.classList.add('js');
    No backend, no dead endpoint. Validates before it sends.
    ------------------------------------------------------------------ */
 (function enquiry() {
+  // Nobody can charter a boat last Tuesday. Set the floor to today so the
+  // picker cannot offer a date the captain would only have to reject.
+  var today = new Date();
+  var iso = new Date(today.getTime() - today.getTimezoneOffset() * 60000)
+              .toISOString().slice(0, 10);
+  document.querySelectorAll('form[data-enquiry] input[type="date"]')
+    .forEach(function (input) { if (!input.min) input.min = iso; });
+
   document.querySelectorAll('form[data-enquiry]').forEach(function (form) {
     var status = form.querySelector('[data-status]');
 
