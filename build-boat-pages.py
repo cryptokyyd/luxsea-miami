@@ -373,7 +373,10 @@ def boat_page(b, es):
   <section class="band band--tight">
     <div class="wrap stack-4 rise">
       <dl class="spec spec--icons">{specs}</dl>
-      <div class="stack-3">
+      <!-- Stays hidden until a calendar actually answers. Without the ICS env
+           vars it had nothing to say and no call to action, so it was heading
+           space and a shrug. It reappears by itself once they are set. -->
+      <div class="stack-3" data-avail-block hidden>
         <h2 style="font-size:var(--step-2)">{avail_h}</h2>
         <div class="avail" data-availability="{b["id"]}" aria-live="polite">
           <p class="avail__note">{"Cargando disponibilidad…" if es else "Loading availability…"}</p>

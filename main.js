@@ -80,11 +80,15 @@ document.documentElement.classList.add('js');
   function close() {
     panel.classList.remove('is-open');
     burger.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('nav-open');
   }
   burger.addEventListener('click', function () {
     var open = burger.getAttribute('aria-expanded') === 'true';
     panel.classList.toggle('is-open', !open);
     burger.setAttribute('aria-expanded', String(!open));
+    // The sticky CTA hides while the drawer is open; a tall drawer reaches the
+    // bottom of the screen and would otherwise run underneath it.
+    document.body.classList.toggle('nav-open', !open);
   });
   panel.addEventListener('click', function (e) { if (e.target.tagName === 'A') close(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
@@ -240,9 +244,14 @@ document.documentElement.classList.add('js');
           '<p class="avail__key"><span><i style="background:var(--ember)"></i>' + L.booked + '</span>' +
           '<span><i style="background:var(--surface);outline:1px solid var(--line)"></i>' + L.free + '</span></p>' +
           '<p class="avail__note">' + L.note + '</p>';
+        var block = el.closest('[data-avail-block]');
+        if (block) block.hidden = false;          // only now is there anything to show
       })
       .catch(function () {
-        el.innerHTML = '<p class="avail__note">' + L.off + '</p>';
+        // No feed configured, or no /api at all. Say nothing rather than take
+        // up a heading to tell people to do what the page already asks them to.
+        var block = el.closest('[data-avail-block]');
+        if (block) block.hidden = true; else el.innerHTML = '';
       });
   });
 })();
@@ -292,4 +301,72 @@ document.documentElement.classList.add('js');
       }
     });
   });
+})();
+
+/* ------------------------------------------------------------------
+   6. Sticky WhatsApp bar.
+   The hero buttons scroll away within a screen, and the sticky header only
+   carries "Book a day", which opens the contact form rather than WhatsApp —
+   his actual channel. On a phone that left the main action off-screen for the
+   whole page. Injected here rather than in the markup so all 33 pages get it
+   from one place; CSS decides where it shows.
+   ------------------------------------------------------------------ */
+(function stickyCta() {
+  var source = document.querySelector('[data-wa]');
+  if (!source) return;
+
+  var es = document.documentElement.lang === 'es';
+  var bar = document.createElement('div');
+  bar.className = 'sticky-cta';
+  bar.hidden = true;
+  var a = document.createElement('a');
+  a.className = 'btn btn--primary';
+  // Reuse whatever message this page already puts on its first WhatsApp
+  // button, so the sticky one never says something more generic than the page.
+  a.href = 'https://wa.me/' + LUXSEA.whatsapp +
+           (source.dataset.wa ? '?text=' + encodeURIComponent(source.dataset.wa) : '');
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.innerHTML = document.querySelector('.btn__ico')
+    ? document.querySelector('.btn__ico').outerHTML + (es ? 'Escribir por WhatsApp' : 'Message on WhatsApp')
+    : (es ? 'Escribir por WhatsApp' : 'Message on WhatsApp');
+  bar.appendChild(a);
+  document.body.appendChild(bar);
+
+  // Show once the opening buttons are gone; hide again over the closing CTA,
+  // so the page never shows the same action twice at once.
+  var opening = document.querySelector('.hero .btn-row') || document.querySelector('.strip');
+  var closing = document.querySelector('.cta-final');
+  var passedOpening = false, overClosing = false;
+
+  function sync() {
+    var show = passedOpening && !overClosing;
+    bar.hidden = !show;
+    document.body.classList.toggle('has-sticky-cta', show);
+  }
+
+  if (!('IntersectionObserver' in window)) return;   // bar simply stays hidden
+
+  if (opening) {
+    new IntersectionObserver(function (entries) {
+      var e = entries[0];
+      passedOpening = !e.isIntersecting && e.boundingClientRect.top < 0;
+      sync();
+    }, { threshold: 0 }).observe(opening);
+  } else {
+    // No opening buttons to scroll past — the contact page is the case. Wait for
+    // a screenful rather than covering the booking form the moment it loads.
+    window.addEventListener('scroll', function () {
+      var passed = window.scrollY > window.innerHeight * 0.6;
+      if (passed !== passedOpening) { passedOpening = passed; sync(); }
+    }, { passive: true });
+  }
+
+  if (closing) {
+    new IntersectionObserver(function (es_) {
+      overClosing = es_[0].isIntersecting;
+      sync();
+    }, { threshold: 0 }).observe(closing);
+  }
+  sync();
 })();

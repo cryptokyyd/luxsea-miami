@@ -680,7 +680,35 @@ a.rail__value:hover { color: var(--ember); }
   .gallery figcaption{opacity:1}
 }
 
+/* ---------- Sticky WhatsApp bar ----------
+   Phones and tablets only: the desktop header already keeps Call and Book a
+   day on screen, and a second fixed bar there would just eat the viewport. */
+.sticky-cta {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: var(--z-sticky);
+  padding: 0.65rem var(--sp-3);
+  padding-bottom: calc(0.65rem + env(safe-area-inset-bottom));  /* clears the iPhone home bar */
+  background: rgb(255 255 255 / 0.94);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-top: 1px solid var(--line);
+  animation: cta-rise .34s var(--ease) both;
+}
+.sticky-cta .btn { width: 100%; justify-content: center; gap: 0.55em; }
+@keyframes cta-rise { from { transform: translateY(100%); } to { transform: none; } }
+/* Keep the last of the page clear of the bar rather than under it. */
+body.has-sticky-cta { padding-bottom: 4.75rem; }
+/* While the drawer is open the visitor is navigating, not booking — and a tall
+   drawer runs under the bar at the bottom of the screen. */
+body.nav-open .sticky-cta { display: none; }
+@media (min-width: 900px) {
+  .sticky-cta { display: none; }
+  body.has-sticky-cta { padding-bottom: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .sticky-cta { animation: none; } }
+
 /* ---------- Availability ---------- */
+/* The layout components set display, which beats the hidden attribute's own
+   UA rule, so hidden has to be spelled out or it does nothing. */
+[hidden] { display: none !important; }
 .avail { display: grid; gap: var(--sp-3); }
 .avail__months { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); }
 .avail__m { display: grid; gap: 0.5rem; }
