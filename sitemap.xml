@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://luxsea-miami.vercel.app/</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/fleet</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/experiences</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/about</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/contact</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/bachelorette-boat-party-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/despedida-de-soltera-en-bote-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/bachelorette-boat-party-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/despedida-de-soltera-en-bote-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/bachelorette-boat-party-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/despedida-de-soltera-en-bote-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/birthday-boat-rental-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/cumpleanos-en-bote-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/birthday-boat-rental-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/cumpleanos-en-bote-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/birthday-boat-rental-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/cumpleanos-en-bote-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sunset-cruise-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-al-atardecer-en-bote-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sunset-cruise-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/paseo-al-atardecer-en-bote-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sunset-cruise-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-al-atardecer-en-bote-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sandbar-boat-rental-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/banco-de-arena-en-bote-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sandbar-boat-rental-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/banco-de-arena-en-bote-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sandbar-boat-rental-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/banco-de-arena-en-bote-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/family-boat-rental-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-en-bote-en-familia-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/family-boat-rental-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/paseo-en-bote-en-familia-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/family-boat-rental-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-en-bote-en-familia-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/miami-skyline-photo-boat-charter</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/miami-skyline-photo-boat-charter"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/miami-skyline-photo-boat-charter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/fotos-con-el-skyline-de-miami-en-bote"/>
+  </url>
+</urlset>
