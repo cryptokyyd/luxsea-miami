@@ -27,11 +27,11 @@ python -m http.server 4321 --directory luxsea-miami
    `LUXSEA.whatsapp` and `LUXSEA.phone` at the top of `main.js` — every button on
    every page reads from there — then search-replace `+17868780701` and
    `(786) 878-0701` in the HTML (they're there so the links work without JS).
-2. **Which photo is which boat.** The fleet is confirmed by the owner:
-   Chris Craft 45, Sea Ray Sundancer 40, Sea Ray Amberjack 32. What is *not*
-   confirmed is the photo assigned to the Amberjack 32
-   (`assets/media/bay.jpg`, used on `fleet.html` and `index.html`) — it was
-   picked by eye from the Instagram archive. Swap it if it shows the wrong hull.
+2. ~~Which photo is which boat.~~ **Resolved.** All three are confirmed from
+   his own labelled posts: the Chris Craft 45 (`#45ft #sportfish` carousel), the
+   Sea Ray Sundancer 40 (`#40ft` carousel), and the Sea Ray Amberjack 32 (the
+   reel captioned "Disponible / Sea ray Amberjack 32ft" — burned-in text cropped
+   off for `assets/media/amberjack-32.jpg`).
 3. **Prices.** Deliberately absent. The site's promise is "send the date, get the
    whole number back", which is also the strongest thing it has against the
    brokers. If fixed starting prices get published later, put them on the boat
