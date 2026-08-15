@@ -396,18 +396,26 @@ a { color: inherit; }
 }
 
 /* Shared by the dark strip and the light booking form on /contact. */
-.field { display: grid; gap: 0.4rem; }
+/* min-width:0 — a grid item defaults to min-width:auto, so a control with a wide
+   intrinsic size (iOS date inputs have one) pushes straight out of its track. */
+.field { display: grid; gap: 0.4rem; min-width: 0; }
 .field label {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step--1);
   color: var(--shell-dim); letter-spacing: -0.002em;
 }
 .field input, .field select, .field textarea {
   font: inherit; font-size: var(--step-0);
+  /* One line-height for all three, or a text input, a select and a date each
+     compute a different box and the row stops lining up. */
+  line-height: 1.2;
   padding: 0.8rem 0.9rem; min-height: 48px; width: 100%;
   border: 1.5px solid oklch(0.345 0.052 203); border-radius: var(--radius);
   background: oklch(0.20 0.04 206); color: var(--shell);
   transition: border-color .3s var(--ease);
 }
+/* Single-line controls get one fixed box. min-height alone still leaves each
+   browser's own inner box to break the tie, and the row reads as ragged. */
+.field input, .field select { height: 48px; }
 .field input:hover, .field select:hover { border-color: var(--sun); }
 .field ::placeholder { color: oklch(0.70 0.02 205); opacity: 1; }
 /* Sits under the whole row, not in the fourth column beside the button. */
@@ -418,6 +426,15 @@ a { color: inherit; }
 .strip .btn { width: 100%; justify-content: center; gap: 0.55em; }
 @media (min-width: 860px) { .strip .btn { width: auto; } }
 .btn__ico { width: 1.15em; height: 1.15em; flex: none; }
+
+/* iOS Safari gives date inputs a native box that ignores width, sizes itself
+   from its own shadow text and sits on a text baseline — so on a phone it came
+   out wider than its column and taller than the fields beside it. Resetting the
+   appearance and pinning the box makes it match the select and the number. */
+.field input[type="date"] {
+  -webkit-appearance: none; appearance: none;
+  display: block; width: 100%; min-width: 0;
+}
 
 /* The native picker glyph renders near-black, which is invisible on the bay
    ground. Inverting it is the only hook the control exposes. */
@@ -441,7 +458,7 @@ a { color: inherit; }
 .form-light .field input:hover, .form-light .field select:hover,
 .form-light .field textarea:hover { border-color: var(--ember); }
 .form-light .field ::placeholder { color: var(--muted); }
-.form-light textarea { min-height: 7.5rem; resize: vertical; }
+.form-light textarea { min-height: 7.5rem; resize: vertical; line-height: 1.55; }
 .form-foot { display: grid; gap: var(--sp-2); justify-items: start; }
 .form-note { font-size: var(--step--1); color: var(--muted); max-width: 52ch; }
 [data-status]:not(.vh) { font-size: var(--step--1); color: var(--ember); font-weight: 500; }
