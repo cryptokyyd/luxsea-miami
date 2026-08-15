@@ -97,7 +97,8 @@ shared header/footer and writes the sitemap covering everything.
   goes on `--ember`, never on `--sun` (it's too light to hold text).
 - **Fonts come from Fontshare.** Only request weights that exist — asking for a
   missing weight makes Fontshare silently drop every family after it in the URL.
-  Panchang stops at 700.
+  Gambetta stops at 700 and Switzer runs 100-900; ask for a weight
+  outside those and every family *after* it in the query is dropped.
 - **Spanish is not a translation layer.** Any new copy needs a `data-es`
   attribute or the toggle will leave it in English. Placeholders use `data-es-ph`.
 - **The photos are the identity.** All 49 images in `assets/media/` came off

@@ -7,7 +7,7 @@
 /* Panchang tops out at 700. Asking for a weight Fontshare doesn't have makes it
    silently drop every family after it in the query — which is how Supreme went
    missing the first time. Only request weights that exist. */
-@import url('https://api.fontshare.com/v2/css?f[]=panchang@400,500,600,700&f[]=supreme@400,500,700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=gambetta@400,500,600,700&f[]=switzer@400,500,600,700&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
@@ -34,8 +34,8 @@
   --bay-mid:     oklch(0.345 0.052 203);
 
   /* Type */
-  --font-display: 'Panchang', 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
-  --font-body:    'Supreme', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Gambetta', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-body:    'Switzer', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.92rem);
   --step-0:  clamp(1rem, 0.96rem + 0.20vw, 1.13rem);
@@ -86,7 +86,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.02;
-  letter-spacing: -0.028em;
+  letter-spacing: -0.01em;
   text-wrap: balance;
   margin: 0;
   /* Last resort only: a word that cannot fit its box breaks instead of
@@ -97,8 +97,8 @@ h1, h2, h3, h4 {
 }
 h1 { font-size: var(--step-5); }
 h2 { font-size: var(--step-4); }
-h3 { font-size: var(--step-2); letter-spacing: -0.02em; }
-h4 { font-size: var(--step-1); letter-spacing: -0.015em; }
+h3 { font-size: var(--step-2); letter-spacing: -0.007em; }
+h4 { font-size: var(--step-1); letter-spacing: -0.005em; }
 p  { margin: 0; text-wrap: pretty; }
 
 a { color: inherit; }
@@ -155,7 +155,7 @@ a { color: inherit; }
   font-weight: 500;
   font-style: normal;
   font-size: var(--step-1);
-  letter-spacing: -0.015em;
+  letter-spacing: -0.005em;
   color: var(--ember);
   display: block;
   margin-bottom: 0.15em;
@@ -166,7 +166,7 @@ a { color: inherit; }
 .btn {
   display: inline-flex; align-items: center; gap: 0.55em;
   font-family: var(--font-display); font-weight: 600;
-  font-size: var(--step-0); letter-spacing: -0.01em;
+  font-size: var(--step-0); letter-spacing: -0.003em;
   padding: 0.95em 1.6em; min-height: 48px;
   border: 2px solid transparent; border-radius: var(--radius);
   text-decoration: none; cursor: pointer;
@@ -200,7 +200,7 @@ a { color: inherit; }
 .brand__mark { width: 34px; height: 34px; flex: none; }
 .brand__type {
   font-family: var(--font-display); font-weight: 700;
-  font-size: 1.28rem; letter-spacing: -0.035em; color: var(--ink);
+  font-size: 1.28rem; letter-spacing: -0.012em; color: var(--ink);
   line-height: 1;
 }
 .brand__type em { font-style: normal; color: var(--ember); }
@@ -305,7 +305,7 @@ a { color: inherit; }
   color: #fff;
   display: grid; gap: var(--sp-4);
 }
-.hero h1 { color: #fff; max-width: 15ch; letter-spacing: -0.038em; }
+.hero h1 { color: #fff; max-width: 15ch; letter-spacing: -0.013em; }
 .hero h1 .sun { color: var(--sun-hi); }
 .hero__sub { font-size: var(--step-1); line-height: 1.5; max-width: 40ch; color: oklch(0.94 0.01 60); }
 .hero__meta {
@@ -326,7 +326,7 @@ a { color: inherit; }
 .field { display: grid; gap: 0.4rem; }
 .field label {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step--1);
-  color: var(--shell-dim); letter-spacing: -0.005em;
+  color: var(--shell-dim); letter-spacing: -0.002em;
 }
 .field input, .field select, .field textarea {
   font: inherit; font-size: var(--step-0);
@@ -367,7 +367,7 @@ a { color: inherit; }
 .rail__label { font-size: var(--step--1); color: var(--muted); }
 .rail__value {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step-1);
-  letter-spacing: -0.02em; text-decoration: none;
+  letter-spacing: -0.007em; text-decoration: none;
 }
 a.rail__value:hover { color: var(--ember); }
 
@@ -394,9 +394,9 @@ a.rail__value:hover { color: var(--ember); }
 .spec { display: flex; flex-wrap: wrap; gap: var(--sp-1) var(--sp-4); margin: 0; padding: 0; }
 .spec > div { display: grid; gap: 0.1rem; }
 .spec dt { font-size: var(--step--1); color: var(--muted); }
-.spec dd { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); letter-spacing: -0.02em; }
+.spec dd { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); letter-spacing: -0.007em; }
 .band--bay .spec dt { color: var(--shell-dim); }
-.price { font-family: var(--font-display); font-weight: 700; font-size: var(--step-2); color: var(--ember); letter-spacing: -0.03em; }
+.price { font-family: var(--font-display); font-weight: 700; font-size: var(--step-2); color: var(--ember); letter-spacing: -0.01em; }
 .price small { font-family: var(--font-body); font-weight: 400; font-size: var(--step--1); color: var(--muted); letter-spacing: 0; }
 .band--bay .price { color: var(--sun-hi); }
 .band--bay .price small { color: var(--shell-dim); }
@@ -463,7 +463,7 @@ a.rail__value:hover { color: var(--ember); }
 .faq summary {
   list-style: none; cursor: pointer; padding: var(--sp-3) 0;
   font-family: var(--font-display); font-weight: 600; font-size: var(--step-1);
-  letter-spacing: -0.018em; display: flex; gap: var(--sp-3);
+  letter-spacing: -0.006em; display: flex; gap: var(--sp-3);
   align-items: baseline; justify-content: space-between;
   transition: color .3s var(--ease);
 }
@@ -534,7 +534,7 @@ a.rail__value:hover { color: var(--ember); }
 .avail__m { display: grid; gap: 0.5rem; }
 .avail__mh {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step-0);
-  letter-spacing: -0.015em;
+  letter-spacing: -0.005em;
 }
 .avail__grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
 .avail__dow {
@@ -563,7 +563,7 @@ a.rail__value:hover { color: var(--ember); }
 .sw__chip { height: 8.5rem; display: flex; align-items: flex-end; padding: var(--sp-2); }
 .sw__on { font-family: var(--font-display); font-weight: 600; font-size: var(--step--1); }
 .sw__meta { padding: var(--sp-2); display: grid; gap: 0.15rem; background: var(--bg); }
-.sw__name { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.015em; }
+.sw__name { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.005em; }
 .sw__val { font-size: 0.76rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .sw__role { font-size: var(--step--1); color: var(--muted); }
 
