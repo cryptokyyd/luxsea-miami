@@ -171,6 +171,76 @@ def footer(es, root):
 <script src="{root}main.js"></script>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>'''
 
+# ------------------------------------------------------------- what's aboard --
+# Every claim here is already stated somewhere in the long copy; this only makes
+# it scannable for someone who landed from Google and will not read the FAQ.
+# Deliberately concrete: no "certified crew" or "book online" filler, which every
+# competitor lists and which differentiates nobody.
+KIT_ICONS = {
+ "wheel": '<circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="2.4"/>'
+          '<path d="M12 3.8v5.8M12 14.4v5.8M3.8 12h5.8M14.4 12h5.8"/>',
+ "cooler": '<rect x="3" y="8.2" width="18" height="11.3" rx="1.6"/><path d="M3 11.9h18"/>'
+           '<path d="M9 8.2V6.6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1.6"/>',
+ # Two concentric ellipses alone read as an eye, so the ring sits on a waterline.
+ "float": '<ellipse cx="12" cy="10.4" rx="7.7" ry="4.4"/><ellipse cx="12" cy="10.4" rx="3" ry="1.6"/>'
+          '<path d="M2.4 17.6c1.9 1.1 3.9 1.1 5.8 0s3.9-1.1 5.8 0 3.9 1.1 5.6 0"/>',
+ # Collar notch, centre zip and two straps; without them it is just a rounded box.
+ "vest": '<path d="M8.6 3.9 6.3 5.9v14h11.4v-14l-2.3-2"/>'
+         '<path d="M8.6 3.9c0 1.9 1.5 3.5 3.4 3.5s3.4-1.6 3.4-3.5"/>'
+         '<path d="M12 7.4v12.5"/><path d="M6.3 11.2h3.1M14.6 11.2h3.1"/>',
+ "speaker": '<path d="M4 9.4h3.2L12 5.6v12.8L7.2 14.6H4z"/><path d="M15.8 9.2a4.4 4.4 0 0 1 0 5.6"/>'
+            '<path d="M18.4 6.6a8 8 0 0 1 0 10.8"/>',
+ "cake": '<path d="M3.6 20.2h16.8"/><path d="M5.2 20.2v-5.8a2 2 0 0 1 2-2h9.6a2 2 0 0 1 2 2v5.8"/>'
+         '<path d="M5.2 16.4c1.6 1.1 3.2 1.1 4.8 0s3.2-1.1 4.8 0 3.2 1.1 4.8 0"/>'
+         '<path d="M12 9.6V7.2"/><circle cx="12" cy="5.6" r="1.1"/>',
+}
+
+KIT = [
+ ("wheel", "Captain and fuel", "Capitán y gasolina",
+  "Both in the price. You never rent a hull and sort the rest out yourself.",
+  "Los dos en el precio. Nunca alquilas un casco para arreglártelas tú."),
+ ("cooler", "Cooler on ice", "Nevera con hielo",
+  "Ice and drinking water aboard, with room for whatever you bring.",
+  "Hielo y agua a bordo, con espacio para lo que traigas."),
+ ("float", "Floating pool", "Piscina flotante",
+  "Goes in the water as soon as we anchor, on all three boats.",
+  "Se tira al agua apenas anclamos, en los tres botes."),
+ ("vest", "Life jackets, every size", "Chalecos de todas las tallas",
+  "Child sizes carried as standard. You never have to ask or bring your own.",
+  "Las tallas infantiles van de serie. No hay que pedirlas ni traerlas."),
+ ("speaker", "Your playlist", "Tu música",
+  "Bluetooth speaker aboard. You pick the music and you pick where we stop.",
+  "Bocina Bluetooth a bordo. Tú pones la música y decides dónde paramos."),
+ ("cake", "Your own food and cake", "Tu comida y tu bizcocho",
+  "Bring the food, the drinks and the balloons. We keep the cake cold until you ask.",
+  "Trae la comida, la bebida y los globos. Te guardamos el bizcocho frío."),
+]
+
+
+def kit(es, band="band band--surface"):
+    """`band` is passed in because two adjacent surface bands merge into one
+    slab; the caller knows what precedes this section and we do not."""
+    items = "\n        ".join(
+        f'<div class="kit__item">'
+        f'<svg class="kit__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+        f'stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+        f'{KIT_ICONS[i]}</svg>'
+        f'<h3>{t_es if es else t_en}</h3><p>{d_es if es else d_en}</p></div>'
+        for i, t_en, t_es, d_en, d_es in KIT)
+    h2 = "El mismo equipo en los tres botes" if es else "The same kit on all three boats"
+    return f'''  <section class="{band}">
+    <div class="wrap">
+      <div class="head rise">
+        <span class="said">Va incluido</span>
+        <h2>{h2}</h2>
+      </div>
+      <div class="kit rise">
+        {items}
+      </div>
+    </div>
+  </section>'''
+
+
 def media(f, alt, root, hero=False):
     """A media slot takes a still or a clip; the filename decides which.
 
@@ -298,6 +368,8 @@ def build(p, es):
   </section>
 
 {sections}
+
+{kit(es, "band band--surface" if len(secs) % 2 else "band")}
 
   <section class="band band--bay">
     <div class="wrap wrap--narrow">

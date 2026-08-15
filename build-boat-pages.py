@@ -353,6 +353,8 @@ def boat_page(b, es):
     </div>
   </section>
 
+{svc.kit(es, "band")}
+
   <section class="band band--bay">
     <div class="wrap wrap--narrow">
       <div class="head rise">
@@ -525,13 +527,15 @@ def spanish_home():
     <div class="wrap">
       <div class="head head--split rise">
         <div><span class="said">Para qué nos llaman</span><h2 id="cel-h">Casi nadie sale al mar sin una razón</h2></div>
-        <p class="lede">Estas son las nueve razones por las que suena el teléfono. Si la tuya no está aquí, igual la hacemos.</p>
+        <p class="lede">Estas son las diez razones por las que suena el teléfono. Si la tuya no está aquí, igual la hacemos.</p>
       </div>
       <div class="tiles tiles--six rise">
         {tiles}
       </div>
     </div>
   </section>
+
+{svc.kit(True, 'band')}
 
   <section class="band band--bay">
     <div class="wrap cta-final rise">
