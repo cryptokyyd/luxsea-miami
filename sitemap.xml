@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://luxsea-miami.vercel.app/</loc></url>
+  <url><loc>https://luxsea-miami.vercel.app/es/</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/fleet</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/experiences</loc></url>
   <url><loc>https://luxsea-miami.vercel.app/about</loc></url>
@@ -61,6 +62,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/corporate-boat-charter-miami"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/bote-para-eventos-corporativos-miami"/>
   </url>
+  <url><loc>https://luxsea-miami.vercel.app/large-group-boat-rental-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/renta-de-botes-para-grupos-grandes-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/large-group-boat-rental-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/renta-de-botes-para-grupos-grandes-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/large-group-boat-rental-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/renta-de-botes-para-grupos-grandes-miami"/>
+  </url>
   <url><loc>https://luxsea-miami.vercel.app/romantic-boat-ride-miami</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/paseo-romantico-en-bote-miami"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/romantic-boat-ride-miami"/>
@@ -76,5 +85,29 @@
   <url><loc>https://luxsea-miami.vercel.app/es/esparcir-cenizas-en-el-mar-miami</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/ash-scattering-at-sea-miami"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/esparcir-cenizas-en-el-mar-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/chris-craft-45-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/chris-craft-45-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/chris-craft-45-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/chris-craft-45-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/chris-craft-45-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/chris-craft-45-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-sundancer-40-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-sundancer-40-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami"/>
+  </url>
+  <url><loc>https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luxsea-miami.vercel.app/sea-ray-amberjack-32-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luxsea-miami.vercel.app/es/sea-ray-amberjack-32-miami"/>
   </url>
 </urlset>

@@ -20,7 +20,8 @@ ROOT = pathlib.Path(__file__).parent
 MEDIA = ROOT / "assets" / "media"
 INCOMING = ROOT / "assets" / "incoming"
 
-PREFIX = {"chriscraft": "cc", "sundancer": "sd", "amberjack": "aj"}
+PREFIX = {"chriscraft": "cc", "sundancer": "sd", "amberjack": "aj",
+          "three-boats": "raft"}   # all three rafted up, for the large-group page
 LONG_EDGE = 1400          # galleries render ~620px wide; this covers 2x
 TARGET_KB = 190           # ceiling, matching the heaviest file already shipped
 MIN_QUALITY = 68

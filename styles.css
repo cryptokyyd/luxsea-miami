@@ -512,6 +512,9 @@ a.rail__value:hover { color: var(--ember); }
   .tile { grid-column: span 3; }
   .tiles--six .tile { grid-column: span 2; }
   .tiles--six .tile--wide { grid-column: span 4; grid-row: span 2; }
+  /* Closes the grid. Nine tiles fill four rows exactly, so a tenth two-column
+     tile would leave a row four columns short; a full-width band does not. */
+  .tiles--six .tile--full { grid-column: 1 / -1; min-height: 0; }
 }
 
 .tile {
