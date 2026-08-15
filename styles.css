@@ -499,6 +499,16 @@ a.rail__value:hover { color: var(--ember); }
 .spec dt { font-size: var(--step--1); color: var(--muted); }
 .spec dd { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); letter-spacing: -0.007em; }
 .band--bay .spec dt { color: var(--shell-dim); }
+/* The full spec list on a boat page. Wrapping flex left six items ragged
+   (four, then two); a grid keeps the columns true at 2 and 3 across. */
+.spec--icons {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-3) var(--sp-4);
+}
+@media (min-width: 700px) { .spec--icons { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.spec--icons dt { display: flex; align-items: center; gap: 0.42rem; }
+.spec__ico { width: 17px; height: 17px; flex: none; color: var(--ember); }
+.band--bay .spec__ico { color: var(--sun-hi); }
 .price { font-family: var(--font-display); font-weight: 700; font-size: var(--step-2); color: var(--ember); letter-spacing: -0.01em; }
 .price small { font-family: var(--font-body); font-weight: 400; font-size: var(--step--1); color: var(--muted); letter-spacing: 0; }
 .band--bay .price { color: var(--sun-hi); }

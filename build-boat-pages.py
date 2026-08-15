@@ -16,6 +16,42 @@ OUT = pathlib.Path(__file__).parent
 svc = SourceFileLoader("svc", str(OUT / "build-service-pages.py")).load_module()
 BASE, header, footer = svc.BASE, svc.header, svc.footer
 
+# One glyph per spec label. Keyed on the English label because the Spanish spec
+# lists are written in the same order, so both languages resolve to the same
+# icon without the data carrying it twice.
+SPEC_ICONS = {
+ "Guests": '<circle cx="9.2" cy="8" r="2.7"/><path d="M4.3 19v-1.3a4.9 4.9 0 0 1 9.8 0V19"/>'
+           '<path d="M16 6.3a2.7 2.7 0 0 1 0 5.4"/><path d="M17.2 13.8a4.9 4.9 0 0 1 2.6 4.1V19"/>',
+ "Length": '<path d="M3.2 7.6v8.8M20.8 7.6v8.8"/><path d="M3.2 12h17.6"/>'
+           '<path d="M6.6 9.2 3.8 12l2.8 2.8M17.4 9.2 20.2 12l-2.8 2.8"/>',
+ "Hours": '<circle cx="12" cy="12" r="8.4"/><path d="M12 7.1V12l3.5 2.1"/>',
+ "Head &amp; shower": '<path d="M12 3.4v3.3"/><path d="M5.7 10.8a6.3 6.3 0 0 1 12.6 0z"/>'
+                      '<path d="M8.6 14.3v1.3M12 14.3v2.6M15.4 14.3v1.3"/>',
+ "Cabin": '<path d="M3.2 19.2v-9.6"/><path d="M3.2 14.2h13.2a4.4 4.4 0 0 1 4.4 4.4v.6"/>'
+          '<circle cx="7.7" cy="10.9" r="1.9"/>',
+ "Galley": '<rect x="6.4" y="3.4" width="11.2" height="17.2" rx="1.8"/><path d="M6.4 10.4h11.2"/>'
+           '<path d="M9.3 6.9v1.5M9.3 12.9v1.5"/>',
+ "Shade": '<path d="M3.5 13.3a8.5 8.5 0 0 1 17 0z"/><path d="M12 13.3v6.4"/><path d="M2.3 13.3h19.4"/>',
+ "Best for": '<path d="M12 20.1s-7.5-4.7-7.5-9.5a4.25 4.25 0 0 1 7.5-2.7 4.25 4.25 0 0 1 7.5 2.7'
+             'c0 4.8-7.5 9.5-7.5 9.5z"/>',
+ "Boarding": '<path d="M3.4 19.6h4.3v-4.3H12v-4.3h4.3V6.6h4.3"/>',
+ "Swim platform": '<path d="M8.6 3.8v11M15.4 3.8v11"/><path d="M8.6 7.3h6.8M8.6 11h6.8"/>'
+                  '<path d="M2.5 18.6c1.9 1.1 3.9 1.1 5.8 0s3.9-1.1 5.8 0 3.9 1.1 5.6 0"/>',
+ "Layout": '<rect x="3.4" y="4.5" width="17.2" height="15" rx="1.6"/><path d="M3.4 12.3h17.2"/>'
+           '<path d="M12 12.3v7.2"/>',
+ "Speciality": '<path d="m12 3.7 2.6 5.3 5.8.85-4.2 4.1 1 5.75L12 17l-5.2 2.7 1-5.75-4.2-4.1 5.8-.85z"/>',
+}
+
+
+def spec_ico(label):
+    g = SPEC_ICONS.get(label)
+    if not g:                      # a new spec label should be noticed, not silently blank
+        raise KeyError(f"no icon for spec label {label!r}")
+    return (f'<svg class="spec__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+            f'stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" '
+            f'aria-hidden="true">{g}</svg>')
+
+
 BOATS = [
 {
  "id": "chriscraft", "slug_en": "chris-craft-45-miami.html", "slug_es": "es/chris-craft-45-miami.html",
@@ -233,8 +269,12 @@ def boat_page(b, es):
     if not es:
         alt_href = "es/" + b["slug_es"].split("/")[-1]
 
+    # specs_es is written in the same order as specs_en, so the English label
+    # can key the icon for both languages without duplicating it in the data.
+    assert len(k("specs")) == len(b["specs_en"]), f'{b["id"]}: spec lists differ'
     specs = "".join(
-        f'<div><dt>{n}</dt><dd>{v}</dd></div>' for n, v in k("specs"))
+        f'<div><dt>{spec_ico(en)}{n}</dt><dd>{v}</dd></div>'
+        for (n, v), (en, _) in zip(k("specs"), b["specs_en"]))
 
     body = ""
     for i, (h2, paras) in enumerate(k("body")):
@@ -332,7 +372,7 @@ def boat_page(b, es):
 
   <section class="band band--tight">
     <div class="wrap stack-4 rise">
-      <dl class="spec">{specs}</dl>
+      <dl class="spec spec--icons">{specs}</dl>
       <div class="stack-3">
         <h2 style="font-size:var(--step-2)">{avail_h}</h2>
         <div class="avail" data-availability="{b["id"]}" aria-live="polite">
