@@ -102,7 +102,7 @@ def footer(es, root):
           <li><a href="{root}fleet.html#amberjack">Sea Ray Amberjack 32′</a></li>
         </ul>
       </div>
-      <div>
+      <div class="foot-col--wide">
         <h4>{t["cel"]}</h4>
         <ul>
           {cel}

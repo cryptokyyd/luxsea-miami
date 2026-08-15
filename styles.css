@@ -429,15 +429,6 @@ a.rail__value:hover { color: var(--ember); }
   .tiles--six .tile--wide { grid-column: span 4; grid-row: span 2; }
 }
 
-/* Scattering ashes is not a tile in a grid of parties. It gets its own quiet
-   line under the grid so the change of register is visible. */
-.tiles__aside {
-  display: flex; flex-wrap: wrap; gap: 0.15rem 0.6rem; align-items: baseline;
-  margin-top: var(--sp-4); padding-top: var(--sp-3);
-  border-top: 1px solid var(--line);
-  color: var(--muted); font-size: var(--step--1);
-}
-.tiles__aside a { color: var(--ember); text-underline-offset: 0.22em; }
 .tile {
   position: relative; isolation: isolate; overflow: hidden;
   border-radius: var(--radius-lg); min-height: 14rem;
@@ -523,6 +514,20 @@ a.rail__value:hover { color: var(--ember); }
 .site-foot { background: var(--bay-deep); color: var(--shell-dim); padding-block: var(--sp-6) var(--sp-4); }
 .foot-grid { display: grid; gap: var(--sp-5); }
 @media (min-width: 800px) { .foot-grid { grid-template-columns: 1.4fr 1fr 1fr 1fr; } }
+/* Nine services in a single column left the footer lopsided. Above 1040px the
+   Occasions column takes the extra width and splits its list in two; below
+   that there is not room for two readable columns, so it stays as one. */
+@media (min-width: 1040px) {
+  .foot-grid { grid-template-columns: 1.35fr 1fr 1.9fr 1fr; }
+  /* Column flow, not the row-major default: a reader going down the first
+     column should get the first five services, not every other one. */
+  .foot-col--wide ul {
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, auto);
+    grid-auto-columns: minmax(0, 1fr);
+    column-gap: var(--sp-4);
+  }
+}
 .site-foot h4 { color: var(--shell); font-size: var(--step-0); margin-bottom: var(--sp-2); }
 .site-foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
 .site-foot a { color: var(--shell-dim); text-decoration: none; font-size: var(--step--1); }

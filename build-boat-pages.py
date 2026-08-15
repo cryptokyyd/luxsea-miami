@@ -524,8 +524,8 @@ def spanish_home():
   <section class="band band--surface" aria-labelledby="cel-h">
     <div class="wrap">
       <div class="head head--split rise">
-        <div><span class="said">Para qué nos llaman</span><h2 id="cel-h">Casi siempre hay algo que celebrar</h2></div>
-        <p class="lede">Estas son las seis razones por las que suena el teléfono. Si la tuya no está aquí, igual la hacemos.</p>
+        <div><span class="said">Para qué nos llaman</span><h2 id="cel-h">Casi nadie sale al mar sin una razón</h2></div>
+        <p class="lede">Estas son las nueve razones por las que suena el teléfono. Si la tuya no está aquí, igual la hacemos.</p>
       </div>
       <div class="tiles tiles--six rise">
         {tiles}
