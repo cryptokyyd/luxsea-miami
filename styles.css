@@ -218,6 +218,63 @@ a { color: inherit; }
 .nav a:hover::after, .nav a[aria-current="page"]::after { transform: scaleX(1); }
 @media (min-width: 1000px) { .nav { display: flex; } }
 
+/* ---------- Nav dropdowns ---------- */
+/* Twelve pages used to sit behind two hubs. The panel opens on hover, on
+   keyboard focus, and on a tap of the chevron — the parent link still goes to
+   the hub, so the menu never blocks the obvious action. */
+.nav__item { position: relative; display: flex; align-items: center; gap: 0.15rem; }
+.nav__more {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; padding: 0; border: 0; background: none;
+  color: var(--muted); cursor: pointer; border-radius: 2px;
+  transition: color .3s var(--ease), transform .3s var(--ease);
+}
+.nav__more svg { width: 10px; height: 7px; }
+.nav__item:hover .nav__more, .nav__item:focus-within .nav__more { color: var(--ember); }
+.nav__more[aria-expanded="true"] { transform: rotate(180deg); }
+
+.nav__menu {
+  position: absolute; top: calc(100% + 0.55rem); left: -0.85rem;
+  min-width: max-content; display: grid; gap: 0.05rem;
+  padding: 0.4rem; z-index: var(--z-dropdown);
+  background: var(--bg);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 18px 40px -22px oklch(0.22 0.035 210 / 0.55);
+  opacity: 0; visibility: hidden; transform: translateY(-5px);
+  transition: opacity .28s var(--ease), transform .28s var(--ease),
+              visibility .28s var(--ease);
+}
+/* visibility:hidden also takes the links out of the tab order, so focus lands
+   on the parent first, opens the panel, and then walks into it. */
+.nav__item:hover .nav__menu,
+.nav__item:focus-within .nav__menu,
+.nav__item.is-open .nav__menu {
+  opacity: 1; visibility: visible; transform: none;
+}
+/* A hover bridge across the gap, so the panel does not close mid-travel. */
+.nav__item::after {
+  content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 0.6rem;
+}
+.nav__menu a {
+  padding: 0.5rem 0.75rem; border-radius: 2px; white-space: nowrap;
+  color: var(--ink); font-weight: 500;
+}
+.nav__menu a::after { content: none; }   /* no underline sweep in here */
+.nav__menu a:hover, .nav__menu a:focus-visible { background: var(--surface); color: var(--ember); }
+
+/* Mobile drawer: the children are simply listed, indented. No nested
+   accordion to fight with on a phone. */
+.mobile-nav__sub {
+  display: grid; gap: 0.1rem;
+  margin: 0.1rem 0 0.5rem; padding-left: var(--sp-3);
+  border-left: 1px solid var(--line);
+}
+.mobile-nav__sub a {
+  font-size: var(--step--1) !important; font-weight: 500;
+  color: var(--muted); padding-block: 0.45rem;
+}
+.mobile-nav__sub a:hover { color: var(--ember); }
+
 .head-tools { display: flex; align-items: center; gap: var(--sp-2); }
 .lang {
   font-family: var(--font-display); font-weight: 600; font-size: var(--step--1);

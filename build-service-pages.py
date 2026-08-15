@@ -38,6 +38,49 @@ def sibling(p, es):
     return p["slug_es"].split("/")[-1] if es else p["slug_en"]
 
 
+CHEVRON = ('<svg viewBox="0 0 12 8" aria-hidden="true" focusable="false">'
+           '<path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" '
+           'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+BOATS = [("chris-craft-45-miami.html", "Chris Craft 45\u2032"),
+         ("sea-ray-sundancer-40-miami.html", "Sea Ray Sundancer 40\u2032"),
+         ("sea-ray-amberjack-32-miami.html", "Sea Ray Amberjack 32\u2032")]
+
+
+def submenu(kind, es, root):
+    """Hub children. Spanish pages sit inside /es/ together, so they link by
+    bare filename; English pages prefix with root."""
+    if kind == "boats":
+        return [(f'{"" if es else root}{h}', l) for h, l in BOATS]
+    return [(sibling(p, es), p["nav_es" if es else "nav_en"]) for p in DATA]
+
+
+def nav_entry(href, label, es, root, mobile):
+    """A plain link, unless it is one of the two hubs, which get a panel."""
+    kind = ("boats" if href.endswith("fleet.html")
+            else "occasions" if href.endswith("experiences.html") else None)
+    if kind is None:
+        return f'<a href="{href}">{label}</a>'
+
+    pad = "      " if mobile else "          "
+    kids = ("\n" + pad).join(f'<a href="{h}">{l}</a>' for h, l in submenu(kind, es, root))
+    if mobile:
+        return (f'<a href="{href}">{label}</a>\n    '
+                f'<div class="mobile-nav__sub">\n      {kids}\n    </div>')
+    mid = "m-boats" if kind == "boats" else "m-occasions"
+    aria = {("boats", True): "Ver los botes", ("boats", False): "Show the boats",
+            ("occasions", True): "Ver las ocasiones",
+            ("occasions", False): "Show the occasions"}[(kind, es)]
+    return (f'<div class="nav__item">\n'
+            f'        <a href="{href}">{label}</a>\n'
+            f'        <button class="nav__more" type="button" aria-expanded="false" '
+            f'aria-controls="{mid}" aria-label="{aria}">{CHEVRON}</button>\n'
+            f'        <div class="nav__menu" id="{mid}">\n'
+            f'          {kids}\n'
+            f'        </div>\n'
+            f'      </div>')
+
+
 def header(es, root, alt_href, alt_label):
     nav = NAV_ES if es else NAV_EN
     home = f"{root}index.html"
@@ -45,8 +88,8 @@ def header(es, root, alt_href, alt_label):
     call = "Llamar" if es else "Call"
     bookl = "Reservar" if es else "Book a day"
     menu = "Menú" if es else "Menu"
-    items = "\n      ".join(f'<a href="{h}">{l}</a>' for h, l in nav)
-    mitems = "\n    ".join(f'<a href="{h}">{l}</a>' for h, l in nav)
+    items = "\n      ".join(nav_entry(h, l, es, root, False) for h, l in nav)
+    mitems = "\n    ".join(nav_entry(h, l, es, root, True) for h, l in nav)
     return f'''<a class="skip" href="#main">{"Ir al contenido" if es else "Skip to content"}</a>
 
 <header class="site-head">

@@ -91,6 +91,49 @@ document.documentElement.classList.add('js');
 })();
 
 /* ------------------------------------------------------------------
+   4b. Nav dropdowns.
+   CSS already opens them on hover and on focus-within, which covers mouse and
+   keyboard. This adds the tap: a touch device fires no hover, so the chevron
+   has to be a real button.
+   ------------------------------------------------------------------ */
+(function navMenus() {
+  var items = document.querySelectorAll('.nav__item');
+  if (!items.length) return;
+
+  function closeAll(except) {
+    items.forEach(function (item) {
+      if (item === except) return;
+      item.classList.remove('is-open');
+      var b = item.querySelector('.nav__more');
+      if (b) b.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  items.forEach(function (item) {
+    var btn = item.querySelector('.nav__more');
+    if (!btn) return;
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var open = item.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', String(open));
+      closeAll(item);
+    });
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    var open = document.querySelector('.nav__item.is-open');
+    closeAll(null);
+    // Send focus back to the control that opened it, not to the top of the page.
+    if (open) { var b = open.querySelector('.nav__more'); if (b) b.focus(); }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.nav__item')) closeAll(null);
+  });
+})();
+
+/* ------------------------------------------------------------------
    5. Reveal — enhances content that is already visible and already painted.
    Nothing is gated on this running.
    ------------------------------------------------------------------ */

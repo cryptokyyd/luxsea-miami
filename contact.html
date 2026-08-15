@@ -26,8 +26,30 @@
     </a>
     <nav class="nav" aria-label="Main">
       <a href="index.html" data-es="Inicio">Home</a>
-      <a href="fleet.html" data-es="Los tres botes">The three boats</a>
-      <a href="experiences.html" data-es="Ocasiones en el mar">Occasions at Sea</a>
+      <div class="nav__item">
+        <a href="fleet.html" data-es="Los tres botes">The three boats</a>
+        <button class="nav__more" type="button" aria-expanded="false" aria-controls="m-boats" data-es-label="Ver los botes" aria-label="Show the boats"><svg viewBox="0 0 12 8" aria-hidden="true" focusable="false"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav__menu" id="m-boats">
+          <a href="chris-craft-45-miami.html" data-es="Chris Craft 45′">Chris Craft 45′</a>
+          <a href="sea-ray-sundancer-40-miami.html" data-es="Sea Ray Sundancer 40′">Sea Ray Sundancer 40′</a>
+          <a href="sea-ray-amberjack-32-miami.html" data-es="Sea Ray Amberjack 32′">Sea Ray Amberjack 32′</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a href="experiences.html" data-es="Ocasiones en el mar">Occasions at Sea</a>
+        <button class="nav__more" type="button" aria-expanded="false" aria-controls="m-occasions" data-es-label="Ver las ocasiones" aria-label="Show the occasions"><svg viewBox="0 0 12 8" aria-hidden="true" focusable="false"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav__menu" id="m-occasions">
+          <a href="bachelorette-boat-party-miami.html" data-es="Despedida de soltera en bote">Bachelorette boat party</a>
+          <a href="birthday-boat-rental-miami.html" data-es="Cumpleaños en bote">Birthday boat rental</a>
+          <a href="sunset-cruise-miami.html" data-es="Paseo al atardecer">Sunset cruise</a>
+          <a href="sandbar-boat-rental-miami.html" data-es="Día en el banco de arena">Sandbar day</a>
+          <a href="family-boat-rental-miami.html" data-es="Paseo en familia">Family boat day</a>
+          <a href="miami-skyline-photo-boat-charter.html" data-es="Fotos con el skyline">Skyline & photos</a>
+          <a href="corporate-boat-charter-miami.html" data-es="Eventos corporativos en el mar">Corporate days at sea</a>
+          <a href="romantic-boat-ride-miami.html" data-es="Noches románticas en el mar">Romantic evenings at sea</a>
+          <a href="ash-scattering-at-sea-miami.html" data-es="Esparcir cenizas en el mar">Ash scattering at sea</a>
+        </div>
+      </div>
       <a href="about.html" data-es="Nosotros">About</a>
       <a href="contact.html" aria-current="page" data-es="Reservar">Book</a>
     </nav>
@@ -41,7 +63,23 @@
   <nav class="mobile-nav wrap" id="mobile-nav" aria-label="Mobile">
     <a href="index.html" data-es="Inicio">Home</a>
     <a href="fleet.html" data-es="Los tres botes">The three boats</a>
+    <div class="mobile-nav__sub">
+      <a href="chris-craft-45-miami.html" data-es="Chris Craft 45′">Chris Craft 45′</a>
+      <a href="sea-ray-sundancer-40-miami.html" data-es="Sea Ray Sundancer 40′">Sea Ray Sundancer 40′</a>
+      <a href="sea-ray-amberjack-32-miami.html" data-es="Sea Ray Amberjack 32′">Sea Ray Amberjack 32′</a>
+    </div>
     <a href="experiences.html" data-es="Ocasiones en el mar">Occasions at Sea</a>
+    <div class="mobile-nav__sub">
+      <a href="bachelorette-boat-party-miami.html" data-es="Despedida de soltera en bote">Bachelorette boat party</a>
+      <a href="birthday-boat-rental-miami.html" data-es="Cumpleaños en bote">Birthday boat rental</a>
+      <a href="sunset-cruise-miami.html" data-es="Paseo al atardecer">Sunset cruise</a>
+      <a href="sandbar-boat-rental-miami.html" data-es="Día en el banco de arena">Sandbar day</a>
+      <a href="family-boat-rental-miami.html" data-es="Paseo en familia">Family boat day</a>
+      <a href="miami-skyline-photo-boat-charter.html" data-es="Fotos con el skyline">Skyline & photos</a>
+      <a href="corporate-boat-charter-miami.html" data-es="Eventos corporativos en el mar">Corporate days at sea</a>
+      <a href="romantic-boat-ride-miami.html" data-es="Noches románticas en el mar">Romantic evenings at sea</a>
+      <a href="ash-scattering-at-sea-miami.html" data-es="Esparcir cenizas en el mar">Ash scattering at sea</a>
+    </div>
     <a href="about.html" data-es="Nosotros">About</a>
     <a href="contact.html" data-es="Reservar">Book</a>
   </nav>
