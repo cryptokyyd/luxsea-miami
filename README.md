@@ -43,6 +43,31 @@ python -m http.server 4321 --directory luxsea-miami
 5. **Email.** There isn't one on the site — Instagram and WhatsApp are the real
    channels. Add one to the `.rail` in `contact.html` if that changes.
 
+## Turning on the live availability calendars
+
+The fleet page shows two months of real availability per boat, straight from
+the captain's Google Calendars. Until the feeds are set it shows "message us on
+WhatsApp" instead — it never implies a date is free when it doesn't know.
+
+**Do not make the calendars public.** A public calendar publishes event titles,
+and those titles hold customer names and phone numbers. Use the private feed:
+
+1. Google Calendar → hover the vessel's calendar → **Settings and sharing**
+2. Scroll to **Integrate calendar** → copy **Secret address in iCal format**
+3. Repeat for all three boats
+4. In Vercel → the project → Settings → Environment Variables, add:
+   - `ICS_CHRISCRAFT`
+   - `ICS_SUNDANCER`
+   - `ICS_AMBERJACK`
+5. Redeploy
+
+That secret URL is effectively a password for the whole calendar, so it lives
+only in Vercel. `api/availability.js` reads it server-side and returns nothing
+but busy dates — no titles, no names, no numbers. `npm test` proves that.
+
+If a booking should NOT block the boat, mark the event "Free" in Google
+Calendar (or cancel it) and it disappears from the site.
+
 ## Biggest remaining growth item
 
 A **Google Business Profile**. Every competitor ranks on one, and "boat rental
