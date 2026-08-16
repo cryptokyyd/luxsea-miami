@@ -233,6 +233,15 @@ document.documentElement.classList.add('js');
     var today = new Date();
     var todayIso = iso(today);
 
+    // The heading above the calendar belongs to the calendar, so the widget owns
+    // the whole wrapper and derives it from the mount. It used to require each
+    // page to opt in with an attribute, which is precisely how the fleet page
+    // kept a bare "Availability" heading after the boat pages were fixed: the
+    // markup is duplicated there, and the second copy never got the attribute.
+    // Nothing to remember now — a new page gets this behaviour by existing.
+    var block = el.parentElement;
+    block.hidden = true;
+
     fetch('/api/availability?boat=' + encodeURIComponent(boat))
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
@@ -243,14 +252,12 @@ document.documentElement.classList.add('js');
           '<p class="avail__key"><span><i style="background:var(--ember)"></i>' + L.booked + '</span>' +
           '<span><i style="background:var(--surface);outline:1px solid var(--line)"></i>' + L.free + '</span></p>' +
           '<p class="avail__note">' + L.note + '</p>';
-        var block = el.closest('[data-avail-block]');
-        if (block) block.hidden = false;          // only now is there anything to show
+        block.hidden = false;                     // only now is there anything to show
       })
       .catch(function () {
-        // No feed configured, or no /api at all. Say nothing rather than take
-        // up a heading to tell people to do what the page already asks them to.
-        var block = el.closest('[data-avail-block]');
-        if (block) block.hidden = true; else el.innerHTML = '';
+        // No feed configured, or no /api at all. Say nothing rather than take up
+        // a heading to tell people to do what the page already asks them to.
+        block.hidden = true;
       });
   });
 })();
