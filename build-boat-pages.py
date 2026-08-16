@@ -339,7 +339,7 @@ def boat_page(b, es):
 <meta property="og:title" content="{k("title")}">
 <meta property="og:description" content="{k("desc")}">
 <meta property="og:image" content="{BASE}/assets/media/{b["hero"]}">
-<meta name="theme-color" content="#12333d">
+<meta name="theme-color" content="#1b3a5c">
 <link rel="stylesheet" href="{root}styles.css">
 {lock}
 <script type="application/ld+json">
@@ -483,7 +483,7 @@ def spanish_home():
 <meta property="og:title" content="Renta de Botes en Miami | Con Capitán, en Español | LuxSea Miami">
 <meta property="og:description" content="Tres botes propios, capitán incluido, y todo el día en español. Cumpleaños, despedidas y atardeceres en la bahía de Miami.">
 <meta property="og:image" content="{BASE}/assets/media/hero-poster.jpg">
-<meta name="theme-color" content="#12333d">
+<meta name="theme-color" content="#1b3a5c">
 <link rel="stylesheet" href="../styles.css">
 <script>try{{localStorage.setItem("luxsea-lang","es")}}catch(e){{}}</script>
 

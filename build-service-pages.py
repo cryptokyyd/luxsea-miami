@@ -24,13 +24,15 @@ NAV_ES = [("../index.html","Inicio"),("../fleet.html","Los tres botes"),
 
 MARK = '''<svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
         <clipPath id="hm"><rect x="0" y="0" width="64" height="37"/></clipPath>
-        <circle cx="32" cy="27" r="16" fill="#c25a33" clip-path="url(#hm)"/>
-        <rect x="4" y="39" width="56" height="4" rx="2" fill="#12333d"/>
-        <rect x="13" y="48" width="38" height="4" rx="2" fill="#12333d" opacity=".62"/>
-        <rect x="23" y="57" width="18" height="4" rx="2" fill="#12333d" opacity=".32"/>
+        <circle cx="32" cy="27" r="16" fill="#ee9a3e" clip-path="url(#hm)"/>
+        <rect x="4" y="39" width="56" height="4" rx="2" fill="#1b3a5c"/>
+        <rect x="13" y="48" width="38" height="4" rx="2" fill="#1b3a5c" opacity=".62"/>
+        <rect x="23" y="57" width="18" height="4" rx="2" fill="#1b3a5c" opacity=".32"/>
       </svg>'''
+# On the navy footer the amber sun still reads; the navy water does not, so the
+# ripples invert to the shell tint.
 MARK_FOOT = MARK.replace('id="hm"','id="hf"').replace('url(#hm)','url(#hf)') \
-                .replace('#c25a33','#e08a5f').replace('#12333d','#dfe9ec')
+                .replace('#ee9a3e','#f0a44a').replace('#1b3a5c','#cfe0e6')
 
 def sibling(p, es):
     """Link between service pages. Spanish twins sit in /es/ together, so they
@@ -336,7 +338,7 @@ def build(p, es):
 <meta property="og:description" content="{k("desc")}">
 <meta property="og:url" content="{url_self}">
 <meta property="og:image" content="{BASE}/assets/media/{hero_img}">
-<meta name="theme-color" content="#12333d">
+<meta name="theme-color" content="#1b3a5c">
 <link rel="stylesheet" href="{root}styles.css">
 {lock}
 <script type="application/ld+json">

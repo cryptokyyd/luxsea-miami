@@ -7,8 +7,7 @@
    Put the real numbers in and every CTA on every page updates.
    ------------------------------------------------------------------ */
 const LUXSEA = {
-  // Taken from the captions on @luxseamiami. Two variants were posted —
-  // 786 878 0701 and 786 878 0107. CONFIRM which one is live before launch.
+  // Confirmed by the owner: the number on the @luxseamiami profile.
   whatsapp: '17868780701',        // international format, digits only, for wa.me
   phone:    '(786) 878-0701',
   instagram: 'https://www.instagram.com/luxseamiami/'
