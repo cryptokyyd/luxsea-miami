@@ -6,10 +6,13 @@
    the badge itself uses.
    ============================================================ */
 
-/* Panchang tops out at 700. Asking for a weight Fontshare doesn't have makes it
-   silently drop every family after it in the query — which is how Supreme went
-   missing the first time. Only request weights that exist. */
-@import url('https://api.fontshare.com/v2/css?f[]=gambetta@400,500,600,700&f[]=switzer@400,500,600,700&display=swap');
+/* Asking Fontshare for a weight a family doesn't have makes it silently drop
+   every family AFTER it in the query — which is how the body face went missing
+   once already. Both of these serve 400/500/600/700, which is exactly the set
+   the stylesheet uses (600 alone appears in twelve components), so nothing is
+   left to weight synthesis. Zodiak and Bespoke Slab were the other marine
+   candidates and both stop at 500 then jump to 700. */
+@import url('https://api.fontshare.com/v2/css?f[]=erode@400,500,600,700&f[]=general-sans@400,500,600,700&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
@@ -44,8 +47,12 @@
   --bay-mid:     oklch(0.400 0.062 250);
 
   /* Type */
-  --font-display: 'Gambetta', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
-  --font-body:    'Switzer', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  /* Erode is a serif with weathered, salt-worn edges rather than the
+     calligraphic polish of the one it replaces — closer to lettering that has
+     been outside. General Sans is the geometric grotesque that echoes the
+     BOAT RENTALS line under the badge. */
+  --font-display: 'Erode', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-body:    'General Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.92rem);
   --step-0:  clamp(1rem, 0.96rem + 0.20vw, 1.13rem);
