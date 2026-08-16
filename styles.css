@@ -6,13 +6,11 @@
    the badge itself uses.
    ============================================================ */
 
-/* Asking Fontshare for a weight a family doesn't have makes it silently drop
-   every family AFTER it in the query — which is how the body face went missing
-   once already. Both of these serve 400/500/600/700, which is exactly the set
-   the stylesheet uses (600 alone appears in twelve components), so nothing is
-   left to weight synthesis. Zodiak and Bespoke Slab were the other marine
-   candidates and both stop at 500 then jump to 700. */
-@import url('https://api.fontshare.com/v2/css?f[]=erode@400,500,600,700&f[]=general-sans@400,500,600,700&display=swap');
+/* Verified to serve both families at all four weights before committing: a font
+   CDN that is missing a requested weight will quietly hand back something else,
+   or nothing, and the page falls to Georgia without ever erroring. 600 alone
+   appears in twelve components here, so no weight is left to synthesis. */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
@@ -47,12 +45,14 @@
   --bay-mid:     oklch(0.400 0.062 250);
 
   /* Type */
-  /* Erode is a serif with weathered, salt-worn edges rather than the
-     calligraphic polish of the one it replaces — closer to lettering that has
-     been outside. General Sans is the geometric grotesque that echoes the
-     BOAT RENTALS line under the badge. */
-  --font-display: 'Erode', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
-  --font-body:    'General Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  /* No serif anywhere. Archivo Narrow is the condensed grotesque of hull and
+     port lettering; it also buys real width back, which matters because the
+     Spanish runs about a fifth longer than the English on every heading. Outfit
+     is the geometric that echoes the wide BOAT RENTALS capitals under the
+     badge. Condensed against geometric is a genuine contrast axis — two
+     grotesques of the same width would just read as a mistake. */
+  --font-display: 'Archivo Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:    'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.92rem);
   --step-0:  clamp(1rem, 0.96rem + 0.20vw, 1.13rem);
@@ -188,8 +188,11 @@ a { color: inherit; }
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex; align-items: center; gap: 0.55em;
+  /* The wide-tracked capitals from the badge, used where they read: a short
+     label. Applied to a full headline they cost width and legibility. */
   font-family: var(--font-display); font-weight: 600;
-  font-size: var(--step-0); letter-spacing: -0.003em;
+  text-transform: uppercase;
+  font-size: var(--step--1); letter-spacing: 0.055em;
   padding: 0.95em 1.6em; min-height: 48px;
   border: 2px solid transparent; border-radius: var(--radius);
   text-decoration: none; cursor: pointer;
