@@ -445,10 +445,10 @@ def spanish_home():
 
     boats = "".join(
         f'''<div class="boat rise{' boat--flip' if i == 1 else ''}">
-        <div class="boat__media">
+        <a class="boat__media" href="{b["slug_es"].split("/")[-1]}" tabindex="-1">
           <img src="../assets/media/{b["hero"]}" alt="{b["hero_alt_es"]}" loading="lazy">
           <span class="boat__tag">{b["said_es"]}</span>
-        </div>
+        </a>
         <div class="boat__body">
           <h3 class="boat__name"><a href="{b["slug_es"].split("/")[-1]}" style="text-decoration:none">{b["name"]}</a></h3>
           <p>{b["lede_es"]}</p>
