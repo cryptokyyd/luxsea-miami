@@ -580,6 +580,17 @@ def spanish_home():
 
 {svc.kit(True, 'band')}
 
+  <!-- The proof band. The English home has carried this claim for a while; the
+       Spanish home never did, and the audience here is the Spanish-dominant one. -->
+  <section class="band band--tight band--drench">
+    <div class="wrap cta-final rise">
+      <h2>Todo lo que publicamos es un día de charter real</h2>
+      <p>Nada de fotos de catálogo ni botes que no son nuestros. Si lo viste en el perfil, es uno de estos tres botes.</p>
+      {svc.ig_grid(True, '../')}
+      <a class="btn btn--light" href="https://www.instagram.com/luxseamiami/" target="_blank" rel="noopener">@luxseamiami</a>
+    </div>
+  </section>
+
   <section class="band band--bay">
     <div class="wrap cta-final rise">
       <span class="said">Nos vemos en el muelle</span>

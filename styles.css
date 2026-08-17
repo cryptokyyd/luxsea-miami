@@ -589,6 +589,33 @@ a.boat__media:hover img, a.boat__media:focus-visible img { transform: scale(1.03
 .tile p { color: oklch(0.92 0.01 60); font-size: var(--step--1); margin-top: 0.35rem; max-width: 40ch; }
 .tile--wide h3 { font-size: var(--step-3); }
 
+/* ---------- Instagram grid ----------
+   Three columns at every width, capped, so it reads as a profile grid rather
+   than a decorative strip — and nine tiles fill 3x3 with no ragged row. */
+.ig {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px;
+  /* A definite width, not just a max: its parent is a grid with justify-items
+     centre, where a max-width-only box collapses to min-content — which here
+     meant nine tiles 4px wide. */
+  width: min(620px, 100%); margin: var(--sp-4) auto 0;
+}
+.ig__t {
+  position: relative; display: block; overflow: hidden;
+  border-radius: 2px; background: rgb(255 255 255 / 0.1);
+}
+.ig__t img { width: 100%; aspect-ratio: 1; object-fit: cover; transition: transform .9s var(--ease); }
+.ig__t:hover img, .ig__t:focus-visible img { transform: scale(1.06); }
+/* Instagram's own affordances: people know a play glyph means a reel and the
+   stack means a carousel, so the tile says what tapping it will open. */
+.ig__k {
+  position: absolute; top: 6px; right: 6px; width: 17px; height: 17px;
+  color: #fff; filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.5)); pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ig__t img { transition: none; }
+  .ig__t:hover img, .ig__t:focus-visible img { transform: none; }
+}
+
 /* ---------- What's aboard ----------
    Six short inclusions. Hairline separators rather than boxed cards: the site
    already sets its rhythm with rules (.row, .rail__item), and a grid of

@@ -1,0 +1,88 @@
+{
+  "_note": "Latest posts from @luxseamiami, scraped 2026-08-17 with apify/instagram-scraper. Instagram's CDN urls are signed and expire within days, so the images are downloaded and served from assets/media/ — never hotlinked. Re-run fetch-instagram.py after a fresh scrape to refresh. 'alt' is written by looking at each downloaded image, not from the caption: the captions are marketing copy, not descriptions.",
+  "handle": "luxseamiami",
+  "scraped": "2026-08-17",
+  "posts": [
+    {
+      "shortCode": "DcHRo9Sn0Eg",
+      "url": "https://www.instagram.com/p/DcHRo9Sn0Eg/",
+      "timestamp": "2026-08-16",
+      "kind": "carousel",
+      "file": "ig-01.jpg",
+      "alt_en": "Aerial view of boats anchored all around a mangrove island off Miami Beach, the city towers behind",
+      "alt_es": "Vista aérea de botes fondeados alrededor de una isla de manglares frente a Miami Beach, con las torres de la ciudad detrás"
+    },
+    {
+      "shortCode": "Db1cdoIn-Gf",
+      "url": "https://www.instagram.com/p/Db1cdoIn-Gf/",
+      "timestamp": "2026-08-09",
+      "kind": "carousel",
+      "file": "ig-02.jpg",
+      "alt_en": "A group in swimwear on the bow under the hardtop, a couple walking hand in hand at the front",
+      "alt_es": "Un grupo en traje de baño en la proa bajo el hardtop, con una pareja caminando de la mano adelante"
+    },
+    {
+      "shortCode": "Dbtg-S9M0Uw",
+      "url": "https://www.instagram.com/p/Dbtg-S9M0Uw/",
+      "timestamp": "2026-08-06",
+      "kind": "reel",
+      "file": "ig-03.jpg",
+      "alt_en": "Guests standing in the covered cockpit with their arms up, waving at the camera",
+      "alt_es": "Invitados de pie en la bañera cubierta con los brazos en alto, saludando a la cámara"
+    },
+    {
+      "shortCode": "DboLUWYRGuQ",
+      "url": "https://www.instagram.com/p/DboLUWYRGuQ/",
+      "timestamp": "2026-08-04",
+      "kind": "reel",
+      "file": "ig-04.jpg",
+      "alt_en": "The Chris Craft anchored close to a mangrove shoreline with guests on the bow and a float in the water",
+      "alt_es": "El Chris Craft fondeado junto a una costa de manglares, con invitados en la proa y un flotador en el agua"
+    },
+    {
+      "shortCode": "DbbQ2qkEcmR",
+      "url": "https://www.instagram.com/p/DbbQ2qkEcmR/",
+      "timestamp": "2026-07-30",
+      "kind": "carousel",
+      "file": "ig-05.jpg",
+      "alt_en": "A large group crowded on the stern with drinks, an orange floating pool behind them on sunlit water",
+      "alt_es": "Un grupo grande en la popa con bebidas, y detrás una piscina flotante naranja sobre el agua iluminada"
+    },
+    {
+      "shortCode": "DbQ6xRYEQvZ",
+      "url": "https://www.instagram.com/p/DbQ6xRYEQvZ/",
+      "timestamp": "2026-07-26",
+      "kind": "carousel",
+      "file": "ig-06.jpg",
+      "alt_en": "Two LuxSea boats rafted together on turquoise water with floating pools tied alongside, seen from above",
+      "alt_es": "Dos botes de LuxSea amarrados juntos en agua turquesa con piscinas flotantes al lado, vistos desde arriba"
+    },
+    {
+      "shortCode": "DbGj_tlR47j",
+      "url": "https://www.instagram.com/p/DbGj_tlR47j/",
+      "timestamp": "2026-07-22",
+      "kind": "reel",
+      "file": "ig-07.jpg",
+      "alt_en": "A single boat far out on flat green water, seen from high above, with a float tied alongside",
+      "alt_es": "Un bote solo en agua verde y calma, visto desde muy arriba, con un flotador amarrado al costado"
+    },
+    {
+      "shortCode": "DbEH5U3xQJX",
+      "url": "https://www.instagram.com/p/DbEH5U3xQJX/",
+      "timestamp": "2026-07-21",
+      "kind": "reel",
+      "file": "ig-08.jpg",
+      "alt_en": "Two guests sunbathing on the bow cushions in the middle of the afternoon",
+      "alt_es": "Dos invitadas tomando sol en los cojines de proa a media tarde"
+    },
+    {
+      "shortCode": "Dai0VcuMEiy",
+      "url": "https://www.instagram.com/p/Dai0VcuMEiy/",
+      "timestamp": "2026-07-08",
+      "kind": "reel",
+      "file": "ig-09.jpg",
+      "alt_en": "The Chris Craft anchored off a tree-lined shore with guests down on the swim platform",
+      "alt_es": "El Chris Craft fondeado frente a una costa arbolada, con invitados en la plataforma de baño"
+    }
+  ]
+}

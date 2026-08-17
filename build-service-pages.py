@@ -173,6 +173,33 @@ def footer(es, root):
 <script src="{root}main.js"></script>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>'''
 
+# ---------------------------------------------------------------- the feed --
+# Instagram retired the profile embed, and its CDN urls are signed and expire
+# within days, so a live grid means either a Meta app plus a token that needs
+# refreshing every 60 days, or a paid third-party script. This serves his real
+# posts from our own assets instead: no external script, nothing to expire, and
+# it stays fast. Refresh with a re-scrape + fetch-instagram.py.
+IG_PLAY = ('<svg class="ig__k" viewBox="0 0 24 24" aria-hidden="true">'
+           '<path d="M9 6.5v11l9-5.5z" fill="currentColor"/></svg>')
+IG_STACK = ('<svg class="ig__k" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
+            'stroke="currentColor" stroke-width="2" stroke-linejoin="round">'
+            '<rect x="8.5" y="3.5" width="12" height="12" rx="2"/>'
+            '<path d="M15.5 20.5h-9a3 3 0 0 1-3-3v-9"/></svg>')
+
+
+def ig_grid(es, root=""):
+    feed = json.loads((OUT / "instagram-feed.json").read_text(encoding="utf-8"))
+    tiles = "\n        ".join(
+        f'<a class="ig__t" href="{p["url"]}" target="_blank" rel="noopener">'
+        f'<img src="{root}assets/media/{p["file"]}" alt="{p["alt_es"] if es else p["alt_en"]}" '
+        f'loading="lazy" width="620" height="620">'
+        f'{IG_PLAY if p["kind"] == "reel" else IG_STACK}</a>'
+        for p in feed["posts"])
+    return f'''<div class="ig rise">
+        {tiles}
+      </div>'''
+
+
 # ------------------------------------------------------------- what's aboard --
 # Every claim here is already stated somewhere in the long copy; this only makes
 # it scannable for someone who landed from Google and will not read the FAQ.
