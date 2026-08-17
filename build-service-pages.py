@@ -13,7 +13,11 @@ Google only indexes what is in the HTML. Each pair is joined with hreflang.
 """
 import io, os, json, pathlib
 
-BASE = "https://luxsea-miami.vercel.app"   # swap when the real domain is connected
+# The live domain. Every canonical, og:url, hreflang and schema URL is built from
+# this, so while it pointed at the vercel.app address the real domain was serving
+# a whole site whose tags all named a different host — which is how Google ends
+# up indexing the preview URL and treating the domain you bought as the copy.
+BASE = "https://www.luxeseamiami.com"
 OUT = pathlib.Path(__file__).parent
 
 # ---------------------------------------------------------------- chrome ----

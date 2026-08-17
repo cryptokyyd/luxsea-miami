@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /brand.html
 
-Sitemap: https://luxsea-miami.vercel.app/sitemap.xml
+Sitemap: https://www.luxeseamiami.com/sitemap.xml
