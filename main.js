@@ -10,7 +10,12 @@ const LUXSEA = {
   // Confirmed by the owner: the number on the @luxseamiami profile.
   whatsapp: '17868780701',        // international format, digits only, for wa.me
   phone:    '(786) 878-0701',
-  instagram: 'https://www.instagram.com/luxseamiami/'
+  instagram: 'https://www.instagram.com/luxseamiami/',
+
+  // Paste the GA4 Measurement ID here, e.g. 'G-XXXXXXXXXX'.
+  // Empty means genuinely off: no script is fetched, no cookie is set and no
+  // request leaves the browser, so the site ships untracked until it is filled.
+  ga: ''
 };
 
 document.documentElement.classList.add('js');
@@ -375,4 +380,48 @@ document.documentElement.classList.add('js');
     }, { threshold: 0 }).observe(closing);
   }
   sync();
+})();
+
+/* ------------------------------------------------------------------
+   7. Analytics.
+   Loaded from here rather than pasted into 33 <head>s, so no page can be
+   missed and there is one place to switch it off. Does nothing at all until
+   LUXSEA.ga is set.
+
+   The pageview is the least interesting thing on this site: almost nobody
+   "converts" on the page, they leave for WhatsApp. So the outbound taps are
+   sent as events — that is the number worth reading.
+   ------------------------------------------------------------------ */
+(function analytics() {
+  if (!LUXSEA.ga) return;
+
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + LUXSEA.ga;
+  document.head.appendChild(s);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', LUXSEA.ga);
+
+  // Capture phase, because the WhatsApp links open a new tab and the click can
+  // otherwise be lost to the unload before the beacon goes.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var name = a.dataset.wa !== undefined || href.indexOf('wa.me') === 0 || href.indexOf('https://wa.me') === 0
+      ? 'whatsapp_click'
+      : href.indexOf('tel:') === 0 ? 'phone_click'
+      : href.indexOf('instagram.com') !== -1 ? 'instagram_click' : null;
+    if (!name) return;
+    gtag('event', name, {
+      // Which page and which button, so it is obvious where the messages start.
+      page_path: location.pathname,
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      transport_type: 'beacon'
+    });
+  }, true);
 })();
