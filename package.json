@@ -5,5 +5,8 @@
   "description": "Static site. The only JS that runs on a server is api/availability.js.",
   "scripts": {
     "test": "node api/availability.test.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
